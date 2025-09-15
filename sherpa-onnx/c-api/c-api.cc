@@ -1186,6 +1186,10 @@ static sherpa_onnx::OfflineTtsConfig GetOfflineTtsConfig(
   tts_config.model.vits.dict_dir =
       SHERPA_ONNX_OR(config->model.vits.dict_dir, "");
 
+  // Pack data memory support
+  tts_config.model.vits.pack_data = config->model.vits.pack_data;
+  tts_config.model.vits.pack_data_size = config->model.vits.pack_data_size;
+
   // matcha
   tts_config.model.matcha.acoustic_model =
       SHERPA_ONNX_OR(config->model.matcha.acoustic_model, "");

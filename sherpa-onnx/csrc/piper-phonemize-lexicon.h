@@ -9,6 +9,8 @@
 #include <unordered_map>
 #include <vector>
 
+#include "phoneme_ids.hpp"
+#include "phonemize.hpp"
 #include "sherpa-onnx/csrc/offline-tts-frontend.h"
 #include "sherpa-onnx/csrc/offline-tts-kitten-model-meta-data.h"
 #include "sherpa-onnx/csrc/offline-tts-kokoro-model-meta-data.h"
@@ -51,6 +53,23 @@ class PiperPhonemizeLexicon : public OfflineTtsFrontend {
                         const std::string &data_dir,
                         const OfflineTtsKittenModelMetaData &kitten_meta_data);
 
+  // Constructors that accept pack data from memory
+  PiperPhonemizeLexicon(const std::string &tokens, const void *pack_data,
+                        int32_t pack_data_size,
+                        const OfflineTtsVitsModelMetaData &vits_meta_data);
+
+  PiperPhonemizeLexicon(const std::string &tokens, const void *pack_data,
+                        int32_t pack_data_size,
+                        const OfflineTtsMatchaModelMetaData &matcha_meta_data);
+
+  PiperPhonemizeLexicon(const std::string &tokens, const void *pack_data,
+                        int32_t pack_data_size,
+                        const OfflineTtsKokoroModelMetaData &kokoro_meta_data);
+
+  PiperPhonemizeLexicon(const std::string &tokens, const void *pack_data,
+                        int32_t pack_data_size,
+                        const OfflineTtsKittenModelMetaData &kitten_meta_data);
+
   std::vector<TokenIDs> ConvertTextToTokenIds(
       const std::string &text, const std::string &voice = "") const override;
 
@@ -72,6 +91,13 @@ class PiperPhonemizeLexicon : public OfflineTtsFrontend {
   bool is_kokoro_ = false;
   bool is_kitten_ = false;
 };
+
+void CallPhonemizeEspeak(const std::string &text,
+                         piper::eSpeakPhonemeConfig &config,  // NOLINT
+                         std::vector<std::vector<piper::Phoneme>> *phonemes);
+
+// Include the EspeakDataPacker functionality
+bool InitEspeakFromMemory(const void* pack_data, int32_t pack_data_size);
 
 }  // namespace sherpa_onnx
 

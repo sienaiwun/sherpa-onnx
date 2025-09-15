@@ -358,10 +358,19 @@ class OfflineTtsVitsImpl : public OfflineTtsImpl {
           model_->GetMetaData(), config_.model.debug);
     } else if ((meta_data.is_piper || meta_data.is_coqui ||
                 meta_data.is_icefall) &&
-               !config_.model.vits.data_dir.empty()) {
-      frontend_ = std::make_unique<PiperPhonemizeLexicon>(
-          mgr, config_.model.vits.tokens, config_.model.vits.data_dir,
-          meta_data);
+               (!config_.model.vits.data_dir.empty() || 
+                (config_.model.vits.pack_data && config_.model.vits.pack_data_size > 0))) {
+      if (config_.model.vits.pack_data && config_.model.vits.pack_data_size > 0) {
+        // Use packed data from memory - simplified for piper models only
+        frontend_ = std::make_unique<PiperPhonemizeLexicon>(
+            config_.model.vits.tokens, config_.model.vits.pack_data,
+            config_.model.vits.pack_data_size, meta_data);
+      } else {
+        // Use data directory
+        frontend_ = std::make_unique<PiperPhonemizeLexicon>(
+            mgr, config_.model.vits.tokens, config_.model.vits.data_dir,
+            meta_data);
+      }
     } else {
       if (config_.model.vits.lexicon.empty()) {
         SHERPA_ONNX_LOGE(
@@ -410,10 +419,19 @@ class OfflineTtsVitsImpl : public OfflineTtsImpl {
           config_.model.vits.dict_dir, config_.model.debug);
     } else if ((meta_data.is_piper || meta_data.is_coqui ||
                 meta_data.is_icefall) &&
-               !config_.model.vits.data_dir.empty()) {
-      frontend_ = std::make_unique<PiperPhonemizeLexicon>(
-          config_.model.vits.tokens, config_.model.vits.data_dir,
-          model_->GetMetaData());
+               (!config_.model.vits.data_dir.empty() || 
+                (config_.model.vits.pack_data && config_.model.vits.pack_data_size > 0))) {
+      if (config_.model.vits.pack_data && config_.model.vits.pack_data_size > 0) {
+        // Use packed data from memory - simplified for piper models only
+        frontend_ = std::make_unique<PiperPhonemizeLexicon>(
+            config_.model.vits.tokens, config_.model.vits.pack_data,
+            config_.model.vits.pack_data_size, meta_data);
+      } else {
+        // Use data directory
+        frontend_ = std::make_unique<PiperPhonemizeLexicon>(
+            config_.model.vits.tokens, config_.model.vits.data_dir,
+            model_->GetMetaData());
+      }
     } else {
       if (config_.model.vits.lexicon.empty()) {
         SHERPA_ONNX_LOGE(

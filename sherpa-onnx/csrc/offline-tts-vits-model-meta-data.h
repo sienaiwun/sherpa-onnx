@@ -22,6 +22,9 @@ struct OfflineTtsVitsModelMetaData {
   bool is_coqui = false;
   bool is_icefall = false;
   bool is_melo_tts = false;
+  bool is_matcha = false;
+  bool is_kokoro = false;
+  bool is_kitten = false;
 
   // for Chinese TTS models from
   // https://github.com/Plachtaa/VITS-fast-fine-tuning

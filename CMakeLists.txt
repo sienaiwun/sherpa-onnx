@@ -452,6 +452,76 @@ endif()
 
 message(STATUS "CMAKE_CXX_FLAGS: ${CMAKE_CXX_FLAGS}")
 
+# Add Espeak Data Packer Tools
+if(SHERPA_ONNX_ENABLE_TTS AND SHERPA_ONNX_ENABLE_BINARY)
+  message(STATUS "Building Espeak Data Packer Tools")
+  
+  # Packer tool
+  add_executable(espeak_data_packer
+    espeak_data_packer_tool.cpp
+    EspeakDataPacker.cpp
+  )
+  
+  # Unpacker tool (if it exists)
+  if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/espeak_data_unpacker_tool.cpp")
+    add_executable(espeak_data_unpacker
+      espeak_data_unpacker_tool.cpp
+      EspeakDataPacker.cpp
+    )
+    set(UNPACKER_TARGET espeak_data_unpacker)
+  else()
+    set(UNPACKER_TARGET "")
+  endif()
+  
+  # Common settings for both tools
+  foreach(tool espeak_data_packer ${UNPACKER_TARGET})
+    if(tool STREQUAL "")
+      continue()
+    endif()
+    
+    target_include_directories(${tool} PRIVATE 
+      ${CMAKE_CURRENT_SOURCE_DIR}
+      ${ESPEAK_NG_DIR}/src/include
+    )
+    
+    # Link required libraries
+    find_package(Threads REQUIRED)
+    target_link_libraries(${tool} 
+      espeak-ng 
+      Threads::Threads
+    )
+    
+    if(WIN32)
+      # Windows filesystem library is usually built-in
+    else()
+      # Linux/Mac may need explicit filesystem library
+      target_link_libraries(${tool} stdc++fs)
+    endif()
+    
+    # Set C++ standard
+    target_compile_features(${tool} PRIVATE cxx_std_17)
+  endforeach()
+  
+  # Install the tools
+  if(UNPACKER_TARGET)
+    install(TARGETS espeak_data_packer espeak_data_unpacker
+      RUNTIME DESTINATION bin
+    )
+  else()
+    install(TARGETS espeak_data_packer
+      RUNTIME DESTINATION bin
+    )
+  endif()
+  
+  message(STATUS "Espeak Data Tools will be built:")
+  message(STATUS "  - espeak_data_packer   (pack directory to .pack file)")
+  if(UNPACKER_TARGET)
+    message(STATUS "  - espeak_data_unpacker (unpack .pack file to directory)")
+  endif()
+else()
+  message(STATUS "Espeak Data Tools skipped (requires SHERPA_ONNX_ENABLE_TTS and SHERPA_ONNX_ENABLE_BINARY)")
+endif()
+
 if(NOT BUILD_SHARED_LIBS)
   if(APPLE)
     set(SHERPA_ONNX_PKG_CONFIG_EXTRA_LIBS "-lc++ -framework Foundation")

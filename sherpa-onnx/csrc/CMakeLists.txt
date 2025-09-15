@@ -188,6 +188,7 @@ endif()
 
 if(SHERPA_ONNX_ENABLE_TTS)
   list(APPEND sources
+    EspeakDataPacker.cc
     hifigan-vocoder.cc
     jieba-lexicon.cc
     kokoro-multi-lang-lexicon.cc

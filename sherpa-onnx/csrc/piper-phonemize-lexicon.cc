@@ -29,6 +29,7 @@
 #include "phonemize.hpp"
 #include "sherpa-onnx/csrc/file-utils.h"
 #include "sherpa-onnx/csrc/macros.h"
+#include "sherpa-onnx/csrc/EspeakDataPacker.h"
 
 namespace sherpa_onnx {
 
@@ -274,6 +275,36 @@ static std::vector<int64_t> CoquiPhonemesToIds(
   return ans;
 }
 
+bool InitEspeakFromMemory(const void* pack_data, int32_t pack_data_size) {
+  static std::once_flag init_flag;
+  static bool init_success = false;
+  
+  std::call_once(init_flag, [pack_data, pack_data_size]() {
+    // Step 1: Extract the packed data to a temporary directory
+    std::string temp_dir = ExtractEspeakDataToTemp(pack_data, static_cast<size_t>(pack_data_size));
+    
+    if (temp_dir.empty()) {
+      SHERPA_ONNX_LOGE("Failed to extract espeak data from memory pack");
+      init_success = false;
+      return;
+    }
+    
+    // Step 2: Use the standard InitEspeak function to initialize with the temporary directory
+    try {
+      InitEspeak(temp_dir);
+      init_success = true;
+      SHERPA_ONNX_LOGE("Successfully initialized espeak from memory pack using temp directory: %s", temp_dir.c_str());
+    } catch (const std::exception& e) {
+      SHERPA_ONNX_LOGE("Failed to initialize espeak with temp directory %s: %s", temp_dir.c_str(), e.what());
+      init_success = false;
+      // Cleanup on failure
+      CleanupEspeakTempData();
+    }
+  });
+  
+  return init_success;
+}
+
 void InitEspeak(const std::string &data_dir) {
   static std::once_flag init_flag;
   std::call_once(init_flag, [data_dir]() {
@@ -367,6 +398,55 @@ PiperPhonemizeLexicon::PiperPhonemizeLexicon(
   }
 
   InitEspeak(data_dir);
+}
+
+// Constructors that accept pack data from memory
+PiperPhonemizeLexicon::PiperPhonemizeLexicon(
+    const std::string &tokens, const void *pack_data, int32_t pack_data_size,
+    const OfflineTtsVitsModelMetaData &vits_meta_data)
+    : vits_meta_data_(vits_meta_data) {
+  {
+    std::ifstream is(tokens);
+    token2id_ = ReadTokens(is);
+  }
+
+  InitEspeakFromMemory(pack_data, pack_data_size);
+}
+
+PiperPhonemizeLexicon::PiperPhonemizeLexicon(
+    const std::string &tokens, const void *pack_data, int32_t pack_data_size,
+    const OfflineTtsMatchaModelMetaData &matcha_meta_data)
+    : matcha_meta_data_(matcha_meta_data), is_matcha_(true) {
+  {
+    std::ifstream is(tokens);
+    token2id_ = ReadTokens(is);
+  }
+
+  InitEspeakFromMemory(pack_data, pack_data_size);
+}
+
+PiperPhonemizeLexicon::PiperPhonemizeLexicon(
+    const std::string &tokens, const void *pack_data, int32_t pack_data_size,
+    const OfflineTtsKokoroModelMetaData &kokoro_meta_data)
+    : kokoro_meta_data_(kokoro_meta_data), is_kokoro_(true) {
+  {
+    std::ifstream is(tokens);
+    token2id_ = ReadTokens(is);
+  }
+
+  InitEspeakFromMemory(pack_data, pack_data_size);
+}
+
+PiperPhonemizeLexicon::PiperPhonemizeLexicon(
+    const std::string &tokens, const void *pack_data, int32_t pack_data_size,
+    const OfflineTtsKittenModelMetaData &kitten_meta_data)
+    : kitten_meta_data_(kitten_meta_data), is_kitten_(true) {
+  {
+    std::ifstream is(tokens);
+    token2id_ = ReadTokens(is);
+  }
+
+  InitEspeakFromMemory(pack_data, pack_data_size);
 }
 
 template <typename Manager>

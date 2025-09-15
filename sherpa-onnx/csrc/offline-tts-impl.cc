@@ -7,6 +7,8 @@
 #include <memory>
 #include <vector>
 
+#include "sherpa-onnx/csrc/file-utils.h"
+
 #if __ANDROID_API__ >= 9
 #include "android/asset_manager.h"
 #include "android/asset_manager_jni.h"
@@ -38,8 +40,20 @@ std::vector<int64_t> OfflineTtsImpl::AddBlank(const std::vector<int64_t> &x,
 
 std::unique_ptr<OfflineTtsImpl> OfflineTtsImpl::Create(
     const OfflineTtsConfig &config) {
+  OfflineTtsConfig modified_config = config;
+  
+  // Handle pack_data_file for VITS models
+  if (!config.model.vits.model.empty() && !config.model.vits.pack_data_file.empty()) {
+    // Load pack data from file and store it in the config
+    modified_config.pack_data_storage = ReadFile(config.model.vits.pack_data_file);
+    if (!modified_config.pack_data_storage.empty()) {
+      modified_config.model.vits.pack_data = modified_config.pack_data_storage.data();
+      modified_config.model.vits.pack_data_size = static_cast<int32_t>(modified_config.pack_data_storage.size());
+    }
+  }
+  
   if (!config.model.vits.model.empty()) {
-    return std::make_unique<OfflineTtsVitsImpl>(config);
+    return std::make_unique<OfflineTtsVitsImpl>(modified_config);
   } else if (!config.model.matcha.acoustic_model.empty()) {
     return std::make_unique<OfflineTtsMatchaImpl>(config);
   } else if (!config.model.zipvoice.text_model.empty() &&

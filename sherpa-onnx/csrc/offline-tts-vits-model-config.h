@@ -23,6 +23,13 @@ struct OfflineTtsVitsModelConfig {
   // Used for Chinese TTS models using jieba
   std::string dict_dir;
 
+  // Packed espeak-ng data file path. If provided, data_dir is ignored
+  std::string pack_data_file;
+
+  // Packed espeak-ng data in memory. If provided, data_dir and pack_data_file are ignored
+  const void *pack_data = nullptr;
+  int32_t pack_data_size = 0;
+
   float noise_scale = 0.667;
   float noise_scale_w = 0.8;
   float length_scale = 1;

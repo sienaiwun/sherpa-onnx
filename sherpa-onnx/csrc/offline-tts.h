@@ -37,6 +37,13 @@ struct OfflineTtsConfig {
   // the duration of the new interval is old_duration * silence_scale.
   float silence_scale = 0.2;
 
+  // Packed data from memory (set at runtime, not from command line)
+  const void *pack_data = nullptr;
+  int32_t pack_data_size = 0;
+  
+  // Storage for pack data when loaded from file
+  mutable std::vector<char> pack_data_storage;
+
   OfflineTtsConfig() = default;
   OfflineTtsConfig(const OfflineTtsModelConfig &model,
                    const std::string &rule_fsts, const std::string &rule_fars,

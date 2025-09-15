@@ -30,6 +30,8 @@ tar xf vits-piper-en_US-amy-low.tar.bz2
  --vits-data-dir=./vits-piper-en_US-amy-low/espeak-ng-data \
  --output-filename=./generated.wav \
  "Today as always, men fall into two groups: slaves and free men. Whoever does not have two-thirds of his day for himself, is a slave, whatever he may be: a statesman, a businessman, an official, or a scholar."
+“--vits-model="D:\Sound\sherpa-onnx\vits-piper-en_US-amy-low\en_US-amy-low.onnx" --vits-tokens="D:\Sound\sherpa-onnx\vits-piper-en_US-amy-low\tokens.txt" --vits-pack-data="D:\Sound\sherpa-onnx\vits-piper-en_US-amy-low\espeak-ng-data.pack" --debug=1 --output-filename="D:\Sound\sherpa-onnx\generated_with_pack.wav" "How are you?"”
+“--vits-model="D:\Sound\sherpa-onnx\vits-piper-en_US-amy-low\en_US-amy-low.onnx" --vits-tokens="D:\Sound\sherpa-onnx\vits-piper-en_US-amy-low\tokens.txt" --vits-data-dir="D:\Sound\sherpa-onnx\vits-piper-en_US-amy-low\espeak-ng-data" --debug=1 --output-filename="D:\Sound\sherpa-onnx\generated_with_pack.wav" "How are you?"”
 
 It will generate a file ./generated.wav as specified by --output-filename.
 
