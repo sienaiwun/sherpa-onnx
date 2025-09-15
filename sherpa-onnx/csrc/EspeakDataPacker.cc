@@ -30,7 +30,7 @@ std::string ExtractEspeakDataToTemp(const void* pack_data, size_t pack_data_size
     try {
         // Create a temporary directory for espeak data
         std::filesystem::path temp_dir = std::filesystem::temp_directory_path();
-        temp_dir /= "sherpa_espeak_" + std::to_string(GetTickCount());
+        temp_dir /= "sherpa_espeak";
         
         if (!std::filesystem::create_directories(temp_dir)) {
             SHERPA_ONNX_LOGE("Failed to create temporary directory: %s", temp_dir.string().c_str());

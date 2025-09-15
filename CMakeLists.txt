@@ -461,7 +461,6 @@ if(SHERPA_ONNX_ENABLE_TTS AND SHERPA_ONNX_ENABLE_BINARY)
     espeak_data_packer_tool.cpp
     EspeakDataPacker.cpp
   )
-  
   # Unpacker tool (if it exists)
   if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/espeak_data_unpacker_tool.cpp")
     add_executable(espeak_data_unpacker
@@ -503,14 +502,16 @@ if(SHERPA_ONNX_ENABLE_TTS AND SHERPA_ONNX_ENABLE_BINARY)
   endforeach()
   
   # Install the tools
-  if(UNPACKER_TARGET)
-    install(TARGETS espeak_data_packer espeak_data_unpacker
-      RUNTIME DESTINATION bin
-    )
-  else()
-    install(TARGETS espeak_data_packer
-      RUNTIME DESTINATION bin
-    )
+  if(NOT IOS)
+    if(UNPACKER_TARGET)
+      install(TARGETS espeak_data_packer espeak_data_unpacker
+        RUNTIME DESTINATION bin
+      )
+    else()
+      install(TARGETS espeak_data_packer
+        RUNTIME DESTINATION bin
+      )
+    endif()
   endif()
   
   message(STATUS "Espeak Data Tools will be built:")
