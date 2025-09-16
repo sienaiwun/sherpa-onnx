@@ -361,5 +361,74 @@ bool InitEspeakFromMemory(const void* pack_data, size_t pack_size) {
     }
 }
 
+std::string ExtractEspeakDataToTemp(const void *pack_data,
+                                    size_t pack_data_size) {
+  if (!pack_data || pack_data_size == 0) {
+    return "";
+  }
+
+  try {
+    // 固定临时目录
+    std::filesystem::path temp_path = std::filesystem::temp_directory_path();
+    std::string temp_dir = (temp_path / "sherpa_onnx_espeak_data").string();
+
+    // 如果关键文件已存在，则直接返回
+    bool already_extracted = false;
+    if (std::filesystem::exists(temp_dir)) {
+      std::vector<std::string> key_files = {"phontab", "phondata", "phonindex"};
+      bool has_key_files = true;
+      for (const auto &kf : key_files) {
+        if (!std::filesystem::exists(std::filesystem::path(temp_dir) / kf)) {
+          has_key_files = false;
+          break;
+        }
+      }
+      if (has_key_files) {
+        return temp_dir;
+      }
+    }
+
+    // 解析 pack
+    EspeakResourcePack pack;
+    if (!EspeakDataPacker::LoadPackFromMemory(pack_data, pack_data_size,
+                                              pack)) {
+      return "";
+    }
+
+    // 创建目录
+    std::filesystem::create_directories(temp_dir);
+
+    // 解包所有文件到固定临时目录
+    for (const auto &entry : pack.entries) {
+      std::string full_path =
+          (std::filesystem::path(temp_dir) / entry.path).string();
+
+      // 创建父目录
+      std::filesystem::create_directories(
+          std::filesystem::path(full_path).parent_path());
+
+      // 取出数据写入文件
+      std::vector<char> file_data;
+      if (!EspeakDataPacker::GetFileData(pack, entry.path, file_data)) {
+        return "";
+      }
+
+      std::ofstream out(full_path, std::ios::binary);
+      if (!out) {
+        return "";
+      }
+      out.write(file_data.data(),
+                static_cast<std::streamsize>(file_data.size()));
+      if (!out) {
+        return "";
+      }
+    }
+
+    return temp_dir;
+  } catch (...) {
+    return "";
+  }
+}
+
 
 } // namespace sherpa_onnx

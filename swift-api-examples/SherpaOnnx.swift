@@ -842,17 +842,21 @@ func sherpaOnnxOfflineTtsVitsModelConfig(
   noiseScale: Float = 0.667,
   noiseScaleW: Float = 0.8,
   lengthScale: Float = 1.0,
-  dictDir: String = ""
+  dictDir: String = "",
+    packData: UnsafePointer<UInt8>? = nil,
+    packDataSize: Int32 = 0
 ) -> SherpaOnnxOfflineTtsVitsModelConfig {
   return SherpaOnnxOfflineTtsVitsModelConfig(
     model: toCPointer(model),
-    lexicon: toCPointer(lexicon),
-    tokens: toCPointer(tokens),
-    data_dir: toCPointer(dataDir),
-    noise_scale: noiseScale,
-    noise_scale_w: noiseScaleW,
-    length_scale: lengthScale,
-    dict_dir: toCPointer(dictDir)
+       lexicon: toCPointer(lexicon),
+       tokens: toCPointer(tokens),
+       data_dir: toCPointer(dataDir),
+       noise_scale: noiseScale,
+       noise_scale_w: noiseScaleW,
+       length_scale: lengthScale,
+       pack_data: packData,                // Swift 用 nil，而不是 nullptr
+       pack_data_size: packDataSize,      // C 的 int32_t -> Swift 的 Int32
+       dict_dir: toCPointer(dictDir)  // dict_dir 应该放在最后
   )
 }
 

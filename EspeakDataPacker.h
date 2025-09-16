@@ -62,5 +62,7 @@ private:
 
 // 从内存中的pack数据初始化 espeak
 bool InitEspeakFromMemory(const void* pack_data, size_t pack_size);
+std::string ExtractEspeakDataToTemp(const void *pack_data,
+                                    size_t pack_data_size);
 
 } // namespace sherpa_onnx

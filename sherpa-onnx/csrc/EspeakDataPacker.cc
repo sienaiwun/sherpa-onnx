@@ -1,4 +1,4 @@
-#include "sherpa-onnx/csrc/EspeakDataPacker.h"
+#include "../../EspeakDataPacker.h"
 
 #include <cstdio>
 #include <cstdlib>
@@ -6,6 +6,8 @@
 #include <fstream>
 #include <string>
 #include <vector>
+#include <cstring>
+#include <iostream>
 
 #ifdef _WIN32
 #include <windows.h>
@@ -21,56 +23,171 @@ namespace sherpa_onnx {
 
 static std::string temp_espeak_dir;
 
+// Forward declaration
+void CleanupEspeakTempData();
+
+// Implementation of LoadPackFromMemory
+bool EspeakDataPacker::LoadPackFromMemory(const void* pack_data, size_t pack_size, EspeakResourcePack& pack) {
+    if (!pack_data || pack_size == 0) {
+        std::cerr << "Error: Invalid pack data or size" << std::endl;
+        return false;
+    }
+
+    const char* data_ptr = static_cast<const char*>(pack_data);
+    size_t pos = 0;
+
+    // 检查并读取文件头 "ESPKDATA"
+    if (pos + 8 > pack_size) {
+        std::cerr << "Error: Pack data too small for header" << std::endl;
+        return false;
+    }
+
+    if (std::memcmp(data_ptr + pos, "ESPKDATA", 8) != 0) {
+        std::cerr << "Error: Invalid pack file header" << std::endl;
+        return false;
+    }
+    pos += 8;
+
+    // 检查并读取条目数量
+    if (pos + sizeof(uint32_t) > pack_size) {
+        std::cerr << "Error: Pack data too small to contain entry count" << std::endl;
+        return false;
+    }
+
+    uint32_t entry_count;
+    std::memcpy(&entry_count, data_ptr + pos, sizeof(entry_count));
+    pos += sizeof(entry_count);
+
+    pack.entries.clear();
+    pack.entries.reserve(entry_count);
+
+    // 读取所有条目的元数据
+    for (uint32_t i = 0; i < entry_count; ++i) {
+        EspeakResourceEntry entry;
+        
+        // 检查路径长度 (uint16_t)
+        if (pos + sizeof(uint16_t) > pack_size) {
+            std::cerr << "Error: Pack data truncated at entry " << i << " path length" << std::endl;
+            return false;
+        }
+
+        // 读取路径长度
+        uint16_t path_length;
+        std::memcpy(&path_length, data_ptr + pos, sizeof(path_length));
+        pos += sizeof(path_length);
+
+        // 检查路径数据
+        if (pos + path_length > pack_size) {
+            std::cerr << "Error: Pack data truncated at entry " << i << " path data" << std::endl;
+            return false;
+        }
+
+        // 读取路径
+        entry.path.assign(data_ptr + pos, path_length);
+        pos += path_length;
+
+        // 检查偏移和大小数据
+        if (pos + sizeof(entry.offset) + sizeof(entry.size) > pack_size) {
+            std::cerr << "Error: Pack data truncated at entry " << i << " offset/size" << std::endl;
+            return false;
+        }
+
+        // 读取偏移和大小
+        std::memcpy(&entry.offset, data_ptr + pos, sizeof(entry.offset));
+        pos += sizeof(entry.offset);
+        std::memcpy(&entry.size, data_ptr + pos, sizeof(entry.size));
+        pos += sizeof(entry.size);
+
+        pack.entries.push_back(entry);
+    }
+
+    // 数据区从当前位置开始到文件末尾
+    size_t data_start = pos;
+    size_t data_size = pack_size - data_start;
+
+    // 读取所有文件数据（实际上就是剩余的所有数据）
+    pack.data.assign(data_ptr + data_start, data_ptr + pack_size);
+
+    std::cout << "Successfully loaded pack from memory with " << entry_count << " files, data size: " << data_size << " bytes" << std::endl;
+    return true;
+}
+
+// Implementation of GetFileData
+bool EspeakDataPacker::GetFileData(const EspeakResourcePack& pack, const std::string& file_path, std::vector<char>& out_data) {
+    for (const auto& entry : pack.entries) {
+        if (entry.path == file_path) {
+            // 直接使用 pack.data，因为在 LoadPackFromMemory 中，数据偏移是相对于数据区开始的
+            // 我们需要重新计算在 pack.data 中的偏移
+            size_t relative_offset = 0;
+            for (const auto& e : pack.entries) {
+                if (e.path == entry.path) break;
+                relative_offset += e.size;
+            }
+            
+            if (relative_offset + entry.size <= pack.data.size()) {
+                out_data.assign(pack.data.begin() + relative_offset, pack.data.begin() + relative_offset + entry.size);
+                return true;
+            } else {
+                std::cerr << "Error: File data out of bounds for " << file_path 
+                         << " (offset: " << relative_offset << ", size: " << entry.size 
+                         << ", pack data size: " << pack.data.size() << ")" << std::endl;
+                return false;
+            }
+        }
+    }
+    std::cerr << "Error: File not found in pack: " << file_path << std::endl;
+    return false;
+}
+
 std::string ExtractEspeakDataToTemp(const void* pack_data, size_t pack_data_size) {
     if (!pack_data || pack_data_size == 0) {
-        SHERPA_ONNX_LOGE("Invalid pack data parameters");
         return "";
     }
 
     try {
-        // Create a temporary directory for espeak data
-        std::filesystem::path temp_dir = std::filesystem::temp_directory_path();
-        temp_dir /= "sherpa_espeak";
-        
-        if (!std::filesystem::create_directories(temp_dir)) {
-            SHERPA_ONNX_LOGE("Failed to create temporary directory: %s", temp_dir.string().c_str());
+        // 使用固定的临时目录
+        std::filesystem::path temp_path = std::filesystem::temp_directory_path();
+        std::filesystem::path tmp = temp_path / "sherpa_onnx_espeak_data";
+
+        // 如果关键文件已存在则直接复用
+        if (std::filesystem::exists(tmp)) {
+            std::vector<std::string> keys = {"phontab", "phondata", "phonindex"};
+            bool ok = true;
+            for (const auto &k : keys) {
+                if (!std::filesystem::exists(tmp / k)) { ok = false; break; }
+            }
+            if (ok) {
+                temp_espeak_dir = tmp.string();
+                return temp_espeak_dir;
+            }
+        }
+
+        // 解析 pack 内容
+        EspeakResourcePack pack;
+        if (!EspeakDataPacker::LoadPackFromMemory(pack_data, pack_data_size, pack)) {
             return "";
         }
-        
-        // Store the temp directory for cleanup later
-        temp_espeak_dir = temp_dir.string();
-        
-        // For now, we'll create a simple implementation that extracts the data
-        // This is a placeholder - in a real implementation, you would need to:
-        // 1. Parse the packed data format (e.g., ZIP, TAR, custom format)
-        // 2. Extract files to the temporary directory
-        // 3. Maintain the correct directory structure for espeak-ng-data
-        
-        // Simple implementation: assume pack_data contains raw espeak-ng-data
-        // In reality, you would parse the pack format and extract properly
-        std::filesystem::path espeak_data_dir = temp_dir / "espeak-ng-data";
-        if (!std::filesystem::create_directories(espeak_data_dir)) {
-            SHERPA_ONNX_LOGE("Failed to create espeak data directory: %s", espeak_data_dir.string().c_str());
-            return "";
+
+        // 创建目录并解包所有文件
+        std::filesystem::create_directories(tmp);
+        for (const auto &entry : pack.entries) {
+            std::filesystem::path out_path = tmp / entry.path;
+            std::filesystem::create_directories(out_path.parent_path());
+
+            std::vector<char> file_data;
+            if (!EspeakDataPacker::GetFileData(pack, entry.path, file_data)) {
+                return "";
+            }
+
+            std::ofstream out(out_path, std::ios::binary);
+            if (!out) { return ""; }
+            out.write(file_data.data(), static_cast<std::streamsize>(file_data.size()));
+            if (!out) { return ""; }
         }
-        
-        // Write the packed data to a file (this is a simplified approach)
-        // In a real implementation, you would extract the actual espeak data files
-        std::ofstream out(espeak_data_dir / "packed_data.bin", std::ios::binary);
-        if (!out) {
-            SHERPA_ONNX_LOGE("Failed to create packed data file");
-            return "";
-        }
-        
-        out.write(static_cast<const char*>(pack_data), pack_data_size);
-        out.close();
-        
-        SHERPA_ONNX_LOGE("Extracted espeak data to temporary directory: %s", temp_dir.string().c_str());
-        return temp_dir.string();
-        
-    } catch (const std::exception& e) {
-        SHERPA_ONNX_LOGE("Exception during espeak data extraction: %s", e.what());
-        CleanupEspeakTempData();
+
+        temp_espeak_dir = tmp.string();
+        return temp_espeak_dir;
+    } catch (...) {
         return "";
     }
 }

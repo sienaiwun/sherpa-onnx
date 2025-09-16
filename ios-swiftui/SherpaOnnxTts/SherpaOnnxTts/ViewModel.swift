@@ -72,21 +72,34 @@ func getTtsForAishell3() -> SherpaOnnxOfflineTtsWrapper {
   )
   return SherpaOnnxOfflineTtsWrapper(config: &config)
 }
-
+var globalPackData: Data? = nil
 // https://github.com/k2-fsa/sherpa-onnx/releases/tag/tts-models
 func getTtsFor_en_US_amy_low() -> SherpaOnnxOfflineTtsWrapper {
   // please see  https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-en_US-amy-low.tar.bz2
 
-  let model = getResource("en_US-amy-low", "onnx")
+  let model = getResource("tiktok_output", "onnx")
 
   // tokens.txt
   let tokens = getResource("tokens", "txt")
 
-  // in this case, we don't need lexicon.txt
-  let dataDir = resourceURL(to: "espeak-ng-data")
+    // 读入 pack 文件
+      let packPath = resourceURL(to: "espeak-ng-data.pack")
+      globalPackData = try! Data(contentsOf: URL(fileURLWithPath: packPath))
+      let packSize = globalPackData!.count
 
-  let vits = sherpaOnnxOfflineTtsVitsModelConfig(
-    model: model, lexicon: "", tokens: tokens, dataDir: dataDir)
+      let packBuffer = globalPackData!.withUnsafeBytes {
+          $0.bindMemory(to: UInt8.self).baseAddress
+      }
+
+      let vits = sherpaOnnxOfflineTtsVitsModelConfig(
+          model: model,
+          lexicon: "",
+          tokens: tokens,
+          dataDir: "",
+          packData: packBuffer,          // 把 buffer 和长度传进去
+          packDataSize: Int32(packSize)
+      )
+
   let modelConfig = sherpaOnnxOfflineTtsModelConfig(vits: vits)
   var config = sherpaOnnxOfflineTtsConfig(model: modelConfig)
 
@@ -214,13 +227,13 @@ func getTtsFor_kokoro_multi_lang_v1_0() -> SherpaOnnxOfflineTtsWrapper {
 func createOfflineTts() -> SherpaOnnxOfflineTtsWrapper {
   // Please enable only one of them
 
-  return getTtsFor_kokoro_multi_lang_v1_0()
+ // return getTtsFor_kokoro_multi_lang_v1_0()
 
   // return getTtsFor_kokoro_en_v0_19()
 
   // return getTtsFor_matcha_icefall_zh_baker()
 
-  // return getTtsFor_en_US_amy_low()
+return getTtsFor_en_US_amy_low()
 
   // return getTtsForVCTK()
 

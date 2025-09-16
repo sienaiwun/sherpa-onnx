@@ -1021,8 +1021,8 @@ SHERPA_ONNX_API typedef struct SherpaOnnxOfflineTtsVitsModelConfig {
   float noise_scale_w;
   float length_scale;  // < 1, faster in speech speed; > 1, slower in speed
     // Packed espeak-ng data in memory. If provided, data_dir and pack_data_file are ignored
-  const void *pack_data = nullptr;
-  int32_t pack_data_size = 0;
+  const void *pack_data;
+  int32_t pack_data_size ;
   
   const char *dict_dir;
 } SherpaOnnxOfflineTtsVitsModelConfig;

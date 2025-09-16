@@ -453,6 +453,7 @@ endif()
 message(STATUS "CMAKE_CXX_FLAGS: ${CMAKE_CXX_FLAGS}")
 
 # Add Espeak Data Packer Tools
+if(NOT IOS)
 if(SHERPA_ONNX_ENABLE_TTS AND SHERPA_ONNX_ENABLE_BINARY)
   message(STATUS "Building Espeak Data Packer Tools")
   
@@ -502,7 +503,7 @@ if(SHERPA_ONNX_ENABLE_TTS AND SHERPA_ONNX_ENABLE_BINARY)
   endforeach()
   
   # Install the tools
-  if(NOT IOS)
+
     if(UNPACKER_TARGET)
       install(TARGETS espeak_data_packer espeak_data_unpacker
         RUNTIME DESTINATION bin
@@ -512,7 +513,7 @@ if(SHERPA_ONNX_ENABLE_TTS AND SHERPA_ONNX_ENABLE_BINARY)
         RUNTIME DESTINATION bin
       )
     endif()
-  endif()
+
   
   message(STATUS "Espeak Data Tools will be built:")
   message(STATUS "  - espeak_data_packer   (pack directory to .pack file)")
@@ -531,6 +532,7 @@ if(NOT BUILD_SHARED_LIBS)
   if(UNIX AND NOT APPLE)
     set(SHERPA_ONNX_PKG_CONFIG_EXTRA_LIBS "-lstdc++ -lm -pthread -ldl")
   endif()
+endif()
 endif()
 
 if(NOT BUILD_SHARED_LIBS)
