@@ -21,7 +21,7 @@ void OfflineTtsVitsModelConfig::Register(ParseOptions *po) {
   po->Register("vits-dict-dir", &dict_dir,
                "Path to the directory containing dict for jieba. Used only for "
                "Chinese TTS models using jieba");
-  po->Register("vits-pack-data", &pack_data_file,
+  po->Register("vits-pack-data", &pack_data_path,
                "Path to packed espeak-ng data file. If provided, "
                "--vits-data-dir is ignored.");
   po->Register("vits-noise-scale", &noise_scale, "noise_scale for VITS models");
@@ -108,7 +108,11 @@ std::string OfflineTtsVitsModelConfig::ToString() const {
   os << "tokens=\"" << tokens << "\", ";
   os << "data_dir=\"" << data_dir << "\", ";
   os << "dict_dir=\"" << dict_dir << "\", ";
-  os << "pack_data_file=\"" << pack_data_file << "\", ";
+  os << "pack_data_path=\"" << pack_data_path << "\", ";
+  os << "model_data=" << (model_data ? "loaded" : "null") << ", ";
+  os << "model_data_size=" << model_data_size << ", ";
+  os << "pack_data=" << (pack_data ? "loaded" : "null") << ", ";
+  os << "pack_data_size=" << pack_data_size << ", ";
   os << "noise_scale=" << noise_scale << ", ";
   os << "noise_scale_w=" << noise_scale_w << ", ";
   os << "length_scale=" << length_scale << ")";

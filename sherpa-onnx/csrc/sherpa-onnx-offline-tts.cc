@@ -5,6 +5,7 @@
 #include <chrono>  // NOLINT
 #include <fstream>
 
+#include "sherpa-onnx/csrc/file-utils.h"
 #include "sherpa-onnx/csrc/offline-tts.h"
 #include "sherpa-onnx/csrc/parse-options.h"
 #include "sherpa-onnx/csrc/wave-writer.h"
@@ -81,6 +82,35 @@ or details.
   if (!config.Validate()) {
     fprintf(stderr, "Errors in config!\n");
     exit(EXIT_FAILURE);
+  }
+
+  // Read model files into memory if specified
+  std::vector<char> vits_model_data;
+  std::vector<char> vits_pack_data;
+  std::vector<char> matcha_model_data;
+  std::vector<char> kokoro_model_data;
+  std::vector<char> kitten_model_data;
+  
+  // Load VITS model from file to memory
+  if (!config.model.vits.model.empty()) {
+    if (sherpa_onnx::FileExists(config.model.vits.model)) {
+      fprintf(stderr, "Loading VITS model from: %s\n", config.model.vits.model.c_str());
+      vits_model_data = sherpa_onnx::ReadFile(config.model.vits.model);
+      config.model.vits.model_data = vits_model_data.data();
+      config.model.vits.model_data_size = static_cast<int32_t>(vits_model_data.size());
+      fprintf(stderr, "VITS model loaded into memory: %d bytes\n", config.model.vits.model_data_size);
+    }
+  }
+  
+  // Load VITS pack data from file to memory if specified
+  if (!config.model.vits.pack_data_path.empty()) {
+    if (sherpa_onnx::FileExists(config.model.vits.pack_data_path)) {
+      fprintf(stderr, "Loading VITS pack data from: %s\n", config.model.vits.pack_data_path.c_str());
+      vits_pack_data = sherpa_onnx::ReadFile(config.model.vits.pack_data_path);
+      config.model.vits.pack_data = vits_pack_data.data();
+      config.model.vits.pack_data_size = static_cast<int32_t>(vits_pack_data.size());
+      fprintf(stderr, "VITS pack data loaded into memory: %d bytes\n", config.model.vits.pack_data_size);
+    }
   }
 
   sherpa_onnx::OfflineTts tts(config);

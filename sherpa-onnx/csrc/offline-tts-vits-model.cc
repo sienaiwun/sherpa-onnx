@@ -32,8 +32,13 @@ class OfflineTtsVitsModel::Impl {
         env_(ORT_LOGGING_LEVEL_ERROR),
         sess_opts_(GetSessionOptions(config)),
         allocator_{} {
-    auto buf = ReadFile(config.vits.model);
-    Init(buf.data(), buf.size());
+    // Check if model data is provided in memory
+    if (config.vits.model_data != nullptr && config.vits.model_data_size > 0) {
+      Init(config.vits.model_data, config.vits.model_data_size);
+    } else {
+      auto buf = ReadFile(config.vits.model);
+      Init(buf.data(), buf.size());
+    }
   }
 
   template <typename Manager>
@@ -42,8 +47,13 @@ class OfflineTtsVitsModel::Impl {
         env_(ORT_LOGGING_LEVEL_ERROR),
         sess_opts_(GetSessionOptions(config)),
         allocator_{} {
-    auto buf = ReadFile(mgr, config.vits.model);
-    Init(buf.data(), buf.size());
+    // Check if model data is provided in memory
+    if (config.vits.model_data != nullptr && config.vits.model_data_size > 0) {
+      Init(config.vits.model_data, config.vits.model_data_size);
+    } else {
+      auto buf = ReadFile(mgr, config.vits.model);
+      Init(buf.data(), buf.size());
+    }
   }
 
   Ort::Value Run(Ort::Value x, int64_t sid, float speed) {
@@ -117,7 +127,7 @@ class OfflineTtsVitsModel::Impl {
   const OfflineTtsVitsModelMetaData &GetMetaData() const { return meta_data_; }
 
  private:
-  void Init(void *model_data, size_t model_data_length) {
+  void Init(const void *model_data, size_t model_data_length) {
     sess_ = std::make_unique<Ort::Session>(env_, model_data, model_data_length,
                                            sess_opts_);
 

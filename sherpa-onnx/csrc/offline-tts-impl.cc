@@ -43,9 +43,10 @@ std::unique_ptr<OfflineTtsImpl> OfflineTtsImpl::Create(
   OfflineTtsConfig modified_config = config;
   
   // Handle pack_data_file for VITS models
-  if (!config.model.vits.model.empty() && !config.model.vits.pack_data_file.empty()) {
+  if (!config.model.vits.model.empty() && !config.model.vits.pack_data_path.empty()) {
     // Load pack data from file and store it in the config
-    modified_config.pack_data_storage = ReadFile(config.model.vits.pack_data_file);
+    modified_config.pack_data_storage =
+        ReadFile(config.model.vits.pack_data_path);
     if (!modified_config.pack_data_storage.empty()) {
       modified_config.model.vits.pack_data = modified_config.pack_data_storage.data();
       modified_config.model.vits.pack_data_size = static_cast<int32_t>(modified_config.pack_data_storage.size());
