@@ -361,10 +361,19 @@ class OfflineTtsVitsImpl : public OfflineTtsImpl {
                (!config_.model.vits.data_dir.empty() || 
                 (config_.model.vits.pack_data && config_.model.vits.pack_data_size > 0))) {
       if (config_.model.vits.pack_data && config_.model.vits.pack_data_size > 0) {
-        // Use packed data from memory - simplified for piper models only
-        frontend_ = std::make_unique<PiperPhonemizeLexicon>(
-            config_.model.vits.tokens, config_.model.vits.pack_data,
-            config_.model.vits.pack_data_size, meta_data);
+        // Check if both token data and pack data are in memory
+        if (config_.model.vits.token_data && config_.model.vits.token_data_size > 0) {
+          // Use both token data and pack data from memory
+          frontend_ = std::make_unique<PiperPhonemizeLexicon>(
+              config_.model.vits.token_data, config_.model.vits.token_data_size,
+              config_.model.vits.pack_data, config_.model.vits.pack_data_size,
+              meta_data);
+        } else {
+          // Use token file with pack data from memory
+          frontend_ = std::make_unique<PiperPhonemizeLexicon>(
+              config_.model.vits.tokens, config_.model.vits.pack_data,
+              config_.model.vits.pack_data_size, meta_data);
+        }
       } else {
         // Use data directory
         frontend_ = std::make_unique<PiperPhonemizeLexicon>(
@@ -422,10 +431,19 @@ class OfflineTtsVitsImpl : public OfflineTtsImpl {
                (!config_.model.vits.data_dir.empty() || 
                 (config_.model.vits.pack_data && config_.model.vits.pack_data_size > 0))) {
       if (config_.model.vits.pack_data && config_.model.vits.pack_data_size > 0) {
-        // Use packed data from memory - simplified for piper models only
-        frontend_ = std::make_unique<PiperPhonemizeLexicon>(
-            config_.model.vits.tokens, config_.model.vits.pack_data,
-            config_.model.vits.pack_data_size, meta_data);
+        // Check if both token data and pack data are in memory
+        if (config_.model.vits.token_data && config_.model.vits.token_data_size > 0) {
+          // Use both token data and pack data from memory
+          frontend_ = std::make_unique<PiperPhonemizeLexicon>(
+              config_.model.vits.token_data, config_.model.vits.token_data_size,
+              config_.model.vits.pack_data, config_.model.vits.pack_data_size,
+              meta_data);
+        } else {
+          // Use token file with pack data from memory
+          frontend_ = std::make_unique<PiperPhonemizeLexicon>(
+              config_.model.vits.tokens, config_.model.vits.pack_data,
+              config_.model.vits.pack_data_size, meta_data);
+        }
       } else {
         // Use data directory
         frontend_ = std::make_unique<PiperPhonemizeLexicon>(

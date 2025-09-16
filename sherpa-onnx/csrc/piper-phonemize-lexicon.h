@@ -70,6 +70,23 @@ class PiperPhonemizeLexicon : public OfflineTtsFrontend {
                         int32_t pack_data_size,
                         const OfflineTtsKittenModelMetaData &kitten_meta_data);
 
+  // Constructors that accept both token data and pack data from memory
+  PiperPhonemizeLexicon(const void *token_data, int32_t token_data_size,
+                        const void *pack_data, int32_t pack_data_size,
+                        const OfflineTtsVitsModelMetaData &vits_meta_data);
+
+  PiperPhonemizeLexicon(const void *token_data, int32_t token_data_size,
+                        const void *pack_data, int32_t pack_data_size,
+                        const OfflineTtsMatchaModelMetaData &matcha_meta_data);
+
+  PiperPhonemizeLexicon(const void *token_data, int32_t token_data_size,
+                        const void *pack_data, int32_t pack_data_size,
+                        const OfflineTtsKokoroModelMetaData &kokoro_meta_data);
+
+  PiperPhonemizeLexicon(const void *token_data, int32_t token_data_size,
+                        const void *pack_data, int32_t pack_data_size,
+                        const OfflineTtsKittenModelMetaData &kitten_meta_data);
+
   std::vector<TokenIDs> ConvertTextToTokenIds(
       const std::string &text, const std::string &voice = "") const override;
 

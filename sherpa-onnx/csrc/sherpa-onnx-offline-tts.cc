@@ -87,6 +87,7 @@ or details.
   // Read model files into memory if specified
   std::vector<char> vits_model_data;
   std::vector<char> vits_pack_data;
+  std::vector<char> vits_token_data;
   std::vector<char> matcha_model_data;
   std::vector<char> kokoro_model_data;
   std::vector<char> kitten_model_data;
@@ -99,6 +100,17 @@ or details.
       config.model.vits.model_data = vits_model_data.data();
       config.model.vits.model_data_size = static_cast<int32_t>(vits_model_data.size());
       fprintf(stderr, "VITS model loaded into memory: %d bytes\n", config.model.vits.model_data_size);
+    }
+  }
+  
+  // Load VITS tokens from file to memory
+  if (!config.model.vits.tokens.empty()) {
+    if (sherpa_onnx::FileExists(config.model.vits.tokens)) {
+      fprintf(stderr, "Loading VITS tokens from: %s\n", config.model.vits.tokens.c_str());
+      vits_token_data = sherpa_onnx::ReadFile(config.model.vits.tokens);
+      config.model.vits.token_data = vits_token_data.data();
+      config.model.vits.token_data_size = static_cast<int32_t>(vits_token_data.size());
+      fprintf(stderr, "VITS tokens loaded into memory: %d bytes\n", config.model.vits.token_data_size);
     }
   }
   

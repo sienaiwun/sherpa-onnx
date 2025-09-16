@@ -113,6 +113,8 @@ std::string OfflineTtsVitsModelConfig::ToString() const {
   os << "model_data_size=" << model_data_size << ", ";
   os << "pack_data=" << (pack_data ? "loaded" : "null") << ", ";
   os << "pack_data_size=" << pack_data_size << ", ";
+  os << "token_data=" << (token_data ? "loaded" : "null") << ", ";
+  os << "token_data_size=" << token_data_size << ", ";
   os << "noise_scale=" << noise_scale << ", ";
   os << "noise_scale_w=" << noise_scale_w << ", ";
   os << "length_scale=" << length_scale << ")";

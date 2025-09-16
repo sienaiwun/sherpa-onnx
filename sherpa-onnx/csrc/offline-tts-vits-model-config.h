@@ -36,6 +36,10 @@ struct OfflineTtsVitsModelConfig {
   const void *model_data = nullptr; // Memory address of loaded model
   int32_t model_data_size = 0;      // Size of the model data in bytes
 
+  // Token memory support - alternative to loading from file
+  const void *token_data = nullptr; // Memory address of loaded tokens
+  int32_t token_data_size = 0;      // Size of the token data in bytes
+
   // used only for multi-speaker models, e.g, vctk speech dataset.
   // Not applicable for single-speaker models, e.g., ljspeech dataset
 

@@ -500,6 +500,59 @@ PiperPhonemizeLexicon::PiperPhonemizeLexicon(
   InitEspeak(data_dir);
 }
 
+// Constructors that accept both token data and pack data from memory
+PiperPhonemizeLexicon::PiperPhonemizeLexicon(
+    const void *token_data, int32_t token_data_size,
+    const void *pack_data, int32_t pack_data_size,
+    const OfflineTtsVitsModelMetaData &vits_meta_data)
+    : vits_meta_data_(vits_meta_data) {
+  {
+    std::istrstream is(static_cast<const char*>(token_data), token_data_size);
+    token2id_ = ReadTokens(is);
+  }
+
+  InitEspeakFromMemory(pack_data, pack_data_size);
+}
+
+PiperPhonemizeLexicon::PiperPhonemizeLexicon(
+    const void *token_data, int32_t token_data_size,
+    const void *pack_data, int32_t pack_data_size,
+    const OfflineTtsMatchaModelMetaData &matcha_meta_data)
+    : matcha_meta_data_(matcha_meta_data), is_matcha_(true) {
+  {
+    std::istrstream is(static_cast<const char*>(token_data), token_data_size);
+    token2id_ = ReadTokens(is);
+  }
+
+  InitEspeakFromMemory(pack_data, pack_data_size);
+}
+
+PiperPhonemizeLexicon::PiperPhonemizeLexicon(
+    const void *token_data, int32_t token_data_size,
+    const void *pack_data, int32_t pack_data_size,
+    const OfflineTtsKokoroModelMetaData &kokoro_meta_data)
+    : kokoro_meta_data_(kokoro_meta_data), is_kokoro_(true) {
+  {
+    std::istrstream is(static_cast<const char*>(token_data), token_data_size);
+    token2id_ = ReadTokens(is);
+  }
+
+  InitEspeakFromMemory(pack_data, pack_data_size);
+}
+
+PiperPhonemizeLexicon::PiperPhonemizeLexicon(
+    const void *token_data, int32_t token_data_size,
+    const void *pack_data, int32_t pack_data_size,
+    const OfflineTtsKittenModelMetaData &kitten_meta_data)
+    : kitten_meta_data_(kitten_meta_data), is_kitten_(true) {
+  {
+    std::istrstream is(static_cast<const char*>(token_data), token_data_size);
+    token2id_ = ReadTokens(is);
+  }
+
+  InitEspeakFromMemory(pack_data, pack_data_size);
+}
+
 std::vector<TokenIDs> PiperPhonemizeLexicon::ConvertTextToTokenIds(
     const std::string &text, const std::string &voice /*= ""*/) const {
   if (is_matcha_) {
