@@ -1186,7 +1186,13 @@ static sherpa_onnx::OfflineTtsConfig GetOfflineTtsConfig(
   tts_config.model.vits.dict_dir =
       SHERPA_ONNX_OR(config->model.vits.dict_dir, "");
 
-  // Pack data memory support
+  // Memory-based loading support
+  tts_config.model.vits.model_data = config->model.vits.model_data;
+  tts_config.model.vits.model_data_size = config->model.vits.model_data_size;
+  
+  tts_config.model.vits.token_data = config->model.vits.tokens_data;
+  tts_config.model.vits.token_data_size = config->model.vits.tokens_data_size;
+  
   tts_config.model.vits.pack_data = config->model.vits.pack_data;
   tts_config.model.vits.pack_data_size = config->model.vits.pack_data_size;
 
