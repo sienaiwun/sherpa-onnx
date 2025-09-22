@@ -49,6 +49,70 @@ const char *SherpaOnnxGetVersionStr() { return sherpa_onnx::GetVersionStr(); }
 const char *SherpaOnnxGetGitSha1() { return sherpa_onnx::GetGitSha1(); }
 const char *SherpaOnnxGetGitDate() { return sherpa_onnx::GetGitDate(); }
 
+int32_t SherpaOnnxFileExists(const char *filename) {
+  return sherpa_onnx::FileExists(filename);
+}
+
+// ============================================================
+// For log callback system
+// ============================================================
+
+// C wrapper for sherpa_onnx log callback
+static void WrapperCallback(enum sherpa_onnx_log_level level, const char* text, void* user_data) {
+  // Convert from internal enum to C API enum
+  SherpaOnnxLogLevel c_level;
+  switch (level) {
+    case SHERPA_ONNX_LOG_LEVEL_ERROR:
+      c_level = SHERPA_ONNX_LOG_LEVEL_ERROR;
+      break;
+    case SHERPA_ONNX_LOG_LEVEL_WARN:
+      c_level = SHERPA_ONNX_LOG_LEVEL_WARN;
+      break;
+    case SHERPA_ONNX_LOG_LEVEL_INFO:
+      c_level = SHERPA_ONNX_LOG_LEVEL_INFO;
+      break;
+    case SHERPA_ONNX_LOG_LEVEL_DEBUG:
+      c_level = SHERPA_ONNX_LOG_LEVEL_DEBUG;
+      break;
+    default:
+      c_level = SHERPA_ONNX_LOG_LEVEL_ERROR;
+      break;
+  }
+  
+  // Get the stored C callback and call it
+  SherpaOnnxLogCallback c_callback = reinterpret_cast<SherpaOnnxLogCallback>(user_data);
+  if (c_callback) {
+    c_callback(c_level, text, sherpa_onnx_log_get_user_data());
+  }
+}
+
+void SherpaOnnxLogSet(SherpaOnnxLogCallback log_callback, void* user_data) {
+  if (log_callback) {
+    // Set the wrapper as the actual callback, store the C callback as user_data
+    sherpa_onnx_log_set(WrapperCallback, reinterpret_cast<void*>(log_callback));
+  } else {
+    // Set to null to use default logger
+    sherpa_onnx_log_set(nullptr, nullptr);
+  }
+  // Note: We can't directly store user_data in the internal system since we're using
+  // that slot for the C callback pointer. This is a limitation of this wrapper approach.
+}
+
+SherpaOnnxLogCallback SherpaOnnxLogGet(void) {
+  sherpa_onnx_log_callback internal_callback = sherpa_onnx_log_get();
+  if (internal_callback == WrapperCallback) {
+    // Return the stored C callback
+    return reinterpret_cast<SherpaOnnxLogCallback>(sherpa_onnx_log_get_user_data());
+  }
+  return nullptr;
+}
+
+void* SherpaOnnxLogGetUserData(void) {
+  // This is a limitation: we can't properly store user_data with the current approach
+  // since we're using the user_data slot to store the C callback pointer
+  return nullptr;
+}
+
 struct SherpaOnnxOnlineRecognizer {
   std::unique_ptr<sherpa_onnx::OnlineRecognizer> impl;
 };
@@ -2065,10 +2129,6 @@ int32_t SherpaOnnxLinearResamplerResampleGetOutputSampleRate(
 
 void SherpaOnnxLinearResamplerReset(const SherpaOnnxLinearResampler *p) {
   p->impl->Reset();
-}
-
-int32_t SherpaOnnxFileExists(const char *filename) {
-  return sherpa_onnx::FileExists(filename);
 }
 
 struct SherpaOnnxOfflineSpeechDenoiser {
