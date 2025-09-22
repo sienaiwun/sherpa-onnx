@@ -75,24 +75,36 @@ static std::unordered_map<char32_t, int32_t> ReadTokens(std::istream &is) {
   std::unordered_map<char32_t, int32_t> token2id;
 
   std::string line;
-
+  int32_t line_number = 0;
+  
   std::string sym;
   std::u32string s;
   int32_t id = 0;
   while (std::getline(is, line)) {
+    line_number++;
+    
+    // Remove trailing \r\n and other whitespace
+    line.erase(line.find_last_not_of(" \t\n\r\f\v") + 1);
+    
+    // Skip empty lines
+    if (line.empty()) {
+      continue;
+    }
+    
     std::istringstream iss(line);
     iss >> sym;
     if (iss.eof()) {
+      // This means the line only contains a number, so the symbol is a space
       id = atoi(sym.c_str());
       sym = " ";
     } else {
       iss >> id;
     }
 
-    // eat the trailing \r\n on windows
+    // eat the trailing whitespace
     iss >> std::ws;
     if (!iss.eof()) {
-      SHERPA_ONNX_LOGE("Error when reading tokens: %s", line.c_str());
+      SHERPA_ONNX_LOGE("Error when reading tokens at line %d: %s", line_number, line.c_str());
       exit(-1);
     }
 
@@ -104,22 +116,33 @@ static std::unordered_map<char32_t, int32_t> ReadTokens(std::istream &is) {
         continue;
       }
 
-      SHERPA_ONNX_LOGE("Error when reading tokens at Line %s. size: %d",
-                       line.c_str(), static_cast<int32_t>(s.size()));
+      SHERPA_ONNX_LOGE("Error when reading tokens at line %d: %s. Token size: %d", 
+                       line_number, line.c_str(), static_cast<int32_t>(s.size()));
       exit(-1);
     }
 
     char32_t c = s[0];
+   
 
     if (token2id.count(c)) {
-      SHERPA_ONNX_LOGE("Duplicated token %s. Line %s. Existing ID: %d",
-                       sym.c_str(), line.c_str(), token2id.at(c));
+      SHERPA_ONNX_LOGE("Duplicated token '%s' (Unicode %d) at line %d: %s. Existing ID: %d", 
+                       sym.c_str(), static_cast<int32_t>(c), line_number, line.c_str(), token2id.at(c));
+      
+      // Additional debug information
+      SHERPA_ONNX_LOGE("Current symbol: '%s', Current ID: %d", sym.c_str(), id);
+      SHERPA_ONNX_LOGE("Existing ID for this character: %d", token2id.at(c));
+      
       exit(-1);
     }
 
     token2id.insert({c, id});
+    
+    // Debug log for successful insertion
+    SHERPA_ONNX_LOGD("Added token '%s' (Unicode %d) -> ID %d at line %d", 
+                     sym.c_str(), static_cast<int32_t>(c), id, line_number);
   }
 
+  SHERPA_ONNX_LOGI("Successfully loaded %d tokens", static_cast<int32_t>(token2id.size()));
   return token2id;
 }
 
