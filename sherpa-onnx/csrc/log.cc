@@ -1,122 +1,124 @@
 // sherpa-onnx/csrc/log.cc
 //
-// Copyright (c)  2023  Xiaomi Corporation
+// Copyright      2023  Xiaomi Corporation
 
-#include "sherpa-onnx/csrc/log.h"
-
-#ifdef SHERPA_ONNX_HAVE_EXECINFO_H
-#include <execinfo.h>  // To get stack trace in error messages.
-#ifdef SHERPA_ONNX_HAVE_CXXABI_H
-#include <cxxabi.h>  // For name demangling.
-// Useful to decode the stack trace, but only used if we have execinfo.h
-#endif  // SHERPA_ONNX_HAVE_CXXABI_H
-#endif  // SHERPA_ONNX_HAVE_EXECINFO_H
-
-#include <stdlib.h>
-
-#include <ctime>
-#include <iomanip>
+#include "sherpa-onnx/csrc/macros.h"
 #include <string>
+#include <mutex>
+#include <cstdio>
+#include <cstring>
 
-namespace sherpa_onnx {
+// Global state for log callback (similar to llama.cpp implementation)
+static sherpa_onnx_log_callback g_log_callback = nullptr;
+static void* g_log_user_data = nullptr;
+static std::mutex g_log_mutex;
 
-std::string GetDateTimeStr() {
-  std::ostringstream os;
-  std::time_t t = std::time(nullptr);
-  std::tm tm = *std::localtime(&t);
-  os << std::put_time(&tm, "%F %T");  // yyyy-mm-dd hh:mm:ss
-  return os.str();
+// Default logging function with platform-specific behavior
+static void sherpa_onnx_log_default(enum sherpa_onnx_log_level level, const char* text, void* user_data) {
+    (void)user_data;  // Suppress unused parameter warning
+    
+    const char* level_str;
+    FILE* output = stderr;
+    
+    switch (level) {
+        case SHERPA_ONNX_LOG_LEVEL_ERROR:
+            level_str = "ERROR";
+            break;
+        case SHERPA_ONNX_LOG_LEVEL_WARN:
+            level_str = "WARN";
+            break;
+        case SHERPA_ONNX_LOG_LEVEL_INFO:
+            level_str = "INFO";
+            output = stdout;
+            break;
+        case SHERPA_ONNX_LOG_LEVEL_DEBUG:
+            level_str = "DEBUG";
+            output = stdout;
+            break;
+        default:
+            level_str = "UNKNOWN";
+            break;
+    }
+    
+#if __ANDROID_API__ >= 8
+    #include "android/log.h"
+    android_LogPriority priority;
+    switch (level) {
+        case SHERPA_ONNX_LOG_LEVEL_ERROR:
+            priority = ANDROID_LOG_ERROR;
+            break;
+        case SHERPA_ONNX_LOG_LEVEL_WARN:
+            priority = ANDROID_LOG_WARN;
+            break;
+        case SHERPA_ONNX_LOG_LEVEL_INFO:
+            priority = ANDROID_LOG_INFO;
+            break;
+        case SHERPA_ONNX_LOG_LEVEL_DEBUG:
+            priority = ANDROID_LOG_DEBUG;
+            break;
+        default:
+            priority = ANDROID_LOG_UNKNOWN;
+            break;
+    }
+    __android_log_print(priority, "sherpa-onnx", "%s", text);
+#elif defined(__OHOS__)
+    #include "hilog/log.h"
+    OH_LOG_INFO(LOG_APP, "%s: %s", level_str, text);
+#elif SHERPA_ONNX_ENABLE_WASM
+    fprintf(stdout, "[%s] %s\n", level_str, text);
+#else
+    fprintf(output, "[%s] %s\n", level_str, text);
+    fflush(output);
+#endif
 }
 
-static bool LocateSymbolRange(const std::string &trace_name, std::size_t *begin,
-                              std::size_t *end) {
-  // Find the first '_' with leading ' ' or '('.
-  *begin = std::string::npos;
-  for (std::size_t i = 1; i < trace_name.size(); ++i) {
-    if (trace_name[i] != '_') {
-      continue;
-    }
-    if (trace_name[i - 1] == ' ' || trace_name[i - 1] == '(') {
-      *begin = i;
-      break;
-    }
-  }
-  if (*begin == std::string::npos) {
-    return false;
-  }
-  *end = trace_name.find_first_of(" +", *begin);
-  return *end != std::string::npos;
+// C API functions
+extern "C" {
+
+void sherpa_onnx_log_set(sherpa_onnx_log_callback log_callback, void* user_data) {
+    std::lock_guard<std::mutex> lock(g_log_mutex);
+    g_log_callback = log_callback;
+    g_log_user_data = user_data;
 }
 
-#ifdef SHERPA_ONNX_HAVE_EXECINFO_H
-static std::string Demangle(const std::string &trace_name) {
-#ifndef SHERPA_ONNX_HAVE_CXXABI_H
-  return trace_name;
-#else   // SHERPA_ONNX_HAVE_CXXABI_H
-  // Try demangle the symbol. We are trying to support the following formats
-  // produced by different platforms:
-  //
-  // Linux:
-  //   ./kaldi-error-test(_ZN5kaldi13UnitTestErrorEv+0xb) [0x804965d]
-  //
-  // Mac:
-  //   0 server 0x000000010f67614d _ZNK5kaldi13MessageLogger10LogMessageEv + 813
-  //
-  // We want to extract the name e.g., '_ZN5kaldi13UnitTestErrorEv' and
-  // demangle it info a readable name like kaldi::UnitTextError.
-  std::size_t begin, end;
-  if (!LocateSymbolRange(trace_name, &begin, &end)) {
-    return trace_name;
-  }
-  std::string symbol = trace_name.substr(begin, end - begin);
-  int status;
-  char *demangled_name = abi::__cxa_demangle(symbol.c_str(), 0, 0, &status);
-  if (status == 0 && demangled_name != nullptr) {
-    symbol = demangled_name;
-    free(demangled_name);
-  }
-  return trace_name.substr(0, begin) + symbol +
-         trace_name.substr(end, std::string::npos);
-#endif  // SHERPA_ONNX_HAVE_CXXABI_H
-}
-#endif  // SHERPA_ONNX_HAVE_EXECINFO_H
-
-std::string GetStackTrace() {
-  std::string ans;
-#ifdef SHERPA_ONNX_HAVE_EXECINFO_H
-  constexpr const std::size_t kMaxTraceSize = 50;
-  constexpr const std::size_t kMaxTracePrint = 50;  // Must be even.
-                                                    // Buffer for the trace.
-  void *trace[kMaxTraceSize];
-  // Get the trace.
-  std::size_t size = backtrace(trace, kMaxTraceSize);
-  // Get the trace symbols.
-  char **trace_symbol = backtrace_symbols(trace, size);
-  if (trace_symbol == nullptr) return ans;
-
-  // Compose a human-readable backtrace string.
-  ans += "[ Stack-Trace: ]\n";
-  if (size <= kMaxTracePrint) {
-    for (std::size_t i = 0; i < size; ++i) {
-      ans += Demangle(trace_symbol[i]) + "\n";
-    }
-  } else {  // Print out first+last (e.g.) 5.
-    for (std::size_t i = 0; i < kMaxTracePrint / 2; ++i) {
-      ans += Demangle(trace_symbol[i]) + "\n";
-    }
-    ans += ".\n.\n.\n";
-    for (std::size_t i = size - kMaxTracePrint / 2; i < size; ++i) {
-      ans += Demangle(trace_symbol[i]) + "\n";
-    }
-    if (size == kMaxTraceSize)
-      ans += ".\n.\n.\n";  // Stack was too long, probably a bug.
-  }
-
-  // We must free the array of pointers allocated by backtrace_symbols(),
-  // but not the strings themselves.
-  free(trace_symbol);
-#endif  // SHERPA_ONNX_HAVE_EXECINFO_H
-  return ans;
+sherpa_onnx_log_callback sherpa_onnx_log_get(void) {
+    std::lock_guard<std::mutex> lock(g_log_mutex);
+    return g_log_callback;
 }
 
-}  // namespace sherpa_onnx
+void* sherpa_onnx_log_get_user_data(void) {
+    std::lock_guard<std::mutex> lock(g_log_mutex);
+    return g_log_user_data;
+}
+
+void sherpa_onnx_log_internal(enum sherpa_onnx_log_level level, const char* file, const char* func, int line, const char* format, ...) {
+    // Get current callback and user data
+    std::lock_guard<std::mutex> lock(g_log_mutex);
+    sherpa_onnx_log_callback callback = g_log_callback ? g_log_callback : sherpa_onnx_log_default;
+    void* user_data = g_log_user_data;
+    
+    // Format the message
+    char buffer[4096];
+    va_list args;
+    va_start(args, format);
+    
+    // First format the user message
+    char user_msg[2048];
+    vsnprintf(user_msg, sizeof(user_msg), format, args);
+    va_end(args);
+    
+    // Then format the complete message with file info
+    const char* filename = strrchr(file, '/');
+    filename = filename ? filename + 1 : file;
+    const char* filename_win = strrchr(filename, '\\');
+    filename = filename_win ? filename_win + 1 : filename;
+    
+    snprintf(buffer, sizeof(buffer), "%s:%s:%d %s", filename, func, line, user_msg);
+    
+    // Call the callback (releases mutex temporarily)
+    g_log_mutex.unlock();
+    callback(level, buffer, user_data);
+    g_log_mutex.lock();
+}
+
+} // extern "C"

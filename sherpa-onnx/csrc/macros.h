@@ -6,8 +6,36 @@
 #define SHERPA_ONNX_CSRC_MACROS_H_
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdarg.h>
 
 #include <utility>
+
+// Log levels (similar to ggml_log_level in llama.cpp)
+enum sherpa_onnx_log_level {
+    SHERPA_ONNX_LOG_LEVEL_ERROR = 2,
+    SHERPA_ONNX_LOG_LEVEL_WARN  = 3,
+    SHERPA_ONNX_LOG_LEVEL_INFO  = 4,
+    SHERPA_ONNX_LOG_LEVEL_DEBUG = 5,
+};
+
+// Log callback function type
+typedef void (*sherpa_onnx_log_callback)(enum sherpa_onnx_log_level level, const char* text, void* user_data);
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+// Function declarations for log callback management
+void sherpa_onnx_log_set(sherpa_onnx_log_callback log_callback, void* user_data);
+sherpa_onnx_log_callback sherpa_onnx_log_get(void);
+void* sherpa_onnx_log_get_user_data(void);
+
+// Internal logging function
+void sherpa_onnx_log_internal(enum sherpa_onnx_log_level level, const char* file, const char* func, int line, const char* format, ...);
+
+#ifdef __cplusplus
+}
+#endif
 #if __OHOS__
 #include "hilog/log.h"
 
@@ -19,35 +47,18 @@
 #define LOG_TAG "sherpa_onnx"
 #endif
 
-#if __ANDROID_API__ >= 8
-#include "android/log.h"
-#define SHERPA_ONNX_LOGE(...)                                            \
-  do {                                                                   \
-    fprintf(stderr, "%s:%s:%d ", __FILE__, __func__,                     \
-            static_cast<int>(__LINE__));                                 \
-    fprintf(stderr, ##__VA_ARGS__);                                      \
-    fprintf(stderr, "\n");                                               \
-    __android_log_print(ANDROID_LOG_WARN, "sherpa-onnx", ##__VA_ARGS__); \
-  } while (0)
-#elif defined(__OHOS__)
-#define SHERPA_ONNX_LOGE(...) OH_LOG_INFO(LOG_APP, ##__VA_ARGS__)
-#elif SHERPA_ONNX_ENABLE_WASM
-#define SHERPA_ONNX_LOGE(...)                        \
-  do {                                               \
-    fprintf(stdout, "%s:%s:%d ", __FILE__, __func__, \
-            static_cast<int>(__LINE__));             \
-    fprintf(stdout, ##__VA_ARGS__);                  \
-    fprintf(stdout, "\n");                           \
-  } while (0)
-#else
-#define SHERPA_ONNX_LOGE(...)                        \
-  do {                                               \
-    fprintf(stderr, "%s:%s:%d ", __FILE__, __func__, \
-            static_cast<int>(__LINE__));             \
-    fprintf(stderr, ##__VA_ARGS__);                  \
-    fprintf(stderr, "\n");                           \
-  } while (0)
-#endif
+// Updated logging macros to use the new callback system
+#define SHERPA_ONNX_LOGE(...) \
+    sherpa_onnx_log_internal(SHERPA_ONNX_LOG_LEVEL_ERROR, __FILE__, __func__, __LINE__, ##__VA_ARGS__)
+
+#define SHERPA_ONNX_LOGW(...) \
+    sherpa_onnx_log_internal(SHERPA_ONNX_LOG_LEVEL_WARN, __FILE__, __func__, __LINE__, ##__VA_ARGS__)
+
+#define SHERPA_ONNX_LOGI(...) \
+    sherpa_onnx_log_internal(SHERPA_ONNX_LOG_LEVEL_INFO, __FILE__, __func__, __LINE__, ##__VA_ARGS__)
+
+#define SHERPA_ONNX_LOGD(...) \
+    sherpa_onnx_log_internal(SHERPA_ONNX_LOG_LEVEL_DEBUG, __FILE__, __func__, __LINE__, ##__VA_ARGS__)
 
 #define SHERPA_ONNX_EXIT(code) exit(code)
 

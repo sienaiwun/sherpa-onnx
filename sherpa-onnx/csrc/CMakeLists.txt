@@ -26,6 +26,7 @@ set(sources
   keyword-spotter-impl.cc
   keyword-spotter.cc
   lodr-fst.cc
+  log.cc
   offline-canary-model-config.cc
   offline-canary-model.cc
   offline-ctc-fst-decoder-config.cc
@@ -236,9 +237,6 @@ if(SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION)
   )
 endif()
 
-if(SHERPA_ONNX_ENABLE_CHECK)
-  list(APPEND sources log.cc)
-endif()
 
 # Always static build
 add_library(sherpa-onnx-core STATIC ${sources})

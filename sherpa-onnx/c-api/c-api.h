@@ -74,6 +74,35 @@ SHERPA_ONNX_API const char *SherpaOnnxGetGitDate();
 // return 1 if the given file exists; return 0 otherwise
 SHERPA_ONNX_API int32_t SherpaOnnxFileExists(const char *filename);
 
+// ============================================================
+// For log callback system
+// ============================================================
+
+// Log levels (similar to ggml_log_level in llama.cpp)
+typedef enum {
+    SHERPA_ONNX_LOG_LEVEL_ERROR = 2,
+    SHERPA_ONNX_LOG_LEVEL_WARN  = 3,
+    SHERPA_ONNX_LOG_LEVEL_INFO  = 4,
+    SHERPA_ONNX_LOG_LEVEL_DEBUG = 5,
+} SherpaOnnxLogLevel;
+
+// Log callback function type
+typedef void (*SherpaOnnxLogCallback)(SherpaOnnxLogLevel level, const char* text, void* user_data);
+
+// Set log callback function
+// @param log_callback The callback function to be called for each log message.
+//                     Set to NULL to use the default logger.
+// @param user_data    User data to be passed to the callback function.
+SHERPA_ONNX_API void SherpaOnnxLogSet(SherpaOnnxLogCallback log_callback, void* user_data);
+
+// Get current log callback function
+// @return Current log callback function, or NULL if using default logger.
+SHERPA_ONNX_API SherpaOnnxLogCallback SherpaOnnxLogGet(void);
+
+// Get current log callback user data
+// @return Current user data pointer.
+SHERPA_ONNX_API void* SherpaOnnxLogGetUserData(void);
+
 /// Please refer to
 /// https://k2-fsa.github.io/sherpa/onnx/pretrained_models/index.html
 /// to download pre-trained models. That is, you can find encoder-xxx.onnx
