@@ -32,6 +32,7 @@ void OfflineTtsVitsModelConfig::Register(ParseOptions *po) {
 }
 
 bool OfflineTtsVitsModelConfig::Validate() const {
+  if (model_data) return true;
   if (model.empty()) {
     SHERPA_ONNX_LOGE("Please provide --vits-model");
     return false;

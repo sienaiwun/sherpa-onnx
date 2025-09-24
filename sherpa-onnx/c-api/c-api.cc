@@ -45,9 +45,12 @@
 #include "sherpa-onnx/csrc/offline-speaker-diarization.h"
 #endif
 
+// The macros from macros.h are already correct, no need to override them
+
 const char *SherpaOnnxGetVersionStr() { return sherpa_onnx::GetVersionStr(); }
 const char *SherpaOnnxGetGitSha1() { return sherpa_onnx::GetGitSha1(); }
 const char *SherpaOnnxGetGitDate() { return sherpa_onnx::GetGitDate(); }
+
 
 int32_t SherpaOnnxFileExists(const char *filename) {
   return sherpa_onnx::FileExists(filename);
@@ -58,31 +61,11 @@ int32_t SherpaOnnxFileExists(const char *filename) {
 // ============================================================
 
 // C wrapper for sherpa_onnx log callback
-static void WrapperCallback(enum sherpa_onnx_log_level level, const char* text, void* user_data) {
-  // Convert from internal enum to C API enum
-  SherpaOnnxLogLevel c_level;
-  switch (level) {
-    case SHERPA_ONNX_LOG_LEVEL_ERROR:
-      c_level = SHERPA_ONNX_LOG_LEVEL_ERROR;
-      break;
-    case SHERPA_ONNX_LOG_LEVEL_WARN:
-      c_level = SHERPA_ONNX_LOG_LEVEL_WARN;
-      break;
-    case SHERPA_ONNX_LOG_LEVEL_INFO:
-      c_level = SHERPA_ONNX_LOG_LEVEL_INFO;
-      break;
-    case SHERPA_ONNX_LOG_LEVEL_DEBUG:
-      c_level = SHERPA_ONNX_LOG_LEVEL_DEBUG;
-      break;
-    default:
-      c_level = SHERPA_ONNX_LOG_LEVEL_ERROR;
-      break;
-  }
-  
-  // Get the stored C callback and call it
+static void WrapperCallback(SherpaOnnxLogLevel level, const char* text, void* user_data) {
+  // No conversion needed since we're using the same enum now
   SherpaOnnxLogCallback c_callback = reinterpret_cast<SherpaOnnxLogCallback>(user_data);
   if (c_callback) {
-    c_callback(c_level, text, sherpa_onnx_log_get_user_data());
+    c_callback(level, text, sherpa_onnx_log_get_user_data());
   }
 }
 
@@ -2631,3 +2614,4 @@ SherpaOnnxCreateOfflineSpeakerDiarizationOHOS(
 #endif  // #if SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION == 1
 
 #endif  // #ifdef __OHOS__
+

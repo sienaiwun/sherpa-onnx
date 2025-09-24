@@ -14,7 +14,7 @@ static void* g_log_user_data = nullptr;
 static std::mutex g_log_mutex;
 
 // Default logging function with platform-specific behavior
-static void sherpa_onnx_log_default(enum sherpa_onnx_log_level level, const char* text, void* user_data) {
+static void sherpa_onnx_log_default(SherpaOnnxLogLevel level, const char* text, void* user_data) {
     (void)user_data;  // Suppress unused parameter warning
     
     const char* level_str;
@@ -72,8 +72,6 @@ static void sherpa_onnx_log_default(enum sherpa_onnx_log_level level, const char
 #endif
 }
 
-// C API functions
-extern "C" {
 
 void sherpa_onnx_log_set(sherpa_onnx_log_callback log_callback, void* user_data) {
     std::lock_guard<std::mutex> lock(g_log_mutex);
@@ -91,7 +89,7 @@ void* sherpa_onnx_log_get_user_data(void) {
     return g_log_user_data;
 }
 
-void sherpa_onnx_log_internal(enum sherpa_onnx_log_level level, const char* file, const char* func, int line, const char* format, ...) {
+void sherpa_onnx_log_internal(SherpaOnnxLogLevel level, const char* file, const char* func, int line, const char* format, ...) {
     // Get current callback and user data
     std::lock_guard<std::mutex> lock(g_log_mutex);
     sherpa_onnx_log_callback callback = g_log_callback ? g_log_callback : sherpa_onnx_log_default;
@@ -121,4 +119,3 @@ void sherpa_onnx_log_internal(enum sherpa_onnx_log_level level, const char* file
     g_log_mutex.lock();
 }
 
-} // extern "C"

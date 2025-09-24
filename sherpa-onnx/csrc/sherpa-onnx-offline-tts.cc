@@ -19,7 +19,7 @@ static std::unique_ptr<std::ofstream> g_log_file;
 static std::mutex g_log_mutex;
 
 // Log callback function that writes to file
-void FileLogCallback(enum sherpa_onnx_log_level level, const char* text, void* user_data) {
+void FileLogCallback(SherpaOnnxLogLevel level, const char* text, void* user_data) {
   std::lock_guard<std::mutex> lock(g_log_mutex);
   
   if (!g_log_file || !g_log_file->is_open()) {

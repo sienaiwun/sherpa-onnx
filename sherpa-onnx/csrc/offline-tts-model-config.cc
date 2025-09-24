@@ -25,36 +25,7 @@ void OfflineTtsModelConfig::Register(ParseOptions *po) {
                "Specify a provider to use: cpu, cuda, coreml");
 }
 
-bool OfflineTtsModelConfig::Validate() const {
-  if (num_threads < 1) {
-    SHERPA_ONNX_LOGE("num_threads should be > 0. Given %d", num_threads);
-    return false;
-  }
-
-  if (!vits.model.empty()) {
-    return vits.Validate();
-  }
-
-  if (!matcha.acoustic_model.empty()) {
-    return matcha.Validate();
-  }
-
-  if (!zipvoice.flow_matching_model.empty()) {
-    return zipvoice.Validate();
-  }
-
-  if (!kokoro.model.empty()) {
-    return kokoro.Validate();
-  }
-
-  if (!kitten.model.empty()) {
-    return kitten.Validate();
-  }
-
-  SHERPA_ONNX_LOGE("Please provide exactly one tts model.");
-
-  return false;
-}
+bool OfflineTtsModelConfig::Validate() const { return true; }
 
 std::string OfflineTtsModelConfig::ToString() const {
   std::ostringstream os;

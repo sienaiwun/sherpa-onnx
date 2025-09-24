@@ -10,32 +10,13 @@
 
 #include <utility>
 
-// Log levels (similar to ggml_log_level in llama.cpp)
-enum sherpa_onnx_log_level {
-    SHERPA_ONNX_LOG_LEVEL_ERROR = 2,
-    SHERPA_ONNX_LOG_LEVEL_WARN  = 3,
-    SHERPA_ONNX_LOG_LEVEL_INFO  = 4,
-    SHERPA_ONNX_LOG_LEVEL_DEBUG = 5,
-};
+// Include the C API header to get the log level enum
+#include "sherpa-onnx/c-api/c-api.h"
 
-// Log callback function type
-typedef void (*sherpa_onnx_log_callback)(enum sherpa_onnx_log_level level, const char* text, void* user_data);
 
-#ifdef __cplusplus
-extern "C" {
-#endif
+// Internal logging function using the public enum
+void sherpa_onnx_log_internal(SherpaOnnxLogLevel level, const char* file, const char* func, int line, const char* format, ...);
 
-// Function declarations for log callback management
-void sherpa_onnx_log_set(sherpa_onnx_log_callback log_callback, void* user_data);
-sherpa_onnx_log_callback sherpa_onnx_log_get(void);
-void* sherpa_onnx_log_get_user_data(void);
-
-// Internal logging function
-void sherpa_onnx_log_internal(enum sherpa_onnx_log_level level, const char* file, const char* func, int line, const char* format, ...);
-
-#ifdef __cplusplus
-}
-#endif
 #if __OHOS__
 #include "hilog/log.h"
 

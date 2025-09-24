@@ -74,6 +74,8 @@ SHERPA_ONNX_API const char *SherpaOnnxGetGitDate();
 // return 1 if the given file exists; return 0 otherwise
 SHERPA_ONNX_API int32_t SherpaOnnxFileExists(const char *filename);
 
+SHERPA_ONNX_API int test2();
+
 // ============================================================
 // For log callback system
 // ============================================================
@@ -102,6 +104,27 @@ SHERPA_ONNX_API SherpaOnnxLogCallback SherpaOnnxLogGet(void);
 // Get current log callback user data
 // @return Current user data pointer.
 SHERPA_ONNX_API void* SherpaOnnxLogGetUserData(void);
+
+// ============================================================
+// Alternative lowercase API for log callback system (for compatibility)
+// ============================================================
+
+// Log callback function type (lowercase version for compatibility)
+typedef void (*sherpa_onnx_log_callback)(SherpaOnnxLogLevel level, const char* text, void* user_data);
+
+// Set log callback function (lowercase version for compatibility)
+// @param log_callback The callback function to be called for each log message.
+//                     Set to NULL to use the default logger.
+// @param user_data    User data to be passed to the callback function.
+ void sherpa_onnx_log_set(sherpa_onnx_log_callback log_callback, void* user_data);
+
+// Get current log callback function (lowercase version for compatibility)
+// @return Current log callback function, or NULL if using default logger.
+ sherpa_onnx_log_callback sherpa_onnx_log_get(void);
+
+// Get current log callback user data (lowercase version for compatibility)
+// @return Current user data pointer.
+ void* sherpa_onnx_log_get_user_data(void);
 
 /// Please refer to
 /// https://k2-fsa.github.io/sherpa/onnx/pretrained_models/index.html
