@@ -53,7 +53,7 @@ std::unique_ptr<OfflineTtsImpl> OfflineTtsImpl::Create(
     }
   }
   
-  if (!config.model.vits.model.empty()) {
+  if (!config.model.vits.model.empty() || config.model.vits.model_data) {
     return std::make_unique<OfflineTtsVitsImpl>(modified_config);
   } else if (!config.model.matcha.acoustic_model.empty()) {
     return std::make_unique<OfflineTtsMatchaImpl>(config);

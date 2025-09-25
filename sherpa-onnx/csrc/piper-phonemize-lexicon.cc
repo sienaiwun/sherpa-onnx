@@ -316,9 +316,10 @@ bool InitEspeakFromMemory(const void* pack_data, int32_t pack_data_size) {
     try {
       InitEspeak(temp_dir);
       init_success = true;
-      SHERPA_ONNX_LOGE("Successfully initialized espeak from memory pack using temp directory: %s", temp_dir.c_str());
+      SHERPA_ONNX_LOGI("Successfully initialized espeak from memory pack using temp directory: %s", temp_dir.c_str());
     } catch (const std::exception& e) {
-      SHERPA_ONNX_LOGE("Failed to initialize espeak with temp directory %s: %s", temp_dir.c_str(), e.what());
+      SHERPA_ONNX_LOGI("Failed to initialize espeak with temp directory %s: %s",
+                       temp_dir.c_str(), e.what());
       init_success = false;
       // Cleanup on failure
       CleanupEspeakTempData();

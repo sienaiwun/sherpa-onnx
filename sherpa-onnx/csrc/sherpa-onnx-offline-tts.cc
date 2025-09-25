@@ -170,6 +170,7 @@ or details.
       vits_model_data = sherpa_onnx::ReadFile(config.model.vits.model);
       config.model.vits.model_data = vits_model_data.data();
       config.model.vits.model_data_size = static_cast<int32_t>(vits_model_data.size());
+      config.model.vits.model = std::string(); 
       fprintf(stderr, "VITS model loaded into memory: %d bytes\n", config.model.vits.model_data_size);
     }
   }
@@ -181,6 +182,7 @@ or details.
       vits_token_data = sherpa_onnx::ReadFile(config.model.vits.tokens);
       config.model.vits.token_data = vits_token_data.data();
       config.model.vits.token_data_size = static_cast<int32_t>(vits_token_data.size());
+      config.model.vits.tokens = std::string(); 
       fprintf(stderr, "VITS tokens loaded into memory: %d bytes\n", config.model.vits.token_data_size);
     }
   }
@@ -192,6 +194,7 @@ or details.
       vits_pack_data = sherpa_onnx::ReadFile(config.model.vits.pack_data_path);
       config.model.vits.pack_data = vits_pack_data.data();
       config.model.vits.pack_data_size = static_cast<int32_t>(vits_pack_data.size());
+      config.model.vits.pack_data_path = std::string(); 
       fprintf(stderr, "VITS pack data loaded into memory: %d bytes\n", config.model.vits.pack_data_size);
     }
   }
