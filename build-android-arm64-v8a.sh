@@ -39,25 +39,12 @@ cd $dir
 #   -DANDROID
 
 if [ -z $ANDROID_NDK ]; then
-  ANDROID_NDK=/star-fj/fangjun/software/android-sdk/ndk/22.1.7171670
-  if [ $BUILD_SHARED_LIBS == OFF ]; then
-    ANDROID_NDK=/star-fj/fangjun/software/android-sdk/ndk/27.0.11718014
-  fi
-  # or use
-  # ANDROID_NDK=/star-fj/fangjun/software/android-ndk
-  #
-  # Inside the $ANDROID_NDK directory, you can find a binary ndk-build
-  # and some other files like the file "build/cmake/android.toolchain.cmake"
-
+  # 使用你机器上实际的NDK路径
+  ANDROID_NDK=/Users/naiwenxie/Library/Android/sdk/ndk/25.2.9519653
+  
+  # 如果上面的路径不存在，尝试其他版本
   if [ ! -d $ANDROID_NDK ]; then
-    # For macOS, I have installed Android Studio, select the menu
-    # Tools -> SDK manager -> Android SDK
-    # and set "Android SDK location" to /Users/fangjun/software/my-android
-    ANDROID_NDK=/Users/fangjun/software/my-android/ndk/22.1.7171670
-
-    if [ $BUILD_SHARED_LIBS == OFF ]; then
-      ANDROID_NDK=/Users/fangjun/software/my-android/ndk/27.0.11718014
-    fi
+    ANDROID_NDK=/Users/naiwenxie/Library/Android/sdk/ndk/25.1.8937393
   fi
 fi
 
