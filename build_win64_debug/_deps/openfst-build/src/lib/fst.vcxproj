@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{879D4CB6-357B-3CA4-BB91-DC0D83FBE1AF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>fst</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">fst.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sherpa-onnx-fst</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">fst.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sherpa-onnx-fst</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">fst.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sherpa-onnx-fst</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">fst.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sherpa-onnx-fst</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\.\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267;4305;4334;4800;4996;4018;4244;4267;4291;4305;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\.\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\.\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\.\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4244;4267;4305;4334;4800;4996;4018;4244;4267;4291;4305;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\.\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\.\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\.\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4244;4267;4305;4334;4800;4996;4018;4244;4267;4291;4305;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\.\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\.\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\.\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267;4305;4334;4800;4996;4018;4244;4267;4291;4305;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\.\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\.\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\lib\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/openfst-src/src/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx -BD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/openfst-build/src/lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-build\src\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/openfst-src/src/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx -BD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/openfst-build/src/lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-build\src\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/openfst-src/src/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx -BD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/openfst-build/src/lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-build\src\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/openfst-src/src/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx -BD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/openfst-build/src/lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-build\src\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\lib\compat.cc" />
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\lib\flags.cc" />
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\lib\fst.cc" />
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\lib\properties.cc" />
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\lib\symbol-table.cc" />
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\lib\util.cc" />
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\lib\symbol-table-ops.cc" />
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\lib\mapped-file.cc" />
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\lib\weight.cc" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\accumulator.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\add-on.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\arc-arena.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\arc-map.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\arc.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\arcfilter.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\arcsort.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\bi-table.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\cache.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\closure.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\compact-fst.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\compat.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\complement.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\compose-filter.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\compose.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\concat.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\config.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\connect.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\const-fst.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\determinize.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\dfs-visit.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\difference.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\disambiguate.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\edit-fst.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\encode.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\epsnormalize.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\equal.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\equivalent.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\expanded-fst.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\expectation-weight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\factor-weight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\filter-state.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\flags.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\float-weight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\fst-decl.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\fst.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\fstlib.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\generic-register.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\heap.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\icu.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\intersect.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\interval-set.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\invert.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\isomorphic.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\label-reachable.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\lexicographic-weight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\lock.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\log.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\lookahead-filter.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\lookahead-matcher.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\map.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\mapped-file.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\matcher-fst.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\matcher.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\memory.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\minimize.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\mutable-fst.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\pair-weight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\partition.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\power-weight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\product-weight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\project.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\properties.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\prune.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\push.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\queue.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\randequivalent.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\randgen.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\rational.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\register.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\relabel.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\replace-util.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\replace.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\reverse.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\reweight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\rmepsilon.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\rmfinalepsilon.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\set-weight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\shortest-distance.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\shortest-path.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\signed-log-weight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\sparse-power-weight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\sparse-tuple-weight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\state-map.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\state-reachable.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\state-table.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\statesort.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\string-weight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\string.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\symbol-table-ops.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\symbol-table.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\synchronize.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\test-properties.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\topsort.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\tuple-weight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\types.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\union-find.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\union-weight.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\union.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\util.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\vector-fst.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\verify.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\visit.h" />
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\weight.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\ZERO_CHECK.vcxproj">
+      <Project>{CFC1964F-2D78-3121-B1E4-B6EB1E6BC7EA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

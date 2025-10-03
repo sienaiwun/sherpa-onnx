@@ -1,0 +1,10 @@
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\ESPEAK_NG-SUBBUILD\CMAKEFILES\5515A718FA02B90CB2C931CC11190FE3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild -BD:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/espeak_ng-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

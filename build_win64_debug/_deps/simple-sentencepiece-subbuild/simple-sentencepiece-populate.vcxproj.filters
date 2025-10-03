@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-subbuild\CMakeFiles\b3fbf9b0c124d348be33463b39cc52c7\simple-sentencepiece-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-subbuild\CMakeFiles\b3fbf9b0c124d348be33463b39cc52c7\simple-sentencepiece-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-subbuild\CMakeFiles\b3fbf9b0c124d348be33463b39cc52c7\simple-sentencepiece-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-subbuild\CMakeFiles\b3fbf9b0c124d348be33463b39cc52c7\simple-sentencepiece-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-subbuild\CMakeFiles\b3fbf9b0c124d348be33463b39cc52c7\simple-sentencepiece-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-subbuild\CMakeFiles\b3fbf9b0c124d348be33463b39cc52c7\simple-sentencepiece-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-subbuild\CMakeFiles\b3fbf9b0c124d348be33463b39cc52c7\simple-sentencepiece-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-subbuild\CMakeFiles\b3fbf9b0c124d348be33463b39cc52c7\simple-sentencepiece-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-subbuild\CMakeFiles\3b0e431af123d33daf28326e2dd1743b\simple-sentencepiece-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-subbuild\CMakeFiles\732ebcd70c3097afd3536e1823a6a040\simple-sentencepiece-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-subbuild\CMakeFiles\simple-sentencepiece-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{97509550-5074-3FC7-AA62-48EDC7E01CFB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,72 @@
+name: linux-macos
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '.github/workflows/linux-macos.yaml'
+      - 'CMakeLists.txt'
+      - 'cmake/**'
+      - 'cppinyin/csrc/**'
+      - 'cppinyin/python/**'
+  pull_request:
+    branches:
+      - master
+    paths:
+      - '.github/workflows/linux-macos.yaml'
+      - 'CMakeLists.txt'
+      - 'cmake/**'
+      - 'cppinyin/csrc/**'
+      - 'cppinyin/python/**'
+
+concurrency:
+  group: linux-macos-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  linux-macos:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python-version: ["3.9", "3.10", "3.11"]
+
+    steps:
+      - name: Checkout github repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Configure CMake
+        shell: bash
+        run: |
+          mkdir build
+          cd build
+          cmake -DCMAKE_BUILD_TYPE=Release -DCPPINYIN_ENABLE_TESTS=ON ..
+
+      - name: Build cppinyin ubuntu
+        shell: bash
+        run: |
+          cd build
+          make -j2
+
+      - name: Install requirements
+        shell: bash
+        run: |
+          python3 -m pip install importlib-resources
+
+      - name: Run tests
+        shell: bash
+        run: |
+          cd build
+          ctest --verbose

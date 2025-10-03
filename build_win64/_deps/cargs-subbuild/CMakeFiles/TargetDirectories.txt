@@ -1,0 +1,3 @@
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cargs-subbuild/CMakeFiles/cargs-populate.dir
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cargs-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cargs-subbuild/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-subbuild\CMakeFiles\31c4fa4649cc7d0466df2fdbb7714a0f\openfst-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-subbuild\CMakeFiles\31c4fa4649cc7d0466df2fdbb7714a0f\openfst-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-subbuild\CMakeFiles\31c4fa4649cc7d0466df2fdbb7714a0f\openfst-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-subbuild\CMakeFiles\31c4fa4649cc7d0466df2fdbb7714a0f\openfst-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-subbuild\CMakeFiles\31c4fa4649cc7d0466df2fdbb7714a0f\openfst-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-subbuild\CMakeFiles\31c4fa4649cc7d0466df2fdbb7714a0f\openfst-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-subbuild\CMakeFiles\31c4fa4649cc7d0466df2fdbb7714a0f\openfst-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-subbuild\CMakeFiles\31c4fa4649cc7d0466df2fdbb7714a0f\openfst-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-subbuild\CMakeFiles\a71904b83d0750c0f7b4f3453e824fb7\openfst-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-subbuild\CMakeFiles\358bfb5574e58dde89764b725e867f7a\openfst-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-subbuild\CMakeFiles\openfst-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{32DF0F8F-54B5-3814-83A5-412668C6BC49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\CMAKEFILES\D9C6A7DC91030C8C6B653064261BBBE0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx -BD:/Sound/sienaiwun/sherpa-onnx/build_win64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Sound/sienaiwun/sherpa-onnx/build_win64/sherpa-onnx.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

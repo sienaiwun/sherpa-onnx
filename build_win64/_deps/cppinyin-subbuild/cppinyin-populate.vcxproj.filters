@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-subbuild\CMakeFiles\3b933380dcf654ba8573d02886a0c206\cppinyin-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-subbuild\CMakeFiles\3b933380dcf654ba8573d02886a0c206\cppinyin-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-subbuild\CMakeFiles\3b933380dcf654ba8573d02886a0c206\cppinyin-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-subbuild\CMakeFiles\3b933380dcf654ba8573d02886a0c206\cppinyin-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-subbuild\CMakeFiles\3b933380dcf654ba8573d02886a0c206\cppinyin-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-subbuild\CMakeFiles\3b933380dcf654ba8573d02886a0c206\cppinyin-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-subbuild\CMakeFiles\3b933380dcf654ba8573d02886a0c206\cppinyin-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-subbuild\CMakeFiles\3b933380dcf654ba8573d02886a0c206\cppinyin-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-subbuild\CMakeFiles\db19556a8f4846b445dd025d6c6a6467\cppinyin-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-subbuild\CMakeFiles\feb386e1b131bd1743802f93120d488e\cppinyin-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-subbuild\CMakeFiles\cppinyin-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F717C0AF-0688-3B8C-84B2-86E86FD6C910}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

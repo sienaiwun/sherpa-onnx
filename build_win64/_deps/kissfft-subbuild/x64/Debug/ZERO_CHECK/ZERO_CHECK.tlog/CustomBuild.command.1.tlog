@@ -1,0 +1,10 @@
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KISSFFT-SUBBUILD\CMAKEFILES\D715D9931C6E46603AD703C7F71EC880\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kissfft-subbuild -BD:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kissfft-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kissfft-subbuild/kissfft-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

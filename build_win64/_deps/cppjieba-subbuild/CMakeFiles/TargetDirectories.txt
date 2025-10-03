@@ -1,0 +1,3 @@
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/cppjieba-populate.dir
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/ZERO_CHECK.dir

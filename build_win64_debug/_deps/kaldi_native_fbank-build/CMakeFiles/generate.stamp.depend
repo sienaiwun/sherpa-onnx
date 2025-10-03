@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-src/CMakeLists.txt
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-src/cmake/Modules/FetchContent.cmake
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-src/cmake/Modules/FetchContent/CMakeLists.cmake.in
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-src/cmake/kissfft.cmake

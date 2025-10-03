@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/websocketpp-subbuild/websocketpp-populate-prefix/src/websocketpp-populate-stamp/download-websocketpp-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/websocketpp-subbuild/websocketpp-populate-prefix/src/websocketpp-populate-stamp/verify-websocketpp-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/websocketpp-subbuild/websocketpp-populate-prefix/src/websocketpp-populate-stamp/extract-websocketpp-populate.cmake
+source_dir=D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/websocketpp-src
+work_dir=D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps
+url(s)=https://github.com/zaphoyd/websocketpp/archive/b9aeec6eaf3d5610503439b4fae3581d9aff08e8.zip;https://hf-mirror.com/csukuangfj/sherpa-onnx-cmake-deps/resolve/main/websocketpp-b9aeec6eaf3d5610503439b4fae3581d9aff08e8.zip
+hash=SHA256=1385135ede8191a7fbef9ec8099e3c5a673d48df0c143958216cd1690567f583
+      no_extract=
+

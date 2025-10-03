@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/CMakeFiles/espeak_ng-populate"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/CMakeFiles/5515a718fa02b90cb2c931cc11190fe3/espeak_ng-populate.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/CMakeFiles/5d95cf7ac9d2fbc679cd3272eea9d4f4/espeak_ng-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/CMakeFiles/3effd15225b3f6581e02cf0943a2bff8/espeak_ng-populate-build.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/CMakeFiles/3effd15225b3f6581e02cf0943a2bff8/espeak_ng-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/CMakeFiles/3effd15225b3f6581e02cf0943a2bff8/espeak_ng-populate-download.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/CMakeFiles/3effd15225b3f6581e02cf0943a2bff8/espeak_ng-populate-install.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/CMakeFiles/3effd15225b3f6581e02cf0943a2bff8/espeak_ng-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/CMakeFiles/3effd15225b3f6581e02cf0943a2bff8/espeak_ng-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/CMakeFiles/3effd15225b3f6581e02cf0943a2bff8/espeak_ng-populate-test.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/CMakeFiles/3effd15225b3f6581e02cf0943a2bff8/espeak_ng-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"espeak_ng-populate"
+		],
+		"name" : "espeak_ng-populate"
+	}
+}

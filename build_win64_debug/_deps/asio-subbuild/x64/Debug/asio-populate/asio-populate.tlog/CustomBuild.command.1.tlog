@@ -1,0 +1,152 @@
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ASIO-SUBBUILD\CMAKEFILES\504E00EADFFF6B9CE2DF900A56F33D54\ASIO-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/asio-populate-prefix/tmp/asio-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/Debug/asio-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ASIO-SUBBUILD\CMAKEFILES\504E00EADFFF6B9CE2DF900A56F33D54\ASIO-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/download-asio-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/verify-asio-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/extract-asio-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/Debug/asio-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ASIO-SUBBUILD\CMAKEFILES\504E00EADFFF6B9CE2DF900A56F33D54\ASIO-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/Debug/asio-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ASIO-SUBBUILD\CMAKEFILES\504E00EADFFF6B9CE2DF900A56F33D54\ASIO-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/Debug/asio-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ASIO-SUBBUILD\CMAKEFILES\504E00EADFFF6B9CE2DF900A56F33D54\ASIO-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\asio-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/Debug/asio-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ASIO-SUBBUILD\CMAKEFILES\504E00EADFFF6B9CE2DF900A56F33D54\ASIO-POPULATE-BUILD.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\asio-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/Debug/asio-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ASIO-SUBBUILD\CMAKEFILES\504E00EADFFF6B9CE2DF900A56F33D54\ASIO-POPULATE-INSTALL.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\asio-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/Debug/asio-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ASIO-SUBBUILD\CMAKEFILES\504E00EADFFF6B9CE2DF900A56F33D54\ASIO-POPULATE-TEST.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\asio-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/Debug/asio-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ASIO-SUBBUILD\CMAKEFILES\8D241D636457798277A1EED9516662C7\ASIO-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/Debug/asio-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/Debug/asio-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ASIO-SUBBUILD\CMAKEFILES\46A51565462D34AAB67C9584E547FB30\ASIO-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ASIO-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild -BD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

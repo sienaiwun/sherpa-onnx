@@ -1,0 +1,152 @@
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\PORTAUDIO-SUBBUILD\CMAKEFILES\55E995B856299BD3913EBD98C16D4243\PORTAUDIO-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/portaudio-populate-prefix/tmp/portaudio-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/portaudio-populate-prefix/src/portaudio-populate-stamp/Debug/portaudio-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\PORTAUDIO-SUBBUILD\CMAKEFILES\55E995B856299BD3913EBD98C16D4243\PORTAUDIO-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/portaudio-populate-prefix/src/portaudio-populate-stamp/download-portaudio-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/portaudio-populate-prefix/src/portaudio-populate-stamp/verify-portaudio-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/portaudio-populate-prefix/src/portaudio-populate-stamp/extract-portaudio-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/portaudio-populate-prefix/src/portaudio-populate-stamp/Debug/portaudio-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\PORTAUDIO-SUBBUILD\CMAKEFILES\55E995B856299BD3913EBD98C16D4243\PORTAUDIO-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/portaudio-populate-prefix/src/portaudio-populate-stamp/Debug/portaudio-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\PORTAUDIO-SUBBUILD\CMAKEFILES\55E995B856299BD3913EBD98C16D4243\PORTAUDIO-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/portaudio-populate-prefix/src/portaudio-populate-stamp/Debug/portaudio-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\PORTAUDIO-SUBBUILD\CMAKEFILES\55E995B856299BD3913EBD98C16D4243\PORTAUDIO-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/portaudio-populate-prefix/src/portaudio-populate-stamp/Debug/portaudio-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\PORTAUDIO-SUBBUILD\CMAKEFILES\55E995B856299BD3913EBD98C16D4243\PORTAUDIO-POPULATE-BUILD.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/portaudio-populate-prefix/src/portaudio-populate-stamp/Debug/portaudio-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\PORTAUDIO-SUBBUILD\CMAKEFILES\55E995B856299BD3913EBD98C16D4243\PORTAUDIO-POPULATE-INSTALL.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/portaudio-populate-prefix/src/portaudio-populate-stamp/Debug/portaudio-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\PORTAUDIO-SUBBUILD\CMAKEFILES\55E995B856299BD3913EBD98C16D4243\PORTAUDIO-POPULATE-TEST.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/portaudio-populate-prefix/src/portaudio-populate-stamp/Debug/portaudio-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\PORTAUDIO-SUBBUILD\CMAKEFILES\8475CEADE60093A0A4E8941D39839A60\PORTAUDIO-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/CMakeFiles/Debug/portaudio-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/portaudio-populate-prefix/src/portaudio-populate-stamp/Debug/portaudio-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\PORTAUDIO-SUBBUILD\CMAKEFILES\04C00ADE208A46D8E232CA3CA8437B53\PORTAUDIO-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\PORTAUDIO-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild -BD:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

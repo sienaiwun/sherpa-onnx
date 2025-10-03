@@ -1,0 +1,3 @@
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/CMakeFiles/espeak_ng-populate.dir
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-subbuild/CMakeFiles/ZERO_CHECK.dir

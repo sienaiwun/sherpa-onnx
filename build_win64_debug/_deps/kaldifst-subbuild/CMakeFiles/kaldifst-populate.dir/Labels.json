@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-subbuild/CMakeFiles/kaldifst-populate"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-subbuild/CMakeFiles/73ec589909570a4a5a819c0973a03ec2/kaldifst-populate.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-subbuild/CMakeFiles/13191995bec4dad7bac8a33b3fddd7f6/kaldifst-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-subbuild/CMakeFiles/3ec2869a2f18c1717eae671d8aace860/kaldifst-populate-build.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-subbuild/CMakeFiles/3ec2869a2f18c1717eae671d8aace860/kaldifst-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-subbuild/CMakeFiles/3ec2869a2f18c1717eae671d8aace860/kaldifst-populate-download.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-subbuild/CMakeFiles/3ec2869a2f18c1717eae671d8aace860/kaldifst-populate-install.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-subbuild/CMakeFiles/3ec2869a2f18c1717eae671d8aace860/kaldifst-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-subbuild/CMakeFiles/3ec2869a2f18c1717eae671d8aace860/kaldifst-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-subbuild/CMakeFiles/3ec2869a2f18c1717eae671d8aace860/kaldifst-populate-test.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-subbuild/CMakeFiles/3ec2869a2f18c1717eae671d8aace860/kaldifst-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"kaldifst-populate"
+		],
+		"name" : "kaldifst-populate"
+	}
+}

@@ -1,0 +1,152 @@
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\EIGEN-SUBBUILD\CMAKEFILES\FC68345C97EFDA7D4B5409B20207CE9A\EIGEN-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/eigen-populate-prefix/tmp/eigen-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/Debug/eigen-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\EIGEN-SUBBUILD\CMAKEFILES\FC68345C97EFDA7D4B5409B20207CE9A\EIGEN-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/download-eigen-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/verify-eigen-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/extract-eigen-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/Debug/eigen-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\EIGEN-SUBBUILD\CMAKEFILES\FC68345C97EFDA7D4B5409B20207CE9A\EIGEN-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/Debug/eigen-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\EIGEN-SUBBUILD\CMAKEFILES\FC68345C97EFDA7D4B5409B20207CE9A\EIGEN-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/Debug/eigen-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\EIGEN-SUBBUILD\CMAKEFILES\FC68345C97EFDA7D4B5409B20207CE9A\EIGEN-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/Debug/eigen-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\EIGEN-SUBBUILD\CMAKEFILES\FC68345C97EFDA7D4B5409B20207CE9A\EIGEN-POPULATE-BUILD.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/Debug/eigen-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\EIGEN-SUBBUILD\CMAKEFILES\FC68345C97EFDA7D4B5409B20207CE9A\EIGEN-POPULATE-INSTALL.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/Debug/eigen-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\EIGEN-SUBBUILD\CMAKEFILES\FC68345C97EFDA7D4B5409B20207CE9A\EIGEN-POPULATE-TEST.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/Debug/eigen-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\EIGEN-SUBBUILD\CMAKEFILES\F3DF8FD038832BC4858DB2AC3C63E325\EIGEN-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/CMakeFiles/Debug/eigen-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/eigen-populate-prefix/src/eigen-populate-stamp/Debug/eigen-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\EIGEN-SUBBUILD\CMAKEFILES\17C85DD7DDB12630F85F318E284664FE\EIGEN-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\EIGEN-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild -BD:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

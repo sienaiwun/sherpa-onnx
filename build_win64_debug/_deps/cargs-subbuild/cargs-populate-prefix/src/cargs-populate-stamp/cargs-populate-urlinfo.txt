@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cargs-subbuild/cargs-populate-prefix/src/cargs-populate-stamp/download-cargs-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cargs-subbuild/cargs-populate-prefix/src/cargs-populate-stamp/verify-cargs-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cargs-subbuild/cargs-populate-prefix/src/cargs-populate-stamp/extract-cargs-populate.cmake
+source_dir=D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cargs-src
+work_dir=D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps
+url(s)=https://github.com/likle/cargs/archive/refs/tags/v1.0.3.tar.gz;https://hf-mirror.com/csukuangfj/sherpa-onnx-cmake-deps/resolve/main/cargs-1.0.3.tar.gz
+hash=SHA256=ddba25bd35e9c6c75bc706c126001b8ce8e084d40ef37050e6aa6963e836eb8b
+      no_extract=
+

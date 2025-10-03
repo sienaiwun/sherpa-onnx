@@ -1,0 +1,10 @@
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\ESPEAK_NG-SRC\SRC\LIBESPEAK-NG\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx -BD:/Sound/sienaiwun/sherpa-onnx/build_win64 --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/espeak_ng-build/src/libespeak-ng/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

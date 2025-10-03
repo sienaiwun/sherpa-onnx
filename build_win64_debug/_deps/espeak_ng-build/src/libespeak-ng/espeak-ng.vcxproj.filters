@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\mnemonics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\ieee80.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\compiledata.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\compiledict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\dictionary.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\encoding.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\intonation.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\langopts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\numbers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\phoneme.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\phonemelist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\readclause.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\setlengths.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\soundicon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\spect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\ssml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\synthdata.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\synthesize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\tr_languages.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\translate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\translateword.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\voices.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\wavegen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\speech.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\espeak_api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-src\src\libespeak-ng\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CCB33CA8-F9D1-38AB-A658-0773CE2A6B5B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

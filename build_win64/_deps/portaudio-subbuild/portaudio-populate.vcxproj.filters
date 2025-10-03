@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-subbuild\CMakeFiles\55e995b856299bd3913ebd98c16d4243\portaudio-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-subbuild\CMakeFiles\55e995b856299bd3913ebd98c16d4243\portaudio-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-subbuild\CMakeFiles\55e995b856299bd3913ebd98c16d4243\portaudio-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-subbuild\CMakeFiles\55e995b856299bd3913ebd98c16d4243\portaudio-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-subbuild\CMakeFiles\55e995b856299bd3913ebd98c16d4243\portaudio-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-subbuild\CMakeFiles\55e995b856299bd3913ebd98c16d4243\portaudio-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-subbuild\CMakeFiles\55e995b856299bd3913ebd98c16d4243\portaudio-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-subbuild\CMakeFiles\55e995b856299bd3913ebd98c16d4243\portaudio-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-subbuild\CMakeFiles\8475ceade60093a0a4e8941d39839a60\portaudio-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-subbuild\CMakeFiles\04c00ade208a46d8e232ca3ca8437b53\portaudio-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\portaudio-subbuild\CMakeFiles\portaudio-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3665C022-80E8-3518-A05A-14475741A75D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

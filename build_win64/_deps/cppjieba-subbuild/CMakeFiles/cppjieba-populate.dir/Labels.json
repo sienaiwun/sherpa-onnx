@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/cppjieba-populate"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/70eebb27952c0bc434de611f269f825f/cppjieba-populate.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/c2b8324af4faa050cd5bcdaedcbb0826/cppjieba-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-build.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-download.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-install.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-test.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cppjieba-populate"
+		],
+		"name" : "cppjieba-populate"
+	}
+}

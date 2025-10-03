@@ -1,0 +1,10 @@
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_DECODER-SUBBUILD\CMAKEFILES\5C3665C938AD8BF756F97588BB8B5D9C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild -BD:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/kaldi_decoder-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\arciterator-class.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\arcsort.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\closure.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\compile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\compose.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\concat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\connect.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\convert.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\decode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\determinize.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\difference.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\disambiguate.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\draw.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\encode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\encodemapper-class.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\epsnormalize.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\equal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\equivalent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\fst-class.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\getters.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\info.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\info-impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\intersect.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\invert.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\isomorphic.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\map.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\minimize.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\print.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\project.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\prune.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\push.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\randequivalent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\randgen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\relabel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\replace.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\reverse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\reweight.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\rmepsilon.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\shortest-distance.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\shortest-path.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\stateiterator-class.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\synchronize.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\text-io.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\topsort.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\union.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\weight-class.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\verify.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\arc-class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\arciterator-class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\arcsort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\arg-packs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\closure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\compile-impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\compile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\compose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\concat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\connect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\convert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\decode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\determinize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\difference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\disambiguate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\draw-impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\encode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\encodemapper-class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\epsnormalize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\equal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\equivalent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\fst-class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\fstscript-decl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\fstscript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\getters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\info-impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\intersect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\invert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\isomorphic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\minimize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\print-impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\project.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\prune.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\push.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\randequivalent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\randgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\relabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\replace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\reverse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\reweight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\rmepsilon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\script-impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\shortest-distance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\shortest-path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\stateiterator-class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\synchronize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\text-io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\topsort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\union.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\verify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\script\weight-class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\script\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B353B1E7-E6E6-30AC-BE0C-B75368C5227B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CCB33CA8-F9D1-38AB-A658-0773CE2A6B5B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

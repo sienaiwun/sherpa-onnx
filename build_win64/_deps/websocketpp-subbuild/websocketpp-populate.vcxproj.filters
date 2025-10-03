@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-subbuild\CMakeFiles\a225db2c906fa5921592ebb2b7b3c18e\websocketpp-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-subbuild\CMakeFiles\a225db2c906fa5921592ebb2b7b3c18e\websocketpp-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-subbuild\CMakeFiles\a225db2c906fa5921592ebb2b7b3c18e\websocketpp-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-subbuild\CMakeFiles\a225db2c906fa5921592ebb2b7b3c18e\websocketpp-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-subbuild\CMakeFiles\a225db2c906fa5921592ebb2b7b3c18e\websocketpp-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-subbuild\CMakeFiles\a225db2c906fa5921592ebb2b7b3c18e\websocketpp-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-subbuild\CMakeFiles\a225db2c906fa5921592ebb2b7b3c18e\websocketpp-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-subbuild\CMakeFiles\a225db2c906fa5921592ebb2b7b3c18e\websocketpp-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-subbuild\CMakeFiles\c07c16d7b8589d190b81dc195ae2d42d\websocketpp-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-subbuild\CMakeFiles\a7074769c258ab3b018c435edef2b274\websocketpp-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-subbuild\CMakeFiles\websocketpp-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0D7F15CA-DFD1-35EF-8E71-D3ECE8B65314}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

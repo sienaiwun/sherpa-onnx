@@ -1,0 +1,152 @@
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_DECODER-SUBBUILD\CMAKEFILES\6CF039AEA01BC6503AE685E56E39B810\KALDI_DECODER-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/kaldi_decoder-populate-prefix/tmp/kaldi_decoder-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/kaldi_decoder-populate-prefix/src/kaldi_decoder-populate-stamp/Debug/kaldi_decoder-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_DECODER-SUBBUILD\CMAKEFILES\6CF039AEA01BC6503AE685E56E39B810\KALDI_DECODER-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/kaldi_decoder-populate-prefix/src/kaldi_decoder-populate-stamp/download-kaldi_decoder-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/kaldi_decoder-populate-prefix/src/kaldi_decoder-populate-stamp/verify-kaldi_decoder-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/kaldi_decoder-populate-prefix/src/kaldi_decoder-populate-stamp/extract-kaldi_decoder-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/kaldi_decoder-populate-prefix/src/kaldi_decoder-populate-stamp/Debug/kaldi_decoder-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_DECODER-SUBBUILD\CMAKEFILES\6CF039AEA01BC6503AE685E56E39B810\KALDI_DECODER-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/kaldi_decoder-populate-prefix/src/kaldi_decoder-populate-stamp/Debug/kaldi_decoder-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_DECODER-SUBBUILD\CMAKEFILES\6CF039AEA01BC6503AE685E56E39B810\KALDI_DECODER-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/kaldi_decoder-populate-prefix/src/kaldi_decoder-populate-stamp/Debug/kaldi_decoder-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_DECODER-SUBBUILD\CMAKEFILES\6CF039AEA01BC6503AE685E56E39B810\KALDI_DECODER-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/kaldi_decoder-populate-prefix/src/kaldi_decoder-populate-stamp/Debug/kaldi_decoder-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_DECODER-SUBBUILD\CMAKEFILES\6CF039AEA01BC6503AE685E56E39B810\KALDI_DECODER-POPULATE-BUILD.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/kaldi_decoder-populate-prefix/src/kaldi_decoder-populate-stamp/Debug/kaldi_decoder-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_DECODER-SUBBUILD\CMAKEFILES\6CF039AEA01BC6503AE685E56E39B810\KALDI_DECODER-POPULATE-INSTALL.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/kaldi_decoder-populate-prefix/src/kaldi_decoder-populate-stamp/Debug/kaldi_decoder-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_DECODER-SUBBUILD\CMAKEFILES\6CF039AEA01BC6503AE685E56E39B810\KALDI_DECODER-POPULATE-TEST.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/kaldi_decoder-populate-prefix/src/kaldi_decoder-populate-stamp/Debug/kaldi_decoder-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_DECODER-SUBBUILD\CMAKEFILES\C1A893BCE4FEC0FBEB5DC42012EFFA6F\KALDI_DECODER-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/CMakeFiles/Debug/kaldi_decoder-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/kaldi_decoder-populate-prefix/src/kaldi_decoder-populate-stamp/Debug/kaldi_decoder-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_DECODER-SUBBUILD\CMAKEFILES\5C3665C938AD8BF756F97588BB8B5D9C\KALDI_DECODER-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_DECODER-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild -BD:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cargs-subbuild\CMakeFiles\e8ea65e912e451571c7178bc97ce7dfa\cargs-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cargs-subbuild\CMakeFiles\e8ea65e912e451571c7178bc97ce7dfa\cargs-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cargs-subbuild\CMakeFiles\e8ea65e912e451571c7178bc97ce7dfa\cargs-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cargs-subbuild\CMakeFiles\e8ea65e912e451571c7178bc97ce7dfa\cargs-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cargs-subbuild\CMakeFiles\e8ea65e912e451571c7178bc97ce7dfa\cargs-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cargs-subbuild\CMakeFiles\e8ea65e912e451571c7178bc97ce7dfa\cargs-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cargs-subbuild\CMakeFiles\e8ea65e912e451571c7178bc97ce7dfa\cargs-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cargs-subbuild\CMakeFiles\e8ea65e912e451571c7178bc97ce7dfa\cargs-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cargs-subbuild\CMakeFiles\05f187100079cd39ff1d359143a934df\cargs-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cargs-subbuild\CMakeFiles\bf13200eebf6dd1cff4b28abf8564e2e\cargs-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cargs-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cargs-subbuild\CMakeFiles\cargs-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0AD29447-B32D-32FF-A9C9-0ACA09EC15D9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

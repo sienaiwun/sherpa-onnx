@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-subbuild\CMakeFiles\6cf039aea01bc6503ae685e56e39b810\kaldi_decoder-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-subbuild\CMakeFiles\6cf039aea01bc6503ae685e56e39b810\kaldi_decoder-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-subbuild\CMakeFiles\6cf039aea01bc6503ae685e56e39b810\kaldi_decoder-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-subbuild\CMakeFiles\6cf039aea01bc6503ae685e56e39b810\kaldi_decoder-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-subbuild\CMakeFiles\6cf039aea01bc6503ae685e56e39b810\kaldi_decoder-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-subbuild\CMakeFiles\6cf039aea01bc6503ae685e56e39b810\kaldi_decoder-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-subbuild\CMakeFiles\6cf039aea01bc6503ae685e56e39b810\kaldi_decoder-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-subbuild\CMakeFiles\6cf039aea01bc6503ae685e56e39b810\kaldi_decoder-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-subbuild\CMakeFiles\c1a893bce4fec0fbeb5dc42012effa6f\kaldi_decoder-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-subbuild\CMakeFiles\5c3665c938ad8bf756f97588bb8b5d9c\kaldi_decoder-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-subbuild\CMakeFiles\kaldi_decoder-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0CC122D5-CD19-3F39-8DD7-078635907A44}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

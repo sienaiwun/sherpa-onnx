@@ -1,0 +1,1 @@
+from .cppinyin import Encoder

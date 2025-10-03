@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/piper_phonemize-subbuild/CMakeFiles/piper_phonemize-populate"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/piper_phonemize-subbuild/CMakeFiles/672999c00b6efefa7d1dd432bc245f7b/piper_phonemize-populate.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/piper_phonemize-subbuild/CMakeFiles/cc15a8254e3072be2952dc4572de8efa/piper_phonemize-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/piper_phonemize-subbuild/CMakeFiles/59a39631a66f4cad8180849f71b1b033/piper_phonemize-populate-build.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/piper_phonemize-subbuild/CMakeFiles/59a39631a66f4cad8180849f71b1b033/piper_phonemize-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/piper_phonemize-subbuild/CMakeFiles/59a39631a66f4cad8180849f71b1b033/piper_phonemize-populate-download.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/piper_phonemize-subbuild/CMakeFiles/59a39631a66f4cad8180849f71b1b033/piper_phonemize-populate-install.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/piper_phonemize-subbuild/CMakeFiles/59a39631a66f4cad8180849f71b1b033/piper_phonemize-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/piper_phonemize-subbuild/CMakeFiles/59a39631a66f4cad8180849f71b1b033/piper_phonemize-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/piper_phonemize-subbuild/CMakeFiles/59a39631a66f4cad8180849f71b1b033/piper_phonemize-populate-test.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/piper_phonemize-subbuild/CMakeFiles/59a39631a66f4cad8180849f71b1b033/piper_phonemize-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"piper_phonemize-populate"
+		],
+		"name" : "piper_phonemize-populate"
+	}
+}

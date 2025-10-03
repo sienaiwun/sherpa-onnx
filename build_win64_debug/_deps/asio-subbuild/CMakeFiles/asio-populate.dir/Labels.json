@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/asio-populate"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/46a51565462d34aab67c9584e547fb30/asio-populate.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/8d241d636457798277a1eed9516662c7/asio-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-build.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-download.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-install.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-test.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"asio-populate"
+		],
+		"name" : "asio-populate"
+	}
+}

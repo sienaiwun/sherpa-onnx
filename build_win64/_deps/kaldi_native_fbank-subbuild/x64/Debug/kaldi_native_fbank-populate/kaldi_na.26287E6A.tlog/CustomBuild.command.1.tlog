@@ -1,0 +1,152 @@
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_NATIVE_FBANK-SUBBUILD\CMAKEFILES\09F31897EE52333198ADFB6FF8265C0D\KALDI_NATIVE_FBANK-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/kaldi_native_fbank-populate-prefix/tmp/kaldi_native_fbank-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/kaldi_native_fbank-populate-prefix/src/kaldi_native_fbank-populate-stamp/Debug/kaldi_native_fbank-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_NATIVE_FBANK-SUBBUILD\CMAKEFILES\09F31897EE52333198ADFB6FF8265C0D\KALDI_NATIVE_FBANK-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/kaldi_native_fbank-populate-prefix/src/kaldi_native_fbank-populate-stamp/download-kaldi_native_fbank-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/kaldi_native_fbank-populate-prefix/src/kaldi_native_fbank-populate-stamp/verify-kaldi_native_fbank-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/kaldi_native_fbank-populate-prefix/src/kaldi_native_fbank-populate-stamp/extract-kaldi_native_fbank-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/kaldi_native_fbank-populate-prefix/src/kaldi_native_fbank-populate-stamp/Debug/kaldi_native_fbank-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_NATIVE_FBANK-SUBBUILD\CMAKEFILES\09F31897EE52333198ADFB6FF8265C0D\KALDI_NATIVE_FBANK-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/kaldi_native_fbank-populate-prefix/src/kaldi_native_fbank-populate-stamp/Debug/kaldi_native_fbank-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_NATIVE_FBANK-SUBBUILD\CMAKEFILES\09F31897EE52333198ADFB6FF8265C0D\KALDI_NATIVE_FBANK-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/kaldi_native_fbank-populate-prefix/src/kaldi_native_fbank-populate-stamp/Debug/kaldi_native_fbank-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_NATIVE_FBANK-SUBBUILD\CMAKEFILES\09F31897EE52333198ADFB6FF8265C0D\KALDI_NATIVE_FBANK-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/kaldi_native_fbank-populate-prefix/src/kaldi_native_fbank-populate-stamp/Debug/kaldi_native_fbank-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_NATIVE_FBANK-SUBBUILD\CMAKEFILES\09F31897EE52333198ADFB6FF8265C0D\KALDI_NATIVE_FBANK-POPULATE-BUILD.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/kaldi_native_fbank-populate-prefix/src/kaldi_native_fbank-populate-stamp/Debug/kaldi_native_fbank-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_NATIVE_FBANK-SUBBUILD\CMAKEFILES\09F31897EE52333198ADFB6FF8265C0D\KALDI_NATIVE_FBANK-POPULATE-INSTALL.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/kaldi_native_fbank-populate-prefix/src/kaldi_native_fbank-populate-stamp/Debug/kaldi_native_fbank-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_NATIVE_FBANK-SUBBUILD\CMAKEFILES\09F31897EE52333198ADFB6FF8265C0D\KALDI_NATIVE_FBANK-POPULATE-TEST.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/kaldi_native_fbank-populate-prefix/src/kaldi_native_fbank-populate-stamp/Debug/kaldi_native_fbank-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_NATIVE_FBANK-SUBBUILD\CMAKEFILES\5B2D5F73C218625AEC5DA432577FFE94\KALDI_NATIVE_FBANK-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/CMakeFiles/Debug/kaldi_native_fbank-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/kaldi_native_fbank-populate-prefix/src/kaldi_native_fbank-populate-stamp/Debug/kaldi_native_fbank-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_NATIVE_FBANK-SUBBUILD\CMAKEFILES\C5BFBF7B1DAA6B426A343E159F560714\KALDI_NATIVE_FBANK-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64\_DEPS\KALDI_NATIVE_FBANK-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild -BD:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

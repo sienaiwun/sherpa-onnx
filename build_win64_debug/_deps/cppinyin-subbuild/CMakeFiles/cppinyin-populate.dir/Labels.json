@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/cppinyin-populate"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/fe4f94c9f674d457986d44b7aa35ac00/cppinyin-populate.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/71731c666d50ae3d138fd33ac686c7ac/cppinyin-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-build.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-download.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-install.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-test.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cppinyin-populate"
+		],
+		"name" : "cppinyin-populate"
+	}
+}

@@ -1,0 +1,14 @@
+# Target labels
+ simple-sentencepiece-populate
+# Source files and their labels
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/CMakeFiles/simple-sentencepiece-populate
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/CMakeFiles/732ebcd70c3097afd3536e1823a6a040/simple-sentencepiece-populate.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/CMakeFiles/3b0e431af123d33daf28326e2dd1743b/simple-sentencepiece-populate-complete.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/CMakeFiles/b3fbf9b0c124d348be33463b39cc52c7/simple-sentencepiece-populate-build.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/CMakeFiles/b3fbf9b0c124d348be33463b39cc52c7/simple-sentencepiece-populate-configure.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/CMakeFiles/b3fbf9b0c124d348be33463b39cc52c7/simple-sentencepiece-populate-download.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/CMakeFiles/b3fbf9b0c124d348be33463b39cc52c7/simple-sentencepiece-populate-install.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/CMakeFiles/b3fbf9b0c124d348be33463b39cc52c7/simple-sentencepiece-populate-mkdir.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/CMakeFiles/b3fbf9b0c124d348be33463b39cc52c7/simple-sentencepiece-populate-patch.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/CMakeFiles/b3fbf9b0c124d348be33463b39cc52c7/simple-sentencepiece-populate-test.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/CMakeFiles/b3fbf9b0c124d348be33463b39cc52c7/simple-sentencepiece-populate-update.rule

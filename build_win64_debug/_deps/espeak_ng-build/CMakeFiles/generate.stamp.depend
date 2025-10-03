@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.31/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CTest.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CTestUseLaunchers.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-3.31/Templates/CPackConfig.cmake.in
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-src/CMakeLists.txt
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-src/cmake/config.cmake
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-src/cmake/deps.cmake
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-src/cmake/docs.cmake
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-src/cmake/package.cmake
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-src/espeak-ng.pc.in

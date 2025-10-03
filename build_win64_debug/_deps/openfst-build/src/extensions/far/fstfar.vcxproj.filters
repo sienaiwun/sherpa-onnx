@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\extensions\far\sttable.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\extensions\far\stlist.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\compile-strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\create.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\equal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\extract.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\far-class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\far.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\farlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\farscript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\getters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\isomorphic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\print-strings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\script-impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\stlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\include\fst\extensions\far\sttable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\openfst-src\src\extensions\far\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B353B1E7-E6E6-30AC-BE0C-B75368C5227B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CCB33CA8-F9D1-38AB-A658-0773CE2A6B5B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

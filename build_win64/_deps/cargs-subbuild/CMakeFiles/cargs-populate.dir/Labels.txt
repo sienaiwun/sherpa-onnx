@@ -1,0 +1,14 @@
+# Target labels
+ cargs-populate
+# Source files and their labels
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cargs-subbuild/CMakeFiles/cargs-populate
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cargs-subbuild/CMakeFiles/bf13200eebf6dd1cff4b28abf8564e2e/cargs-populate.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cargs-subbuild/CMakeFiles/05f187100079cd39ff1d359143a934df/cargs-populate-complete.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cargs-subbuild/CMakeFiles/e8ea65e912e451571c7178bc97ce7dfa/cargs-populate-build.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cargs-subbuild/CMakeFiles/e8ea65e912e451571c7178bc97ce7dfa/cargs-populate-configure.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cargs-subbuild/CMakeFiles/e8ea65e912e451571c7178bc97ce7dfa/cargs-populate-download.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cargs-subbuild/CMakeFiles/e8ea65e912e451571c7178bc97ce7dfa/cargs-populate-install.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cargs-subbuild/CMakeFiles/e8ea65e912e451571c7178bc97ce7dfa/cargs-populate-mkdir.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cargs-subbuild/CMakeFiles/e8ea65e912e451571c7178bc97ce7dfa/cargs-populate-patch.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cargs-subbuild/CMakeFiles/e8ea65e912e451571c7178bc97ce7dfa/cargs-populate-test.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cargs-subbuild/CMakeFiles/e8ea65e912e451571c7178bc97ce7dfa/cargs-populate-update.rule

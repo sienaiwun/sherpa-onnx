@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\base64-decode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\bbpe.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\cat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\circular-buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\context-graph.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\endpoint.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\features.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\file-utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\fst-utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\homophone-replacer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\hypothesis.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\jieba.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\keyword-spotter-impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\keyword-spotter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\lodr-fst.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\log-sink.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-canary-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-canary-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-ctc-fst-decoder-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-ctc-fst-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-ctc-greedy-search-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-ctc-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-dolphin-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-dolphin-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-fire-red-asr-greedy-search-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-fire-red-asr-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-fire-red-asr-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-lm-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-lm.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-moonshine-greedy-search-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-moonshine-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-moonshine-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-nemo-enc-dec-ctc-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-nemo-enc-dec-ctc-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-paraformer-greedy-search-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-paraformer-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-paraformer-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-recognizer-impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-recognizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-rnn-lm.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-sense-voice-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-sense-voice-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-source-separation-impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-source-separation-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-source-separation-spleeter-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-source-separation-spleeter-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-source-separation-uvr-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-source-separation-uvr-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-source-separation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-stream.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tdnn-ctc-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tdnn-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-telespeech-ctc-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-transducer-greedy-search-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-transducer-greedy-search-nemo-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-transducer-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-transducer-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-transducer-modified-beam-search-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-transducer-nemo-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-wenet-ctc-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-wenet-ctc-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-whisper-greedy-search-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-whisper-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-whisper-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-zipformer-ctc-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-zipformer-ctc-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-conformer-transducer-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-ctc-fst-decoder-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-ctc-fst-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-ctc-greedy-search-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-ctc-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-ebranchformer-transducer-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-lm-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-lm.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-lstm-transducer-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-nemo-ctc-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-nemo-ctc-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-paraformer-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-paraformer-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-recognizer-impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-recognizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-rnn-lm.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-stream.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-t-one-ctc-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-t-one-ctc-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-transducer-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-transducer-greedy-search-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-transducer-greedy-search-nemo-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-transducer-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-transducer-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-transducer-modified-beam-search-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-transducer-nemo-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-wenet-ctc-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-wenet-ctc-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-zipformer-transducer-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-zipformer2-ctc-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-zipformer2-ctc-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-zipformer2-transducer-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\onnx-utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\packed-sequence.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\pad-sequence.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\parse-options.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\provider-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\provider.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\resample.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\session.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\silero-vad-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\silero-vad-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\slice.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\spoken-language-identification-impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\spoken-language-identification.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\stack.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\symbol-table.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\ten-vad-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\ten-vad-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\text-utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\transducer-keyword-decoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\transpose.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\unbind.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\vad-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\vad-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\version.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\voice-activity-detector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\wave-reader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\wave-writer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\speaker-embedding-extractor-impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\speaker-embedding-extractor-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\speaker-embedding-extractor-nemo-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\speaker-embedding-extractor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\speaker-embedding-manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\audio-tagging-impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\audio-tagging-label-file.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\audio-tagging-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\audio-tagging.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-ced-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-zipformer-audio-tagging-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-zipformer-audio-tagging-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-ct-transformer-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-punctuation-impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-punctuation-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-punctuation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-cnn-bilstm-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-punctuation-impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-punctuation-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\online-punctuation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\EspeakDataPacker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\hifigan-vocoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\jieba-lexicon.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\kokoro-multi-lang-lexicon.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\lexicon.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\melo-tts-lexicon.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-character-frontend.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-frontend.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-kitten-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-kitten-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-kokoro-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-kokoro-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-matcha-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-matcha-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-vits-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-vits-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-zipvoice-frontend.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-zipvoice-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts-zipvoice-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-tts.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\piper-phonemize-lexicon.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\vocoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\vocos-vocoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-speech-denoiser-gtcrn-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-speech-denoiser-gtcrn-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-speech-denoiser-impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-speech-denoiser-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-speech-denoiser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\fast-clustering-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\fast-clustering.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-speaker-diarization-impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-speaker-diarization-result.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-speaker-diarization.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-speaker-segmentation-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-speaker-segmentation-pyannote-model-config.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\offline-speaker-segmentation-pyannote-model.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\sherpa-onnx\csrc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CCB33CA8-F9D1-38AB-A658-0773CE2A6B5B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+# Target labels
+ cppinyin-populate
+# Source files and their labels
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/cppinyin-populate
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/fe4f94c9f674d457986d44b7aa35ac00/cppinyin-populate.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/71731c666d50ae3d138fd33ac686c7ac/cppinyin-populate-complete.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-build.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-configure.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-download.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-install.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-mkdir.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-patch.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-test.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/CMakeFiles/f8a89e9efb10075ce2ba178106f0d6b3/cppinyin-populate-update.rule

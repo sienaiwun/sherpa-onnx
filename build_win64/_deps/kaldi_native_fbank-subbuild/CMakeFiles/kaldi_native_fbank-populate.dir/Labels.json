@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/CMakeFiles/kaldi_native_fbank-populate"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/CMakeFiles/c5bfbf7b1daa6b426a343e159f560714/kaldi_native_fbank-populate.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/CMakeFiles/5b2d5f73c218625aec5da432577ffe94/kaldi_native_fbank-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/CMakeFiles/09f31897ee52333198adfb6ff8265c0d/kaldi_native_fbank-populate-build.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/CMakeFiles/09f31897ee52333198adfb6ff8265c0d/kaldi_native_fbank-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/CMakeFiles/09f31897ee52333198adfb6ff8265c0d/kaldi_native_fbank-populate-download.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/CMakeFiles/09f31897ee52333198adfb6ff8265c0d/kaldi_native_fbank-populate-install.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/CMakeFiles/09f31897ee52333198adfb6ff8265c0d/kaldi_native_fbank-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/CMakeFiles/09f31897ee52333198adfb6ff8265c0d/kaldi_native_fbank-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/CMakeFiles/09f31897ee52333198adfb6ff8265c0d/kaldi_native_fbank-populate-test.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-subbuild/CMakeFiles/09f31897ee52333198adfb6ff8265c0d/kaldi_native_fbank-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"kaldi_native_fbank-populate"
+		],
+		"name" : "kaldi_native_fbank-populate"
+	}
+}

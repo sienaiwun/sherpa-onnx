@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C3BDDCDF-FEE3-39AC-AD6F-1D7001123787}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\hclust_cpp-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\hclust_cpp-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\hclust_cpp-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\hclust_cpp-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Sound/sienaiwun/sherpa-onnx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx -BD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeCCompiler.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeCXXCompiler.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeRCCompiler.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeSystem.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\asio.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\cppinyin.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\cppinyin.patch;D:\Sound\sienaiwun\sherpa-onnx\cmake\cppjieba.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\espeak-ng-for-piper.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\hclust-cpp.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\kaldi-decoder.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\kaldi-native-fbank.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\onnxruntime-win-x64.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\onnxruntime.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\piper-phonemize.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\portaudio.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\sherpa-onnx-shared.pc.in;D:\Sound\sienaiwun\sherpa-onnx\cmake\show-info.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\simple-sentencepiece.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\websocketpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Sound/sienaiwun/sherpa-onnx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx -BD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeCCompiler.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeCXXCompiler.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeRCCompiler.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeSystem.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\asio.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\cppinyin.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\cppinyin.patch;D:\Sound\sienaiwun\sherpa-onnx\cmake\cppjieba.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\espeak-ng-for-piper.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\hclust-cpp.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\kaldi-decoder.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\kaldi-native-fbank.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\onnxruntime-win-x64.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\onnxruntime.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\piper-phonemize.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\portaudio.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\sherpa-onnx-shared.pc.in;D:\Sound\sienaiwun\sherpa-onnx\cmake\show-info.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\simple-sentencepiece.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\websocketpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Sound/sienaiwun/sherpa-onnx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx -BD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeCCompiler.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeCXXCompiler.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeRCCompiler.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeSystem.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\asio.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\cppinyin.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\cppinyin.patch;D:\Sound\sienaiwun\sherpa-onnx\cmake\cppjieba.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\espeak-ng-for-piper.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\hclust-cpp.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\kaldi-decoder.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\kaldi-native-fbank.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\onnxruntime-win-x64.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\onnxruntime.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\piper-phonemize.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\portaudio.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\sherpa-onnx-shared.pc.in;D:\Sound\sienaiwun\sherpa-onnx\cmake\show-info.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\simple-sentencepiece.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\websocketpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Sound/sienaiwun/sherpa-onnx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx -BD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeCCompiler.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeCXXCompiler.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeRCCompiler.cmake;D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\3.31.0\CMakeSystem.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\asio.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\cppinyin.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\cppinyin.patch;D:\Sound\sienaiwun\sherpa-onnx\cmake\cppjieba.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\espeak-ng-for-piper.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\hclust-cpp.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\kaldi-decoder.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\kaldi-native-fbank.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\onnxruntime-win-x64.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\onnxruntime.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\piper-phonemize.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\portaudio.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\sherpa-onnx-shared.pc.in;D:\Sound\sienaiwun\sherpa-onnx\cmake\show-info.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\simple-sentencepiece.cmake;D:\Sound\sienaiwun\sherpa-onnx\cmake\websocketpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\ZERO_CHECK.vcxproj">
+      <Project>{CFC1964F-2D78-3121-B1E4-B6EB1E6BC7EA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\add-punctuation-c-api.vcxproj">
+      <Project>{458AA50E-058F-32A1-895E-6445A4BF1601}</Project>
+      <Name>add-punctuation-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\audio-tagging-c-api.vcxproj">
+      <Project>{C7553E9B-73DD-3C2D-84A4-5FBDE172E688}</Project>
+      <Name>audio-tagging-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\decode-file-c-api.vcxproj">
+      <Project>{9749C194-FB61-366D-8A5E-0902F9110AD4}</Project>
+      <Name>decode-file-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\dolphin-ctc-c-api.vcxproj">
+      <Project>{7299A2C9-67F6-3702-9739-76306274725E}</Project>
+      <Name>dolphin-ctc-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\dolphin-ctc-cxx-api.vcxproj">
+      <Project>{93AE2B5F-D985-3FA9-A0BC-B06E319037F5}</Project>
+      <Name>dolphin-ctc-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-build\src\libespeak-ng\espeak-ng.vcxproj">
+      <Project>{034AF954-F8D1-3D82-A29F-547DACBA0029}</Project>
+      <Name>espeak-ng</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\espeak_data_packer.vcxproj">
+      <Project>{3DEB6601-AB4F-37AC-9F1E-A6A8B1B5C9D9}</Project>
+      <Name>espeak_data_packer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\espeak_data_unpacker.vcxproj">
+      <Project>{2F3C28AB-E801-3B8A-A08A-1B17C3498F7C}</Project>
+      <Name>espeak_data_unpacker</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\fire-red-asr-c-api.vcxproj">
+      <Project>{829C95F0-9FCD-3C55-989E-89CA8212BE93}</Project>
+      <Name>fire-red-asr-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\fire-red-asr-cxx-api.vcxproj">
+      <Project>{E473A816-5B2A-34F2-8315-AA7F82A9D299}</Project>
+      <Name>fire-red-asr-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\keywords-spotter-buffered-tokens-keywords-c-api.vcxproj">
+      <Project>{B8A1102B-071B-3364-98AE-503EEC5E705C}</Project>
+      <Name>keywords-spotter-buffered-tokens-keywords-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\kitten-tts-en-c-api.vcxproj">
+      <Project>{28874A5C-349B-396F-80EB-6440E71E9A53}</Project>
+      <Name>kitten-tts-en-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\kitten-tts-en-cxx-api.vcxproj">
+      <Project>{73C59CD5-7BDA-3F87-851E-38DA0E0F1C69}</Project>
+      <Name>kitten-tts-en-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\kokoro-tts-en-c-api.vcxproj">
+      <Project>{0D1BD2F5-6F79-3C6D-B21E-6FE2836B0E65}</Project>
+      <Name>kokoro-tts-en-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\kokoro-tts-en-cxx-api.vcxproj">
+      <Project>{A05E2B02-A962-3EA3-8C43-46377644B18F}</Project>
+      <Name>kokoro-tts-en-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\kokoro-tts-zh-en-c-api.vcxproj">
+      <Project>{9C107D38-2996-3FC5-84AF-06571FAD2D28}</Project>
+      <Name>kokoro-tts-zh-en-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\kokoro-tts-zh-en-cxx-api.vcxproj">
+      <Project>{4D99BA24-A093-3A2E-A0DD-44FE8B30827A}</Project>
+      <Name>kokoro-tts-zh-en-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\kws-c-api.vcxproj">
+      <Project>{2F62BB3A-92FC-3805-B03A-E2D7A8275D59}</Project>
+      <Name>kws-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\kws-cxx-api.vcxproj">
+      <Project>{7586443E-013D-345D-A62A-02AB22898BF6}</Project>
+      <Name>kws-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\matcha-tts-en-c-api.vcxproj">
+      <Project>{832888AF-9534-3A3E-BDC0-864876498608}</Project>
+      <Name>matcha-tts-en-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\matcha-tts-en-cxx-api.vcxproj">
+      <Project>{A9ED89A7-4CD4-359A-BA2A-75EADF8A07D3}</Project>
+      <Name>matcha-tts-en-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\matcha-tts-zh-c-api.vcxproj">
+      <Project>{70EF3675-C0A0-3776-9088-2BBEFD96EAD4}</Project>
+      <Name>matcha-tts-zh-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\matcha-tts-zh-cxx-api.vcxproj">
+      <Project>{D4C026F9-E2F0-313A-B936-D6101F739174}</Project>
+      <Name>matcha-tts-zh-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\moonshine-c-api.vcxproj">
+      <Project>{63B1809A-E236-3CC6-906C-3CA4E885ECCD}</Project>
+      <Name>moonshine-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\moonshine-cxx-api.vcxproj">
+      <Project>{18723CA8-8A6C-3E45-8E75-BD87614C0253}</Project>
+      <Name>moonshine-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\nemo-canary-c-api.vcxproj">
+      <Project>{55BC63CE-C09A-389D-B4A3-74DD2DADA26A}</Project>
+      <Name>nemo-canary-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\nemo-canary-cxx-api.vcxproj">
+      <Project>{31E833B9-2A17-3006-90AA-9B3207BC7B74}</Project>
+      <Name>nemo-canary-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\nemo-parakeet-c-api.vcxproj">
+      <Project>{18DDB888-EBC5-3E69-AFF8-7065C5302FEE}</Project>
+      <Name>nemo-parakeet-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\offline-speaker-diarization-c-api.vcxproj">
+      <Project>{FD95152F-15BD-301F-85DC-2EC898FC6D39}</Project>
+      <Name>offline-speaker-diarization-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\offline-tts-c-api.vcxproj">
+      <Project>{CDC999E6-277E-3BD8-8A45-B52FA8B9DE40}</Project>
+      <Name>offline-tts-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\paraformer-c-api.vcxproj">
+      <Project>{5E832831-228A-3CB5-93BD-7BA4CA7A5F6D}</Project>
+      <Name>paraformer-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\parakeet-tdt-ctc-simulate-streaming-microphone-cxx-api.vcxproj">
+      <Project>{0AB928CD-3C39-3C93-B74A-58F34172D0AB}</Project>
+      <Name>parakeet-tdt-ctc-simulate-streaming-microphone-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\parakeet-tdt-simulate-streaming-microphone-cxx-api.vcxproj">
+      <Project>{EC776F55-E38B-35B0-9171-DCFB8C1767F8}</Project>
+      <Name>parakeet-tdt-simulate-streaming-microphone-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\punctuation-cxx-api.vcxproj">
+      <Project>{59258156-1138-3BC0-AFE8-9482891F58A6}</Project>
+      <Name>punctuation-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\sense-voice-c-api.vcxproj">
+      <Project>{91688A4B-9357-35F5-9A42-F6C0A39CCDE1}</Project>
+      <Name>sense-voice-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\sense-voice-cxx-api.vcxproj">
+      <Project>{3516C71D-D166-3F97-986E-72C5AB5A1911}</Project>
+      <Name>sense-voice-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\sense-voice-simulate-streaming-microphone-cxx-api.vcxproj">
+      <Project>{FF88713B-CFE7-3C89-ADF6-7C1ABE8A0295}</Project>
+      <Name>sense-voice-simulate-streaming-microphone-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\sense-voice-with-hr-c-api.vcxproj">
+      <Project>{59B8F4B9-90F6-3186-B39D-EEB2AED5035E}</Project>
+      <Name>sense-voice-with-hr-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\sense-voice-with-hr-cxx-api.vcxproj">
+      <Project>{FBCB0719-B9AA-3186-BD41-09597ED51B2B}</Project>
+      <Name>sense-voice-with-hr-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx.vcxproj">
+      <Project>{D32724D8-D14D-3665-A42F-4CCFD23F36A1}</Project>
+      <Name>sherpa-onnx</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\c-api\sherpa-onnx-c-api.vcxproj">
+      <Project>{45282231-B577-362F-B222-6339422BE0F1}</Project>
+      <Name>sherpa-onnx-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-core.vcxproj">
+      <Project>{0B91A050-176B-3AE7-A433-909D832598F9}</Project>
+      <Name>sherpa-onnx-core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\c-api\sherpa-onnx-cxx-api.vcxproj">
+      <Project>{BEE60858-4083-3AB4-BF19-1AD82105187A}</Project>
+      <Name>sherpa-onnx-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-keyword-spotter.vcxproj">
+      <Project>{B17E4971-E2B2-3A28-9A64-E645A3BE0129}</Project>
+      <Name>sherpa-onnx-keyword-spotter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-keyword-spotter-microphone.vcxproj">
+      <Project>{73EAD0AA-F3C0-3501-853B-D2C4F094BEE9}</Project>
+      <Name>sherpa-onnx-keyword-spotter-microphone</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-microphone.vcxproj">
+      <Project>{4A1DA504-8584-317E-9295-0E49D06E5012}</Project>
+      <Name>sherpa-onnx-microphone</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-microphone-offline.vcxproj">
+      <Project>{5A9E846D-C27D-34E3-BA43-188335F3D9B3}</Project>
+      <Name>sherpa-onnx-microphone-offline</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-microphone-offline-audio-tagging.vcxproj">
+      <Project>{449AA9E1-0EB8-369E-AA77-F8EE91D41D55}</Project>
+      <Name>sherpa-onnx-microphone-offline-audio-tagging</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-microphone-offline-speaker-identification.vcxproj">
+      <Project>{4FAB6F48-5538-3949-BC0E-835CFD489DFF}</Project>
+      <Name>sherpa-onnx-microphone-offline-speaker-identification</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-offline.vcxproj">
+      <Project>{FB33E05C-3BD6-3844-B24C-6CABEA050B06}</Project>
+      <Name>sherpa-onnx-offline</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-offline-audio-tagging.vcxproj">
+      <Project>{11EC394A-5F19-3BD1-9247-400ED07E1160}</Project>
+      <Name>sherpa-onnx-offline-audio-tagging</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-offline-denoiser.vcxproj">
+      <Project>{DC534846-3DEF-3DC0-94AB-9F2D6084C93F}</Project>
+      <Name>sherpa-onnx-offline-denoiser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-offline-language-identification.vcxproj">
+      <Project>{8AC9D2A3-D872-358F-BB52-057BA10F6913}</Project>
+      <Name>sherpa-onnx-offline-language-identification</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-offline-parallel.vcxproj">
+      <Project>{ED94CA11-3365-3485-BC15-6AAC7A82B356}</Project>
+      <Name>sherpa-onnx-offline-parallel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-offline-punctuation.vcxproj">
+      <Project>{99C065AE-BC0C-3717-9B5D-61B56F8B3668}</Project>
+      <Name>sherpa-onnx-offline-punctuation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-offline-source-separation.vcxproj">
+      <Project>{F83F9420-81F4-3FBF-B334-57DB66B96A88}</Project>
+      <Name>sherpa-onnx-offline-source-separation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-offline-speaker-diarization.vcxproj">
+      <Project>{780A4659-302E-35B0-AC20-3ADEC8FE5BEF}</Project>
+      <Name>sherpa-onnx-offline-speaker-diarization</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-offline-tts.vcxproj">
+      <Project>{91A6848D-BA39-38CC-A034-96BB4B136441}</Project>
+      <Name>sherpa-onnx-offline-tts</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-offline-tts-play.vcxproj">
+      <Project>{DD34A4C8-31ED-37A4-8B0E-0E09D2D83212}</Project>
+      <Name>sherpa-onnx-offline-tts-play</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-offline-websocket-server.vcxproj">
+      <Project>{CACAF2A2-07AB-3A43-986F-E8B187EF3511}</Project>
+      <Name>sherpa-onnx-offline-websocket-server</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-offline-zeroshot-tts.vcxproj">
+      <Project>{B59087AE-5387-3A49-A27A-6AD7897804F3}</Project>
+      <Name>sherpa-onnx-offline-zeroshot-tts</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-online-punctuation.vcxproj">
+      <Project>{5CA9D351-3936-3454-9D0C-1C7DC21CDE60}</Project>
+      <Name>sherpa-onnx-online-punctuation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-online-websocket-client.vcxproj">
+      <Project>{F983BFE4-28F8-393E-AE62-A601D0683C9A}</Project>
+      <Name>sherpa-onnx-online-websocket-client</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-online-websocket-server.vcxproj">
+      <Project>{F8CD959D-82F5-3731-ABC1-F268BD426465}</Project>
+      <Name>sherpa-onnx-online-websocket-server</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-vad.vcxproj">
+      <Project>{2DE601EC-3F6F-3459-8187-D94E92448D6F}</Project>
+      <Name>sherpa-onnx-vad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-vad-microphone.vcxproj">
+      <Project>{D9CE196F-182D-386C-B56A-FA3F9645DDF8}</Project>
+      <Name>sherpa-onnx-vad-microphone</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-vad-microphone-offline-asr.vcxproj">
+      <Project>{6214C352-9824-3C57-BE3B-6EBB6FAB01E7}</Project>
+      <Name>sherpa-onnx-vad-microphone-offline-asr</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-vad-with-offline-asr.vcxproj">
+      <Project>{55B199CF-38F9-331E-804F-1AE742F88EBB}</Project>
+      <Name>sherpa-onnx-vad-with-offline-asr</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-vad-with-online-asr.vcxproj">
+      <Project>{2B1CF1CC-C93C-3FE7-9CF7-DA4C8523E53A}</Project>
+      <Name>sherpa-onnx-vad-with-online-asr</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\sherpa-onnx\csrc\sherpa-onnx-version.vcxproj">
+      <Project>{7F0BCE85-9EFA-3547-BA85-2DC67E4B9BF1}</Project>
+      <Name>sherpa-onnx-version</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\speaker-identification-c-api.vcxproj">
+      <Project>{337052C1-D542-3A09-A5CB-9238AD0A6CBF}</Project>
+      <Name>speaker-identification-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\speech-enhancement-gtcrn-c-api.vcxproj">
+      <Project>{DF7BB0C1-D6C9-3F41-AC5C-19E304CDA62B}</Project>
+      <Name>speech-enhancement-gtcrn-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\speech-enhancement-gtcrn-cxx-api.vcxproj">
+      <Project>{C6B59AA8-F3A3-31F3-B42F-96D30CFFBEB6}</Project>
+      <Name>speech-enhancement-gtcrn-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\spoken-language-identification-c-api.vcxproj">
+      <Project>{791FBC97-53EF-3F1A-A44E-6238916D0881}</Project>
+      <Name>spoken-language-identification-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\streaming-ctc-buffered-tokens-c-api.vcxproj">
+      <Project>{1E9E389A-49F1-37B4-BFCC-D7862747259B}</Project>
+      <Name>streaming-ctc-buffered-tokens-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\streaming-hlg-decode-file-c-api.vcxproj">
+      <Project>{F910F789-DAD1-31A1-B078-6CAA2FDA2B6A}</Project>
+      <Name>streaming-hlg-decode-file-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\streaming-paraformer-buffered-tokens-c-api.vcxproj">
+      <Project>{1E23FB8D-BE4E-34BE-81A9-9E35938FE02D}</Project>
+      <Name>streaming-paraformer-buffered-tokens-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\streaming-paraformer-c-api.vcxproj">
+      <Project>{DA3ADC28-BF07-3DAA-BADB-F962A20A537B}</Project>
+      <Name>streaming-paraformer-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\streaming-t-one-ctc-c-api.vcxproj">
+      <Project>{06F2FC9A-3C09-3540-B8B3-C531277F660C}</Project>
+      <Name>streaming-t-one-ctc-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\streaming-t-one-ctc-cxx-api.vcxproj">
+      <Project>{BBDEC14C-0C97-3336-9066-ECAE4290E8C7}</Project>
+      <Name>streaming-t-one-ctc-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\streaming-zipformer-buffered-tokens-hotwords-c-api.vcxproj">
+      <Project>{9F3FF4CB-B31D-33B2-A990-071401F1639F}</Project>
+      <Name>streaming-zipformer-buffered-tokens-hotwords-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\streaming-zipformer-c-api.vcxproj">
+      <Project>{85B7A9EB-A1D9-3ED0-91B7-0C468748237A}</Project>
+      <Name>streaming-zipformer-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\streaming-zipformer-cxx-api.vcxproj">
+      <Project>{46C6022B-0E47-35C2-97B2-1F807B9DC919}</Project>
+      <Name>streaming-zipformer-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\streaming-zipformer-rtf-cxx-api.vcxproj">
+      <Project>{0196BFA8-931D-3B19-93AE-BCE3E860AD3F}</Project>
+      <Name>streaming-zipformer-rtf-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\streaming-zipformer-with-hr-c-api.vcxproj">
+      <Project>{5BEC7793-5F6A-3563-BE7A-8428857BF08E}</Project>
+      <Name>streaming-zipformer-with-hr-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\streaming-zipformer-with-hr-cxx-api.vcxproj">
+      <Project>{D08CA7C5-2334-3241-91B5-06B9D47CBA08}</Project>
+      <Name>streaming-zipformer-with-hr-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\telespeech-c-api.vcxproj">
+      <Project>{81FB46AA-7F09-3CE3-B11B-0D64F2A21E8D}</Project>
+      <Name>telespeech-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-build\src\ucd-tools\ucd.vcxproj">
+      <Project>{B4158528-354E-3144-9237-4F1DB141FCEA}</Project>
+      <Name>ucd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\vad-cxx-api.vcxproj">
+      <Project>{4B4939DC-977F-3869-9690-84895D9B1126}</Project>
+      <Name>vad-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\vad-moonshine-c-api.vcxproj">
+      <Project>{DA389BF4-D4F9-306C-8734-F1271D5635F7}</Project>
+      <Name>vad-moonshine-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\vad-sense-voice-c-api.vcxproj">
+      <Project>{24C68BC8-1428-33D0-80D4-F8F66F930EF1}</Project>
+      <Name>vad-sense-voice-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\vad-whisper-c-api.vcxproj">
+      <Project>{3F29A878-50EF-34AA-9C7A-D6D84246917B}</Project>
+      <Name>vad-whisper-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\wenet-ctc-c-api.vcxproj">
+      <Project>{D38498AF-A1DB-32EC-AFA4-DB931992D352}</Project>
+      <Name>wenet-ctc-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\wenet-ctc-cxx-api.vcxproj">
+      <Project>{312A96E4-C11E-3C50-A954-78C4D3BD6FFF}</Project>
+      <Name>wenet-ctc-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\wenet-ctc-simulate-streaming-microphone-cxx-api.vcxproj">
+      <Project>{0EF0B76B-363C-3F36-96A6-21B5D1FED92E}</Project>
+      <Name>wenet-ctc-simulate-streaming-microphone-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\whisper-c-api.vcxproj">
+      <Project>{E79B8B16-CD0A-3CB7-A3CD-8959F35EA771}</Project>
+      <Name>whisper-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\whisper-cxx-api.vcxproj">
+      <Project>{F92AD014-AC4D-3281-BF9C-B669B18EAEC5}</Project>
+      <Name>whisper-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\c-api-examples\zipformer-c-api.vcxproj">
+      <Project>{71EFA27C-65A2-369A-90B3-6612E1311CCA}</Project>
+      <Name>zipformer-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\zipformer-ctc-simulate-streaming-microphone-cxx-api.vcxproj">
+      <Project>{B481DCDE-6882-34B4-8B05-EC13E751D91B}</Project>
+      <Name>zipformer-ctc-simulate-streaming-microphone-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\cxx-api-examples\zipformer-transducer-simulate-streaming-microphone-cxx-api.vcxproj">
+      <Project>{BBC03EF9-A16D-3989-9D2A-2466383B345F}</Project>
+      <Name>zipformer-transducer-simulate-streaming-microphone-cxx-api</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

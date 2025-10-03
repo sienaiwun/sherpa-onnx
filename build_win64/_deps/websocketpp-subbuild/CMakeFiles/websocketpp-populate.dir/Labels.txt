@@ -1,0 +1,14 @@
+# Target labels
+ websocketpp-populate
+# Source files and their labels
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/websocketpp-populate
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a7074769c258ab3b018c435edef2b274/websocketpp-populate.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/c07c16d7b8589d190b81dc195ae2d42d/websocketpp-populate-complete.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-build.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-configure.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-download.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-install.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-mkdir.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-patch.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-test.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-update.rule

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-subbuild\CMakeFiles\732ebcd70c3097afd3536e1823a6a040\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{97509550-5074-3FC7-AA62-48EDC7E01CFB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

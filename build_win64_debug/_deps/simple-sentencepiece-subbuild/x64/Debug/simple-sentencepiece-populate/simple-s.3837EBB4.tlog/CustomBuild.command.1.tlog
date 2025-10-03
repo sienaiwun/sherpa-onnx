@@ -1,0 +1,152 @@
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\SIMPLE-SENTENCEPIECE-SUBBUILD\CMAKEFILES\B3FBF9B0C124D348BE33463B39CC52C7\SIMPLE-SENTENCEPIECE-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/simple-sentencepiece-populate-prefix/tmp/simple-sentencepiece-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/simple-sentencepiece-populate-prefix/src/simple-sentencepiece-populate-stamp/Debug/simple-sentencepiece-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\SIMPLE-SENTENCEPIECE-SUBBUILD\CMAKEFILES\B3FBF9B0C124D348BE33463B39CC52C7\SIMPLE-SENTENCEPIECE-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/simple-sentencepiece-populate-prefix/src/simple-sentencepiece-populate-stamp/download-simple-sentencepiece-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/simple-sentencepiece-populate-prefix/src/simple-sentencepiece-populate-stamp/verify-simple-sentencepiece-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/simple-sentencepiece-populate-prefix/src/simple-sentencepiece-populate-stamp/extract-simple-sentencepiece-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/simple-sentencepiece-populate-prefix/src/simple-sentencepiece-populate-stamp/Debug/simple-sentencepiece-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\SIMPLE-SENTENCEPIECE-SUBBUILD\CMAKEFILES\B3FBF9B0C124D348BE33463B39CC52C7\SIMPLE-SENTENCEPIECE-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/simple-sentencepiece-populate-prefix/src/simple-sentencepiece-populate-stamp/Debug/simple-sentencepiece-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\SIMPLE-SENTENCEPIECE-SUBBUILD\CMAKEFILES\B3FBF9B0C124D348BE33463B39CC52C7\SIMPLE-SENTENCEPIECE-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/simple-sentencepiece-populate-prefix/src/simple-sentencepiece-populate-stamp/Debug/simple-sentencepiece-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\SIMPLE-SENTENCEPIECE-SUBBUILD\CMAKEFILES\B3FBF9B0C124D348BE33463B39CC52C7\SIMPLE-SENTENCEPIECE-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/simple-sentencepiece-populate-prefix/src/simple-sentencepiece-populate-stamp/Debug/simple-sentencepiece-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\SIMPLE-SENTENCEPIECE-SUBBUILD\CMAKEFILES\B3FBF9B0C124D348BE33463B39CC52C7\SIMPLE-SENTENCEPIECE-POPULATE-BUILD.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/simple-sentencepiece-populate-prefix/src/simple-sentencepiece-populate-stamp/Debug/simple-sentencepiece-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\SIMPLE-SENTENCEPIECE-SUBBUILD\CMAKEFILES\B3FBF9B0C124D348BE33463B39CC52C7\SIMPLE-SENTENCEPIECE-POPULATE-INSTALL.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/simple-sentencepiece-populate-prefix/src/simple-sentencepiece-populate-stamp/Debug/simple-sentencepiece-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\SIMPLE-SENTENCEPIECE-SUBBUILD\CMAKEFILES\B3FBF9B0C124D348BE33463B39CC52C7\SIMPLE-SENTENCEPIECE-POPULATE-TEST.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\simple-sentencepiece-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/simple-sentencepiece-populate-prefix/src/simple-sentencepiece-populate-stamp/Debug/simple-sentencepiece-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\SIMPLE-SENTENCEPIECE-SUBBUILD\CMAKEFILES\3B0E431AF123D33DAF28326E2DD1743B\SIMPLE-SENTENCEPIECE-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/CMakeFiles/Debug/simple-sentencepiece-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/simple-sentencepiece-populate-prefix/src/simple-sentencepiece-populate-stamp/Debug/simple-sentencepiece-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\SIMPLE-SENTENCEPIECE-SUBBUILD\CMAKEFILES\732EBCD70C3097AFD3536E1823A6A040\SIMPLE-SENTENCEPIECE-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\SIMPLE-SENTENCEPIECE-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild -BD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/simple-sentencepiece-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

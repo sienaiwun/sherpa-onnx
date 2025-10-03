@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-subbuild\CMakeFiles\09f31897ee52333198adfb6ff8265c0d\kaldi_native_fbank-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-subbuild\CMakeFiles\09f31897ee52333198adfb6ff8265c0d\kaldi_native_fbank-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-subbuild\CMakeFiles\09f31897ee52333198adfb6ff8265c0d\kaldi_native_fbank-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-subbuild\CMakeFiles\09f31897ee52333198adfb6ff8265c0d\kaldi_native_fbank-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-subbuild\CMakeFiles\09f31897ee52333198adfb6ff8265c0d\kaldi_native_fbank-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-subbuild\CMakeFiles\09f31897ee52333198adfb6ff8265c0d\kaldi_native_fbank-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-subbuild\CMakeFiles\09f31897ee52333198adfb6ff8265c0d\kaldi_native_fbank-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-subbuild\CMakeFiles\09f31897ee52333198adfb6ff8265c0d\kaldi_native_fbank-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-subbuild\CMakeFiles\5b2d5f73c218625aec5da432577ffe94\kaldi_native_fbank-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-subbuild\CMakeFiles\c5bfbf7b1daa6b426a343e159f560714\kaldi_native_fbank-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-subbuild\CMakeFiles\kaldi_native_fbank-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6E5261DC-8943-3E93-8A93-F3822260BD5C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

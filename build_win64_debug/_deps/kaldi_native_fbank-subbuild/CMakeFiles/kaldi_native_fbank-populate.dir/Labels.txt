@@ -1,0 +1,14 @@
+# Target labels
+ kaldi_native_fbank-populate
+# Source files and their labels
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-subbuild/CMakeFiles/kaldi_native_fbank-populate
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-subbuild/CMakeFiles/2fdcc1732cb42991dbe2fa5ac5787a7a/kaldi_native_fbank-populate.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-subbuild/CMakeFiles/64daa29e58c213bfa153f54deb898736/kaldi_native_fbank-populate-complete.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-subbuild/CMakeFiles/0f00c04bb307f793fd8263b36ae73edb/kaldi_native_fbank-populate-build.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-subbuild/CMakeFiles/0f00c04bb307f793fd8263b36ae73edb/kaldi_native_fbank-populate-configure.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-subbuild/CMakeFiles/0f00c04bb307f793fd8263b36ae73edb/kaldi_native_fbank-populate-download.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-subbuild/CMakeFiles/0f00c04bb307f793fd8263b36ae73edb/kaldi_native_fbank-populate-install.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-subbuild/CMakeFiles/0f00c04bb307f793fd8263b36ae73edb/kaldi_native_fbank-populate-mkdir.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-subbuild/CMakeFiles/0f00c04bb307f793fd8263b36ae73edb/kaldi_native_fbank-populate-patch.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-subbuild/CMakeFiles/0f00c04bb307f793fd8263b36ae73edb/kaldi_native_fbank-populate-test.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-subbuild/CMakeFiles/0f00c04bb307f793fd8263b36ae73edb/kaldi_native_fbank-populate-update.rule

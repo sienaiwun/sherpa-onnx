@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-subbuild\CMakeFiles\70f58995f7c9923a73e51d7f048c7205\kaldifst-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-subbuild\CMakeFiles\70f58995f7c9923a73e51d7f048c7205\kaldifst-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-subbuild\CMakeFiles\70f58995f7c9923a73e51d7f048c7205\kaldifst-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-subbuild\CMakeFiles\70f58995f7c9923a73e51d7f048c7205\kaldifst-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-subbuild\CMakeFiles\70f58995f7c9923a73e51d7f048c7205\kaldifst-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-subbuild\CMakeFiles\70f58995f7c9923a73e51d7f048c7205\kaldifst-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-subbuild\CMakeFiles\70f58995f7c9923a73e51d7f048c7205\kaldifst-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-subbuild\CMakeFiles\70f58995f7c9923a73e51d7f048c7205\kaldifst-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-subbuild\CMakeFiles\02568a44dec79a2e0af86cb9af2d37aa\kaldifst-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-subbuild\CMakeFiles\3f4406e245e9739e4d675cfd89090f57\kaldifst-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-subbuild\CMakeFiles\kaldifst-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F52B44DC-A770-348A-A8FD-14FB33B0E3B7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

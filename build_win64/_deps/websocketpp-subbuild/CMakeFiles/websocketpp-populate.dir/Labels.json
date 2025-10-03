@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/websocketpp-populate"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a7074769c258ab3b018c435edef2b274/websocketpp-populate.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/c07c16d7b8589d190b81dc195ae2d42d/websocketpp-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-build.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-download.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-install.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-test.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/websocketpp-subbuild/CMakeFiles/a225db2c906fa5921592ebb2b7b3c18e/websocketpp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"websocketpp-populate"
+		],
+		"name" : "websocketpp-populate"
+	}
+}

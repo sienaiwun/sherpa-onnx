@@ -1,0 +1,14 @@
+# Target labels
+ kaldi_decoder-populate
+# Source files and their labels
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/CMakeFiles/kaldi_decoder-populate
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/CMakeFiles/5c3665c938ad8bf756f97588bb8b5d9c/kaldi_decoder-populate.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/CMakeFiles/c1a893bce4fec0fbeb5dc42012effa6f/kaldi_decoder-populate-complete.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/CMakeFiles/6cf039aea01bc6503ae685e56e39b810/kaldi_decoder-populate-build.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/CMakeFiles/6cf039aea01bc6503ae685e56e39b810/kaldi_decoder-populate-configure.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/CMakeFiles/6cf039aea01bc6503ae685e56e39b810/kaldi_decoder-populate-download.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/CMakeFiles/6cf039aea01bc6503ae685e56e39b810/kaldi_decoder-populate-install.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/CMakeFiles/6cf039aea01bc6503ae685e56e39b810/kaldi_decoder-populate-mkdir.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/CMakeFiles/6cf039aea01bc6503ae685e56e39b810/kaldi_decoder-populate-patch.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/CMakeFiles/6cf039aea01bc6503ae685e56e39b810/kaldi_decoder-populate-test.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_decoder-subbuild/CMakeFiles/6cf039aea01bc6503ae685e56e39b810/kaldi_decoder-populate-update.rule

@@ -1,0 +1,3 @@
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/simple-sentencepiece-subbuild/CMakeFiles/simple-sentencepiece-populate.dir
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/simple-sentencepiece-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/simple-sentencepiece-subbuild/CMakeFiles/ZERO_CHECK.dir

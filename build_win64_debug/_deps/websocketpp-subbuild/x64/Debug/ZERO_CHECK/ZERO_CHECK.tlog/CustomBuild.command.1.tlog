@@ -1,0 +1,10 @@
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\WEBSOCKETPP-SUBBUILD\CMAKEFILES\BA1B47EE4309B408BC334EB2263D7F45\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/websocketpp-subbuild -BD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/websocketpp-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/websocketpp-subbuild/websocketpp-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

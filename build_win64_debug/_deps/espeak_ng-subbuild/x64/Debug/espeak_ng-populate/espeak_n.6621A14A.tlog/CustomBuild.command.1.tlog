@@ -1,0 +1,152 @@
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ESPEAK_NG-SUBBUILD\CMAKEFILES\B3CB10779FE906E480758EA85EE5495A\ESPEAK_NG-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/espeak_ng-populate-prefix/tmp/espeak_ng-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/espeak_ng-populate-prefix/src/espeak_ng-populate-stamp/Debug/espeak_ng-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ESPEAK_NG-SUBBUILD\CMAKEFILES\B3CB10779FE906E480758EA85EE5495A\ESPEAK_NG-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/espeak_ng-populate-prefix/src/espeak_ng-populate-stamp/download-espeak_ng-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/espeak_ng-populate-prefix/src/espeak_ng-populate-stamp/verify-espeak_ng-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/espeak_ng-populate-prefix/src/espeak_ng-populate-stamp/extract-espeak_ng-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/espeak_ng-populate-prefix/src/espeak_ng-populate-stamp/Debug/espeak_ng-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ESPEAK_NG-SUBBUILD\CMAKEFILES\B3CB10779FE906E480758EA85EE5495A\ESPEAK_NG-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/espeak_ng-populate-prefix/src/espeak_ng-populate-stamp/Debug/espeak_ng-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ESPEAK_NG-SUBBUILD\CMAKEFILES\B3CB10779FE906E480758EA85EE5495A\ESPEAK_NG-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/espeak_ng-populate-prefix/src/espeak_ng-populate-stamp/Debug/espeak_ng-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ESPEAK_NG-SUBBUILD\CMAKEFILES\B3CB10779FE906E480758EA85EE5495A\ESPEAK_NG-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/espeak_ng-populate-prefix/src/espeak_ng-populate-stamp/Debug/espeak_ng-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ESPEAK_NG-SUBBUILD\CMAKEFILES\B3CB10779FE906E480758EA85EE5495A\ESPEAK_NG-POPULATE-BUILD.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/espeak_ng-populate-prefix/src/espeak_ng-populate-stamp/Debug/espeak_ng-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ESPEAK_NG-SUBBUILD\CMAKEFILES\B3CB10779FE906E480758EA85EE5495A\ESPEAK_NG-POPULATE-INSTALL.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/espeak_ng-populate-prefix/src/espeak_ng-populate-stamp/Debug/espeak_ng-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ESPEAK_NG-SUBBUILD\CMAKEFILES\B3CB10779FE906E480758EA85EE5495A\ESPEAK_NG-POPULATE-TEST.RULE
+setlocal
+cd D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\espeak_ng-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/espeak_ng-populate-prefix/src/espeak_ng-populate-stamp/Debug/espeak_ng-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ESPEAK_NG-SUBBUILD\CMAKEFILES\E0EE61B5118846598CA93B0FB21B7494\ESPEAK_NG-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/CMakeFiles/Debug/espeak_ng-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/espeak_ng-populate-prefix/src/espeak_ng-populate-stamp/Debug/espeak_ng-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ESPEAK_NG-SUBBUILD\CMAKEFILES\19CEFE87CAE41CB5A7FD1920E1E114C6\ESPEAK_NG-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\ESPEAK_NG-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild -BD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/espeak_ng-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

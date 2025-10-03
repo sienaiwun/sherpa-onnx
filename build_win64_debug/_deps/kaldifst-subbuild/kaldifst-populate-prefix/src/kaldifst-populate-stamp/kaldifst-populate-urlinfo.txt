@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-subbuild/kaldifst-populate-prefix/src/kaldifst-populate-stamp/download-kaldifst-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-subbuild/kaldifst-populate-prefix/src/kaldifst-populate-stamp/verify-kaldifst-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-subbuild/kaldifst-populate-prefix/src/kaldifst-populate-stamp/extract-kaldifst-populate.cmake
+source_dir=D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldifst-src
+work_dir=D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps
+url(s)=https://github.com/k2-fsa/kaldifst/archive/refs/tags/v1.7.17.tar.gz
+hash=SHA256=c4b701a23a400bda8032586b02c7e0d5e813a765832df60c23e6df9e62b010f4
+      no_extract=
+

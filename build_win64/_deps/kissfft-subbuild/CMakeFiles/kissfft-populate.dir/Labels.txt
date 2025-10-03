@@ -1,0 +1,14 @@
+# Target labels
+ kissfft-populate
+# Source files and their labels
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kissfft-subbuild/CMakeFiles/kissfft-populate
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kissfft-subbuild/CMakeFiles/d715d9931c6e46603ad703c7f71ec880/kissfft-populate.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kissfft-subbuild/CMakeFiles/3cbc27a3d19a204aae3ad0d6f5e2138c/kissfft-populate-complete.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kissfft-subbuild/CMakeFiles/ea673ed39d235323a7bb4bf8878f2766/kissfft-populate-build.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kissfft-subbuild/CMakeFiles/ea673ed39d235323a7bb4bf8878f2766/kissfft-populate-configure.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kissfft-subbuild/CMakeFiles/ea673ed39d235323a7bb4bf8878f2766/kissfft-populate-download.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kissfft-subbuild/CMakeFiles/ea673ed39d235323a7bb4bf8878f2766/kissfft-populate-install.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kissfft-subbuild/CMakeFiles/ea673ed39d235323a7bb4bf8878f2766/kissfft-populate-mkdir.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kissfft-subbuild/CMakeFiles/ea673ed39d235323a7bb4bf8878f2766/kissfft-populate-patch.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kissfft-subbuild/CMakeFiles/ea673ed39d235323a7bb4bf8878f2766/kissfft-populate-test.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kissfft-subbuild/CMakeFiles/ea673ed39d235323a7bb4bf8878f2766/kissfft-populate-update.rule

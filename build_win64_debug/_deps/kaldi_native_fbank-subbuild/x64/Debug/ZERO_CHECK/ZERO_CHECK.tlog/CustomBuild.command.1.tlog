@@ -1,0 +1,10 @@
+^D:\SOUND\SIENAIWUN\SHERPA-ONNX\BUILD_WIN64_DEBUG\_DEPS\KALDI_NATIVE_FBANK-SUBBUILD\CMAKEFILES\2FDCC1732CB42991DBE2FA5AC5787A7A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-subbuild -BD:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_native_fbank-subbuild/kaldi_native_fbank-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

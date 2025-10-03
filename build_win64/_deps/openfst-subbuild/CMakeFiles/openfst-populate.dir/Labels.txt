@@ -1,0 +1,14 @@
+# Target labels
+ openfst-populate
+# Source files and their labels
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/openfst-subbuild/CMakeFiles/openfst-populate
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/openfst-subbuild/CMakeFiles/3a4d985e84baac4ab9dc8ba37521b658/openfst-populate.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/openfst-subbuild/CMakeFiles/d26247a2cc0cb331c27b8e5bd399b76c/openfst-populate-complete.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/openfst-subbuild/CMakeFiles/372c3a9a0ab619edc6b032f6b190cc56/openfst-populate-build.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/openfst-subbuild/CMakeFiles/372c3a9a0ab619edc6b032f6b190cc56/openfst-populate-configure.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/openfst-subbuild/CMakeFiles/372c3a9a0ab619edc6b032f6b190cc56/openfst-populate-download.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/openfst-subbuild/CMakeFiles/372c3a9a0ab619edc6b032f6b190cc56/openfst-populate-install.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/openfst-subbuild/CMakeFiles/372c3a9a0ab619edc6b032f6b190cc56/openfst-populate-mkdir.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/openfst-subbuild/CMakeFiles/372c3a9a0ab619edc6b032f6b190cc56/openfst-populate-patch.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/openfst-subbuild/CMakeFiles/372c3a9a0ab619edc6b032f6b190cc56/openfst-populate-test.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/openfst-subbuild/CMakeFiles/372c3a9a0ab619edc6b032f6b190cc56/openfst-populate-update.rule

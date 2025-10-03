@@ -1,0 +1,14 @@
+# Target labels
+ kaldifst-populate
+# Source files and their labels
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldifst-subbuild/CMakeFiles/kaldifst-populate
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldifst-subbuild/CMakeFiles/3f4406e245e9739e4d675cfd89090f57/kaldifst-populate.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldifst-subbuild/CMakeFiles/02568a44dec79a2e0af86cb9af2d37aa/kaldifst-populate-complete.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldifst-subbuild/CMakeFiles/70f58995f7c9923a73e51d7f048c7205/kaldifst-populate-build.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldifst-subbuild/CMakeFiles/70f58995f7c9923a73e51d7f048c7205/kaldifst-populate-configure.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldifst-subbuild/CMakeFiles/70f58995f7c9923a73e51d7f048c7205/kaldifst-populate-download.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldifst-subbuild/CMakeFiles/70f58995f7c9923a73e51d7f048c7205/kaldifst-populate-install.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldifst-subbuild/CMakeFiles/70f58995f7c9923a73e51d7f048c7205/kaldifst-populate-mkdir.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldifst-subbuild/CMakeFiles/70f58995f7c9923a73e51d7f048c7205/kaldifst-populate-patch.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldifst-subbuild/CMakeFiles/70f58995f7c9923a73e51d7f048c7205/kaldifst-populate-test.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldifst-subbuild/CMakeFiles/70f58995f7c9923a73e51d7f048c7205/kaldifst-populate-update.rule

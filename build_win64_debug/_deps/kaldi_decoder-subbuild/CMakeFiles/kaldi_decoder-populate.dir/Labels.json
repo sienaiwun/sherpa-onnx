@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_decoder-subbuild/CMakeFiles/kaldi_decoder-populate"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_decoder-subbuild/CMakeFiles/c8a82fe0df905c7d459cf34a7f2e4786/kaldi_decoder-populate.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_decoder-subbuild/CMakeFiles/19455fbe1598b6a82f88a915b6f2bced/kaldi_decoder-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_decoder-subbuild/CMakeFiles/4d131b17a9d4aa208d4efcebe524c535/kaldi_decoder-populate-build.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_decoder-subbuild/CMakeFiles/4d131b17a9d4aa208d4efcebe524c535/kaldi_decoder-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_decoder-subbuild/CMakeFiles/4d131b17a9d4aa208d4efcebe524c535/kaldi_decoder-populate-download.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_decoder-subbuild/CMakeFiles/4d131b17a9d4aa208d4efcebe524c535/kaldi_decoder-populate-install.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_decoder-subbuild/CMakeFiles/4d131b17a9d4aa208d4efcebe524c535/kaldi_decoder-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_decoder-subbuild/CMakeFiles/4d131b17a9d4aa208d4efcebe524c535/kaldi_decoder-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_decoder-subbuild/CMakeFiles/4d131b17a9d4aa208d4efcebe524c535/kaldi_decoder-populate-test.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kaldi_decoder-subbuild/CMakeFiles/4d131b17a9d4aa208d4efcebe524c535/kaldi_decoder-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"kaldi_decoder-populate"
+		],
+		"name" : "kaldi_decoder-populate"
+	}
+}

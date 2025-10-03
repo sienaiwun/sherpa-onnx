@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src\kaldi-native-fbank\csrc\feature-fbank.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src\kaldi-native-fbank\csrc\feature-functions.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src\kaldi-native-fbank\csrc\feature-mfcc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src\kaldi-native-fbank\csrc\feature-raw-audio-samples.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src\kaldi-native-fbank\csrc\feature-window.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src\kaldi-native-fbank\csrc\istft.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src\kaldi-native-fbank\csrc\kaldi-math.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src\kaldi-native-fbank\csrc\mel-computations.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src\kaldi-native-fbank\csrc\online-feature.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src\kaldi-native-fbank\csrc\rfft.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src\kaldi-native-fbank\csrc\stft.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src\kaldi-native-fbank\csrc\whisper-feature.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src\kaldi-native-fbank\csrc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D08EDB05-28F4-308A-BEF8-689CC242DBBC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

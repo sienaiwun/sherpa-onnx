@@ -1,0 +1,14 @@
+# Target labels
+ cppjieba-populate
+# Source files and their labels
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/cppjieba-populate
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/70eebb27952c0bc434de611f269f825f/cppjieba-populate.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/c2b8324af4faa050cd5bcdaedcbb0826/cppjieba-populate-complete.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-build.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-configure.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-download.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-install.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-mkdir.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-patch.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-test.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppjieba-subbuild/CMakeFiles/8c77123b22dae418a70a8553485c91a2/cppjieba-populate-update.rule

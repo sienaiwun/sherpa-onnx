@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.31/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/TestBigEndian.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-src/CMakeLists.txt
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-src/cmake_support/FindASIOSDK.cmake
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-src/cmake_support/options_cmake.h.in
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-src/cmake_support/portaudio-2.0.pc.in
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-src/cmake_support/portaudioConfig.cmake.in
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-src/cmake_support/template_portaudio.def

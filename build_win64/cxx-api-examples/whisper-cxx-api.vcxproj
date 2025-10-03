@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1574B147-1253-3056-AC4A-00A4AEDBE719}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>whisper-cxx-api</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">whisper-cxx-api.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">whisper-cxx-api</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">whisper-cxx-api.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">whisper-cxx-api</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">whisper-cxx-api.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">whisper-cxx-api</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">whisper-cxx-api.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">whisper-cxx-api</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\onnxruntime-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\hclust_cpp-src;D:\Sound\sienaiwun\sherpa-onnx;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kissfft-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\openfst-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\simple-sentencepiece-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\ucd-tools\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\deps\limonp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267;4305;4334;4800;4996;4018;4291;4309;4005;4067;4068;4090;4101;4244;4267;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;kiss_fft_scalar=float;LIBESPEAK_NG_EXPORT=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;kiss_fft_scalar=float;LIBESPEAK_NG_EXPORT=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\onnxruntime-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\hclust_cpp-src;D:\Sound\sienaiwun\sherpa-onnx;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kissfft-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\openfst-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\simple-sentencepiece-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\ucd-tools\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\deps\limonp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\onnxruntime-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\hclust_cpp-src;D:\Sound\sienaiwun\sherpa-onnx;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kissfft-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\openfst-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\simple-sentencepiece-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\ucd-tools\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\deps\limonp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\Debug\sherpa-onnx-cxx-api.lib;..\lib\Debug\sherpa-onnx-c-api.lib;..\lib\Debug\sherpa-onnx-core.lib;..\lib\Debug\kaldi-native-fbank-core.lib;..\lib\Debug\kissfft-float.lib;..\lib\Debug\kaldi-decoder-core.lib;..\lib\Debug\sherpa-onnx-kaldifst-core.lib;..\lib\Debug\ssentencepiece_core.lib;..\_deps\onnxruntime-src\lib\onnxruntime.lib;..\lib\Debug\sherpa-onnx-fstfar.lib;..\lib\Debug\sherpa-onnx-fst.lib;..\lib\Debug\cppinyin_core.lib;..\lib\Debug\piper_phonemize.lib;..\lib\Debug\espeak-ng.lib;-Wl,-rpath,$ORIGIN;..\lib\Debug\ucd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Sound/sienaiwun/sherpa-onnx/build_win64/lib/Debug/whisper-cxx-api.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Sound/sienaiwun/sherpa-onnx/build_win64/bin/Debug/whisper-cxx-api.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\onnxruntime-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\hclust_cpp-src;D:\Sound\sienaiwun\sherpa-onnx;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kissfft-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\openfst-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\simple-sentencepiece-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\ucd-tools\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\deps\limonp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4244;4267;4305;4334;4800;4996;4018;4291;4309;4005;4067;4068;4090;4101;4244;4267;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;kiss_fft_scalar=float;LIBESPEAK_NG_EXPORT=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;kiss_fft_scalar=float;LIBESPEAK_NG_EXPORT=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\onnxruntime-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\hclust_cpp-src;D:\Sound\sienaiwun\sherpa-onnx;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kissfft-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\openfst-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\simple-sentencepiece-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\ucd-tools\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\deps\limonp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\onnxruntime-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\hclust_cpp-src;D:\Sound\sienaiwun\sherpa-onnx;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kissfft-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\openfst-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\simple-sentencepiece-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\ucd-tools\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\deps\limonp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\Release\sherpa-onnx-cxx-api.lib;..\lib\Release\sherpa-onnx-c-api.lib;..\lib\Release\sherpa-onnx-core.lib;..\lib\Release\kaldi-native-fbank-core.lib;..\lib\Release\kissfft-float.lib;..\lib\Release\kaldi-decoder-core.lib;..\lib\Release\sherpa-onnx-kaldifst-core.lib;..\lib\Release\ssentencepiece_core.lib;..\_deps\onnxruntime-src\lib\onnxruntime.lib;..\lib\Release\sherpa-onnx-fstfar.lib;..\lib\Release\sherpa-onnx-fst.lib;..\lib\Release\cppinyin_core.lib;..\lib\Release\piper_phonemize.lib;..\lib\Release\espeak-ng.lib;-Wl,-rpath,$ORIGIN;..\lib\Release\ucd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Sound/sienaiwun/sherpa-onnx/build_win64/lib/Release/whisper-cxx-api.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Sound/sienaiwun/sherpa-onnx/build_win64/bin/Release/whisper-cxx-api.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\onnxruntime-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\hclust_cpp-src;D:\Sound\sienaiwun\sherpa-onnx;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kissfft-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\openfst-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\simple-sentencepiece-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\ucd-tools\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\deps\limonp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4244;4267;4305;4334;4800;4996;4018;4291;4309;4005;4067;4068;4090;4101;4244;4267;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;kiss_fft_scalar=float;LIBESPEAK_NG_EXPORT=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;kiss_fft_scalar=float;LIBESPEAK_NG_EXPORT=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\onnxruntime-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\hclust_cpp-src;D:\Sound\sienaiwun\sherpa-onnx;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kissfft-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\openfst-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\simple-sentencepiece-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\ucd-tools\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\deps\limonp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\onnxruntime-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\hclust_cpp-src;D:\Sound\sienaiwun\sherpa-onnx;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kissfft-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\openfst-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\simple-sentencepiece-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\ucd-tools\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\deps\limonp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\MinSizeRel\sherpa-onnx-cxx-api.lib;..\lib\MinSizeRel\sherpa-onnx-c-api.lib;..\lib\MinSizeRel\sherpa-onnx-core.lib;..\lib\MinSizeRel\kaldi-native-fbank-core.lib;..\lib\MinSizeRel\kissfft-float.lib;..\lib\MinSizeRel\kaldi-decoder-core.lib;..\lib\MinSizeRel\sherpa-onnx-kaldifst-core.lib;..\lib\MinSizeRel\ssentencepiece_core.lib;..\_deps\onnxruntime-src\lib\onnxruntime.lib;..\lib\MinSizeRel\sherpa-onnx-fstfar.lib;..\lib\MinSizeRel\sherpa-onnx-fst.lib;..\lib\MinSizeRel\cppinyin_core.lib;..\lib\MinSizeRel\piper_phonemize.lib;..\lib\MinSizeRel\espeak-ng.lib;-Wl,-rpath,$ORIGIN;..\lib\MinSizeRel\ucd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Sound/sienaiwun/sherpa-onnx/build_win64/lib/MinSizeRel/whisper-cxx-api.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Sound/sienaiwun/sherpa-onnx/build_win64/bin/MinSizeRel/whisper-cxx-api.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\onnxruntime-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\hclust_cpp-src;D:\Sound\sienaiwun\sherpa-onnx;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kissfft-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\openfst-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\simple-sentencepiece-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\ucd-tools\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\deps\limonp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267;4305;4334;4800;4996;4018;4291;4309;4005;4067;4068;4090;4101;4244;4267;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;kiss_fft_scalar=float;LIBESPEAK_NG_EXPORT=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SHERPA_ONNX_ENABLE_TTS=1;SHERPA_ONNX_ENABLE_SPEAKER_DIARIZATION=1;SHERPA_ONNX_ENABLE_DIRECTML=0;NOMINMAX;kiss_fft_scalar=float;LIBESPEAK_NG_EXPORT=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\onnxruntime-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\hclust_cpp-src;D:\Sound\sienaiwun\sherpa-onnx;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kissfft-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\openfst-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\simple-sentencepiece-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\ucd-tools\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\deps\limonp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\onnxruntime-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\websocketpp-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\asio-src\asio\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\hclust_cpp-src;D:\Sound\sienaiwun\sherpa-onnx;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kissfft-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\openfst-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\eigen-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\simple-sentencepiece-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-src\src\ucd-tools\src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\include;D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppjieba-src\deps\limonp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\RelWithDebInfo\sherpa-onnx-cxx-api.lib;..\lib\RelWithDebInfo\sherpa-onnx-c-api.lib;..\lib\RelWithDebInfo\sherpa-onnx-core.lib;..\lib\RelWithDebInfo\kaldi-native-fbank-core.lib;..\lib\RelWithDebInfo\kissfft-float.lib;..\lib\RelWithDebInfo\kaldi-decoder-core.lib;..\lib\RelWithDebInfo\sherpa-onnx-kaldifst-core.lib;..\lib\RelWithDebInfo\ssentencepiece_core.lib;..\_deps\onnxruntime-src\lib\onnxruntime.lib;..\lib\RelWithDebInfo\sherpa-onnx-fstfar.lib;..\lib\RelWithDebInfo\sherpa-onnx-fst.lib;..\lib\RelWithDebInfo\cppinyin_core.lib;..\lib\RelWithDebInfo\piper_phonemize.lib;..\lib\RelWithDebInfo\espeak-ng.lib;-Wl,-rpath,$ORIGIN;..\lib\RelWithDebInfo\ucd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Sound/sienaiwun/sherpa-onnx/build_win64/lib/RelWithDebInfo/whisper-cxx-api.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Sound/sienaiwun/sherpa-onnx/build_win64/bin/RelWithDebInfo/whisper-cxx-api.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\cxx-api-examples\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Sound/sienaiwun/sherpa-onnx/cxx-api-examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx -BD:/Sound/sienaiwun/sherpa-onnx/build_win64 --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64/cxx-api-examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64\cxx-api-examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Sound/sienaiwun/sherpa-onnx/cxx-api-examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx -BD:/Sound/sienaiwun/sherpa-onnx/build_win64 --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64/cxx-api-examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64\cxx-api-examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Sound/sienaiwun/sherpa-onnx/cxx-api-examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx -BD:/Sound/sienaiwun/sherpa-onnx/build_win64 --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64/cxx-api-examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64\cxx-api-examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Sound/sienaiwun/sherpa-onnx/cxx-api-examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Sound/sienaiwun/sherpa-onnx -BD:/Sound/sienaiwun/sherpa-onnx/build_win64 --check-stamp-file D:/Sound/sienaiwun/sherpa-onnx/build_win64/cxx-api-examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Sound\sienaiwun\sherpa-onnx\build_win64\cxx-api-examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Sound\sienaiwun\sherpa-onnx\cxx-api-examples\whisper-cxx-api.cc" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\ZERO_CHECK.vcxproj">
+      <Project>{C305E3AC-683D-31BD-B54E-5377E6E74311}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\cppinyin-build\cppinyin\csrc\cppinyin_core.vcxproj">
+      <Project>{08CE755C-2EF8-336D-9375-D0B6831D3F31}</Project>
+      <Name>cppinyin_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-build\src\libespeak-ng\espeak-ng.vcxproj">
+      <Project>{F9D4CBF9-8CBE-3B3E-90E6-C553589E0901}</Project>
+      <Name>espeak-ng</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\openfst-build\src\lib\fst.vcxproj">
+      <Project>{A6C709AE-E875-374F-A7D3-D7ECC84738EE}</Project>
+      <Name>fst</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\openfst-build\src\extensions\far\fstfar.vcxproj">
+      <Project>{A1F55C3A-CEF2-316F-9B42-57E301A8E46A}</Project>
+      <Name>fstfar</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_decoder-build\kaldi-decoder\csrc\kaldi-decoder-core.vcxproj">
+      <Project>{23C970E8-F7B5-3058-B17C-026EEB143EC2}</Project>
+      <Name>kaldi-decoder-core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldi_native_fbank-build\kaldi-native-fbank\csrc\kaldi-native-fbank-core.vcxproj">
+      <Project>{D4C40612-E764-3AAF-B96A-6CDFA3681DF1}</Project>
+      <Name>kaldi-native-fbank-core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kaldifst-build\kaldifst\csrc\kaldifst_core.vcxproj">
+      <Project>{7D0D08B7-E536-36B5-B23F-398DF9EC1F66}</Project>
+      <Name>kaldifst_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\kissfft-build\kissfft.vcxproj">
+      <Project>{0047FACF-E82B-34EE-AC07-39B1BFD335E2}</Project>
+      <Name>kissfft</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-build\piper_phonemize.vcxproj">
+      <Project>{7F71F9DD-95A3-3D5E-BC49-7AB19F255D0B}</Project>
+      <Name>piper_phonemize</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\sherpa-onnx\c-api\sherpa-onnx-c-api.vcxproj">
+      <Project>{C46B7697-E29A-3669-A968-39FAE1E8F37A}</Project>
+      <Name>sherpa-onnx-c-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\sherpa-onnx\csrc\sherpa-onnx-core.vcxproj">
+      <Project>{7CB2E1B0-DBB7-3258-9C7F-DB27338081B9}</Project>
+      <Name>sherpa-onnx-core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\sherpa-onnx\c-api\sherpa-onnx-cxx-api.vcxproj">
+      <Project>{7B159326-8635-35AA-A539-C51F1550E86A}</Project>
+      <Name>sherpa-onnx-cxx-api</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\simple-sentencepiece-build\ssentencepiece\csrc\ssentencepiece_core.vcxproj">
+      <Project>{D4CE8AE0-FCFE-3DC7-86C5-D9343F27EE4C}</Project>
+      <Name>ssentencepiece_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-build\src\ucd-tools\ucd.vcxproj">
+      <Project>{98030F32-8469-3B50-A799-CC5A139E43A7}</Project>
+      <Name>ucd</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

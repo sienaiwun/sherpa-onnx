@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kissfft-subbuild\CMakeFiles\473bebe899fb11c8b6bb2b9819a7b8ef\kissfft-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kissfft-subbuild\CMakeFiles\473bebe899fb11c8b6bb2b9819a7b8ef\kissfft-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kissfft-subbuild\CMakeFiles\473bebe899fb11c8b6bb2b9819a7b8ef\kissfft-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kissfft-subbuild\CMakeFiles\473bebe899fb11c8b6bb2b9819a7b8ef\kissfft-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kissfft-subbuild\CMakeFiles\473bebe899fb11c8b6bb2b9819a7b8ef\kissfft-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kissfft-subbuild\CMakeFiles\473bebe899fb11c8b6bb2b9819a7b8ef\kissfft-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kissfft-subbuild\CMakeFiles\473bebe899fb11c8b6bb2b9819a7b8ef\kissfft-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kissfft-subbuild\CMakeFiles\473bebe899fb11c8b6bb2b9819a7b8ef\kissfft-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kissfft-subbuild\CMakeFiles\4b4b9afad0a639d25de3b517dbd3b0e8\kissfft-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kissfft-subbuild\CMakeFiles\0fbe021bde82c56a9004a8da08d3bb01\kissfft-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kissfft-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\kissfft-subbuild\CMakeFiles\kissfft-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E2E16D1A-F0D3-3299-9873-A46387F77CA7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

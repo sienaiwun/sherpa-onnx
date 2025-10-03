@@ -1,0 +1,1120 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+      Build started 9/25/2025 9:35:38 PM.
+      
+      Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\3.31.0\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\3.31.0\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\3.31.0\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.41
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/3.31.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+      Build started 9/25/2025 9:35:38 PM.
+      
+      Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\3.31.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\3.31.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\3.31.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.39
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/3.31.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-5cbvmm"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-5cbvmm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-5cbvmm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_192a5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:35:39 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-5cbvmm\\cmTC_192a5.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_192a5.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-5cbvmm\\Debug\\".
+          Creating directory "cmTC_192a5.dir\\Debug\\cmTC_192a5.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_192a5.dir\\Debug\\cmTC_192a5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_192a5.dir\\Debug\\cmTC_192a5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_192a5.dir\\Debug\\\\" /Fd"cmTC_192a5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_192a5.dir\\Debug\\\\" /Fd"cmTC_192a5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-5cbvmm\\Debug\\cmTC_192a5.exe" /INCREMENTAL /ILK:"cmTC_192a5.dir\\Debug\\cmTC_192a5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-5cbvmm/Debug/cmTC_192a5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-5cbvmm/Debug/cmTC_192a5.lib" /MACHINE:X64  /machine:x64 cmTC_192a5.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_192a5.vcxproj -> D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-5cbvmm\\Debug\\cmTC_192a5.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_192a5.dir\\Debug\\cmTC_192a5.tlog\\unsuccessfulbuild".
+          Touching "cmTC_192a5.dir\\Debug\\cmTC_192a5.tlog\\cmTC_192a5.lastbuildstate".
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-5cbvmm\\cmTC_192a5.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33141.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-l7yd80"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-l7yd80"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-l7yd80'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f7bed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:35:40 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-l7yd80\\cmTC_f7bed.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f7bed.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-l7yd80\\Debug\\".
+          Creating directory "cmTC_f7bed.dir\\Debug\\cmTC_f7bed.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f7bed.dir\\Debug\\cmTC_f7bed.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f7bed.dir\\Debug\\cmTC_f7bed.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f7bed.dir\\Debug\\\\" /Fd"cmTC_f7bed.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f7bed.dir\\Debug\\\\" /Fd"cmTC_f7bed.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-l7yd80\\Debug\\cmTC_f7bed.exe" /INCREMENTAL /ILK:"cmTC_f7bed.dir\\Debug\\cmTC_f7bed.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-l7yd80/Debug/cmTC_f7bed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-l7yd80/Debug/cmTC_f7bed.lib" /MACHINE:X64  /machine:x64 cmTC_f7bed.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f7bed.vcxproj -> D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-l7yd80\\Debug\\cmTC_f7bed.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f7bed.dir\\Debug\\cmTC_f7bed.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f7bed.dir\\Debug\\cmTC_f7bed.tlog\\cmTC_f7bed.lastbuildstate".
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-l7yd80\\cmTC_f7bed.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.38.33141.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:320 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include cxxabi.h"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-i6owbb"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-i6owbb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "SHERPA_ONNX_HAVE_CXXABI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-i6owbb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_88900.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:35:41 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-i6owbb\\cmTC_88900.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_88900.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-i6owbb\\Debug\\".
+          Creating directory "cmTC_88900.dir\\Debug\\cmTC_88900.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_88900.dir\\Debug\\cmTC_88900.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_88900.dir\\Debug\\cmTC_88900.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_88900.dir\\Debug\\\\" /Fd"cmTC_88900.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-i6owbb\\CheckIncludeFile.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_88900.dir\\Debug\\\\" /Fd"cmTC_88900.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-i6owbb\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-i6owbb\\CheckIncludeFile.cxx(1,10): error C1083: Cannot open include file: 'cxxabi.h': No such file or directory [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-i6owbb\\cmTC_88900.vcxproj]
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-i6owbb\\cmTC_88900.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-i6owbb\\cmTC_88900.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-i6owbb\\CheckIncludeFile.cxx(1,10): error C1083: Cannot open include file: 'cxxabi.h': No such file or directory [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-i6owbb\\cmTC_88900.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "CMakeLists.txt:321 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include execinfo.h"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-gov8pl"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-gov8pl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "SHERPA_ONNX_HAVE_EXECINFO_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-gov8pl'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7e0f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:35:41 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-gov8pl\\cmTC_7e0f1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7e0f1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-gov8pl\\Debug\\".
+          Creating directory "cmTC_7e0f1.dir\\Debug\\cmTC_7e0f1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7e0f1.dir\\Debug\\cmTC_7e0f1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7e0f1.dir\\Debug\\cmTC_7e0f1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_7e0f1.dir\\Debug\\\\" /Fd"cmTC_7e0f1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-gov8pl\\CheckIncludeFile.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_7e0f1.dir\\Debug\\\\" /Fd"cmTC_7e0f1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-gov8pl\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-gov8pl\\CheckIncludeFile.cxx(1,10): error C1083: Cannot open include file: 'execinfo.h': No such file or directory [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-gov8pl\\cmTC_7e0f1.vcxproj]
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-gov8pl\\cmTC_7e0f1.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-gov8pl\\cmTC_7e0f1.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-gov8pl\\CheckIncludeFile.cxx(1,10): error C1083: Cannot open include file: 'execinfo.h': No such file or directory [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-gov8pl\\cmTC_7e0f1.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "build_win64/_deps/kaldi_native_fbank-src/CMakeLists.txt:114 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include cxxabi.h"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-ur4sfq"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-ur4sfq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /wd4244  /wd4267  /wd4305  /wd4334  /wd4800  /wd4996 "
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Sound/sienaiwun/sherpa-onnx/cmake/Modules;D:/Sound/sienaiwun/sherpa-onnx/cmake;D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-src/cmake/Modules;D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "KNF_HAVE_CXXABI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-ur4sfq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fdfff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:35:45 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ur4sfq\\cmTC_fdfff.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fdfff.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ur4sfq\\Debug\\".
+          Creating directory "cmTC_fdfff.dir\\Debug\\cmTC_fdfff.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fdfff.dir\\Debug\\cmTC_fdfff.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fdfff.dir\\Debug\\cmTC_fdfff.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_fdfff.dir\\Debug\\\\" /Fd"cmTC_fdfff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ur4sfq\\CheckIncludeFile.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_fdfff.dir\\Debug\\\\" /Fd"cmTC_fdfff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ur4sfq\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ur4sfq\\CheckIncludeFile.cxx(1,10): error C1083: Cannot open include file: 'cxxabi.h': No such file or directory [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ur4sfq\\cmTC_fdfff.vcxproj]
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ur4sfq\\cmTC_fdfff.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ur4sfq\\cmTC_fdfff.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ur4sfq\\CheckIncludeFile.cxx(1,10): error C1083: Cannot open include file: 'cxxabi.h': No such file or directory [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ur4sfq\\cmTC_fdfff.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.21
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "build_win64/_deps/kaldi_native_fbank-src/CMakeLists.txt:115 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include execinfo.h"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-ed7hdy"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-ed7hdy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /wd4244  /wd4267  /wd4305  /wd4334  /wd4800  /wd4996 "
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Sound/sienaiwun/sherpa-onnx/cmake/Modules;D:/Sound/sienaiwun/sherpa-onnx/cmake;D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-src/cmake/Modules;D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/kaldi_native_fbank-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "KNF_HAVE_EXECINFO_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-ed7hdy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6c079.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:35:45 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ed7hdy\\cmTC_6c079.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6c079.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ed7hdy\\Debug\\".
+          Creating directory "cmTC_6c079.dir\\Debug\\cmTC_6c079.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6c079.dir\\Debug\\cmTC_6c079.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6c079.dir\\Debug\\cmTC_6c079.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_6c079.dir\\Debug\\\\" /Fd"cmTC_6c079.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ed7hdy\\CheckIncludeFile.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_6c079.dir\\Debug\\\\" /Fd"cmTC_6c079.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ed7hdy\\CheckIncludeFile.cxx"
+          CheckIncludeFile.cxx
+        D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ed7hdy\\CheckIncludeFile.cxx(1,10): error C1083: Cannot open include file: 'execinfo.h': No such file or directory [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ed7hdy\\cmTC_6c079.vcxproj]
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ed7hdy\\cmTC_6c079.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ed7hdy\\cmTC_6c079.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ed7hdy\\CheckIncludeFile.cxx(1,10): error C1083: Cannot open include file: 'execinfo.h': No such file or directory [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-ed7hdy\\cmTC_6c079.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "build_win64/_deps/eigen-src/CMakeLists.txt:77 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test EIGEN_COMPILER_SUPPORT_CPP11"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-zr1xlc"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-zr1xlc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /wd4244  /wd4267  /wd4305  /wd4334  /wd4800  /wd4996 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "EIGEN_COMPILER_SUPPORT_CPP11"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-zr1xlc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9d999.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:35:57 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-zr1xlc\\cmTC_9d999.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9d999.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-zr1xlc\\Debug\\".
+          Creating directory "cmTC_9d999.dir\\Debug\\cmTC_9d999.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9d999.dir\\Debug\\cmTC_9d999.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9d999.dir\\Debug\\cmTC_9d999.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D EIGEN_COMPILER_SUPPORT_CPP11 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9d999.dir\\Debug\\\\" /Fd"cmTC_9d999.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /errorReport:queue  -std=c++11 "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-zr1xlc\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D EIGEN_COMPILER_SUPPORT_CPP11 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9d999.dir\\Debug\\\\" /Fd"cmTC_9d999.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /errorReport:queue  -std=c++11 "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-zr1xlc\\src.cxx"
+        cl : command line  warning D9002: ignoring unknown option '-std=c++11' [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-zr1xlc\\cmTC_9d999.vcxproj]
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-zr1xlc\\Debug\\cmTC_9d999.exe" /INCREMENTAL /ILK:"cmTC_9d999.dir\\Debug\\cmTC_9d999.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-zr1xlc/Debug/cmTC_9d999.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-zr1xlc/Debug/cmTC_9d999.lib" /MACHINE:X64  /machine:x64 cmTC_9d999.dir\\Debug\\src.obj
+          cmTC_9d999.vcxproj -> D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-zr1xlc\\Debug\\cmTC_9d999.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9d999.dir\\Debug\\cmTC_9d999.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9d999.dir\\Debug\\cmTC_9d999.tlog\\cmTC_9d999.lastbuildstate".
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-zr1xlc\\cmTC_9d999.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-zr1xlc\\cmTC_9d999.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line  warning D9002: ignoring unknown option '-std=c++11' [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-zr1xlc\\cmTC_9d999.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.37
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "build_win64/_deps/eigen-src/CMakeLists.txt:71 (check_cxx_compiler_flag)"
+      - "build_win64/_deps/eigen-src/CMakeLists.txt:88 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_std=cpp03"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-y6tm6a"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-y6tm6a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /wd4244  /wd4267  /wd4305  /wd4334  /wd4800  /wd4996 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "COMPILER_SUPPORT_std=cpp03"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-y6tm6a'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6154a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:35:57 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-y6tm6a\\cmTC_6154a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6154a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-y6tm6a\\Debug\\".
+          Creating directory "cmTC_6154a.dir\\Debug\\cmTC_6154a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6154a.dir\\Debug\\cmTC_6154a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6154a.dir\\Debug\\cmTC_6154a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_SUPPORT_std=cpp03 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6154a.dir\\Debug\\\\" /Fd"cmTC_6154a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /errorReport:queue  -std=c++03 "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-y6tm6a\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_SUPPORT_std=cpp03 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6154a.dir\\Debug\\\\" /Fd"cmTC_6154a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /errorReport:queue  -std=c++03 "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-y6tm6a\\src.cxx"
+        cl : command line  warning D9002: ignoring unknown option '-std=c++03' [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-y6tm6a\\cmTC_6154a.vcxproj]
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-y6tm6a\\Debug\\cmTC_6154a.exe" /INCREMENTAL /ILK:"cmTC_6154a.dir\\Debug\\cmTC_6154a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-y6tm6a/Debug/cmTC_6154a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-y6tm6a/Debug/cmTC_6154a.lib" /MACHINE:X64  /machine:x64 cmTC_6154a.dir\\Debug\\src.obj
+          cmTC_6154a.vcxproj -> D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-y6tm6a\\Debug\\cmTC_6154a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6154a.dir\\Debug\\cmTC_6154a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6154a.dir\\Debug\\cmTC_6154a.tlog\\cmTC_6154a.lastbuildstate".
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-y6tm6a\\cmTC_6154a.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-y6tm6a\\cmTC_6154a.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line  warning D9002: ignoring unknown option '-std=c++03' [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-y6tm6a\\cmTC_6154a.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build_win64/_deps/eigen-src/cmake/FindStandardMathLibrary.cmake:35 (CHECK_CXX_SOURCE_COMPILES)"
+      - "build_win64/_deps/eigen-src/CMakeLists.txt:98 (find_package)"
+    checks:
+      - "Performing Test standard_math_library_linked_to_automatically"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-v2qnwo"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-v2qnwo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /wd4244  /wd4267  /wd4305  /wd4334  /wd4800  /wd4996 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "standard_math_library_linked_to_automatically"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-v2qnwo'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7508d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:35:58 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-v2qnwo\\cmTC_7508d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7508d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-v2qnwo\\Debug\\".
+          Creating directory "cmTC_7508d.dir\\Debug\\cmTC_7508d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7508d.dir\\Debug\\cmTC_7508d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7508d.dir\\Debug\\cmTC_7508d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D standard_math_library_linked_to_automatically /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7508d.dir\\Debug\\\\" /Fd"cmTC_7508d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-v2qnwo\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D standard_math_library_linked_to_automatically /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7508d.dir\\Debug\\\\" /Fd"cmTC_7508d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-v2qnwo\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-v2qnwo\\Debug\\cmTC_7508d.exe" /INCREMENTAL /ILK:"cmTC_7508d.dir\\Debug\\cmTC_7508d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-v2qnwo/Debug/cmTC_7508d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-v2qnwo/Debug/cmTC_7508d.lib" /MACHINE:X64  /machine:x64 cmTC_7508d.dir\\Debug\\src.obj
+          cmTC_7508d.vcxproj -> D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-v2qnwo\\Debug\\cmTC_7508d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7508d.dir\\Debug\\cmTC_7508d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7508d.dir\\Debug\\cmTC_7508d.tlog\\cmTC_7508d.lastbuildstate".
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-v2qnwo\\cmTC_7508d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.39
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "build_win64/_deps/eigen-src/CMakeLists.txt:347 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_OPENMP"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-llksag"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-llksag"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /wd4244  /wd4267  /wd4305  /wd4334  /wd4800  /wd4996  /EHsc /wd4127 /wd4505 /wd4714"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/eigen-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "COMPILER_SUPPORT_OPENMP"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-llksag'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e28e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:35:58 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-llksag\\cmTC_e28e0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e28e0.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-llksag\\Debug\\".
+          Creating directory "cmTC_e28e0.dir\\Debug\\cmTC_e28e0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e28e0.dir\\Debug\\cmTC_e28e0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e28e0.dir\\Debug\\cmTC_e28e0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_SUPPORT_OPENMP /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_e28e0.dir\\Debug\\\\" /Fd"cmTC_e28e0.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /wd4127 /wd4505 /wd4714 /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-llksag\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W4 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_SUPPORT_OPENMP /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_e28e0.dir\\Debug\\\\" /Fd"cmTC_e28e0.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /wd4127 /wd4505 /wd4714 /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-llksag\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-llksag\\Debug\\cmTC_e28e0.exe" /INCREMENTAL /ILK:"cmTC_e28e0.dir\\Debug\\cmTC_e28e0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-llksag/Debug/cmTC_e28e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-llksag/Debug/cmTC_e28e0.lib" /MACHINE:X64  /machine:x64 cmTC_e28e0.dir\\Debug\\src.obj
+          cmTC_e28e0.vcxproj -> D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-llksag\\Debug\\cmTC_e28e0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e28e0.dir\\Debug\\cmTC_e28e0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e28e0.dir\\Debug\\cmTC_e28e0.tlog\\cmTC_e28e0.lastbuildstate".
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-llksag\\cmTC_e28e0.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLanguage.cmake:140 (message)"
+      - "build_win64/_deps/eigen-src/blas/CMakeLists.txt:5 (check_language)"
+    checks:
+      - "Looking for a Fortran compiler"
+    message: |
+      Looking for a Fortran compiler failed with the following output:
+      -- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.22631.
+      -- The Fortran compiler identification is unknown
+      CMake Error at CMakeLists.txt:3 (project):
+        No CMAKE_Fortran_COMPILER could be found.
+      
+      
+      
+      -- Configuring incomplete, errors occurred!
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "build_win64/_deps/simple-sentencepiece-src/CMakeLists.txt:42 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test SBPE_COMPILER_SUPPORTS_CXX14"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-vpth6s"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-vpth6s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /wd4244  /wd4267  /wd4305  /wd4334  /wd4800  /wd4996 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Sound/sienaiwun/sherpa-onnx/cmake/Modules;D:/Sound/sienaiwun/sherpa-onnx/cmake;D:/Sound/sienaiwun/sherpa-onnx/cmake/Modules;D:/Sound/sienaiwun/sherpa-onnx/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "SBPE_COMPILER_SUPPORTS_CXX14"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-vpth6s'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0b29c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:36:13 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-vpth6s\\cmTC_0b29c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0b29c.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-vpth6s\\Debug\\".
+          Creating directory "cmTC_0b29c.dir\\Debug\\cmTC_0b29c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0b29c.dir\\Debug\\cmTC_0b29c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0b29c.dir\\Debug\\cmTC_0b29c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SBPE_COMPILER_SUPPORTS_CXX14 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_0b29c.dir\\Debug\\\\" /Fd"cmTC_0b29c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-vpth6s\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SBPE_COMPILER_SUPPORTS_CXX14 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_0b29c.dir\\Debug\\\\" /Fd"cmTC_0b29c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-vpth6s\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-vpth6s\\Debug\\cmTC_0b29c.exe" /INCREMENTAL /ILK:"cmTC_0b29c.dir\\Debug\\cmTC_0b29c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-vpth6s/Debug/cmTC_0b29c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-vpth6s/Debug/cmTC_0b29c.lib" /MACHINE:X64  /machine:x64 cmTC_0b29c.dir\\Debug\\src.obj
+          cmTC_0b29c.vcxproj -> D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-vpth6s\\Debug\\cmTC_0b29c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0b29c.dir\\Debug\\cmTC_0b29c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0b29c.dir\\Debug\\cmTC_0b29c.tlog\\cmTC_0b29c.lastbuildstate".
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-vpth6s\\cmTC_0b29c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "build_win64/_deps/cppinyin-src/CMakeLists.txt:41 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test CPPINYIN_COMPILER_SUPPORTS_CXX14"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-p0hdln"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-p0hdln"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /wd4244  /wd4267  /wd4305  /wd4334  /wd4800  /wd4996 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Sound/sienaiwun/sherpa-onnx/cmake/Modules;D:/Sound/sienaiwun/sherpa-onnx/cmake;D:/Sound/sienaiwun/sherpa-onnx/cmake/Modules;D:/Sound/sienaiwun/sherpa-onnx/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "CPPINYIN_COMPILER_SUPPORTS_CXX14"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-p0hdln'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_02188.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:36:24 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-p0hdln\\cmTC_02188.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_02188.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-p0hdln\\Debug\\".
+          Creating directory "cmTC_02188.dir\\Debug\\cmTC_02188.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_02188.dir\\Debug\\cmTC_02188.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_02188.dir\\Debug\\cmTC_02188.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CPPINYIN_COMPILER_SUPPORTS_CXX14 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_02188.dir\\Debug\\\\" /Fd"cmTC_02188.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-p0hdln\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CPPINYIN_COMPILER_SUPPORTS_CXX14 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_02188.dir\\Debug\\\\" /Fd"cmTC_02188.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /wd4244 /wd4267 /wd4305 /wd4334 /wd4800 /wd4996 /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-p0hdln\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-p0hdln\\Debug\\cmTC_02188.exe" /INCREMENTAL /ILK:"cmTC_02188.dir\\Debug\\cmTC_02188.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-p0hdln/Debug/cmTC_02188.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-p0hdln/Debug/cmTC_02188.lib" /MACHINE:X64  /machine:x64 cmTC_02188.dir\\Debug\\src.obj
+          cmTC_02188.vcxproj -> D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-p0hdln\\Debug\\cmTC_02188.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_02188.dir\\Debug\\cmTC_02188.tlog\\unsuccessfulbuild".
+          Touching "cmTC_02188.dir\\Debug\\cmTC_02188.tlog\\cmTC_02188.lastbuildstate".
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-p0hdln\\cmTC_02188.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.35
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "build_win64/_deps/espeak_ng-src/cmake/config.cmake:2 (check_symbol_exists)"
+      - "build_win64/_deps/espeak_ng-src/CMakeLists.txt:28 (include)"
+    checks:
+      - "Looking for mkstemp"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-1co8od"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-1co8od"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Sound/sienaiwun/sherpa-onnx/cmake/Modules;D:/Sound/sienaiwun/sherpa-onnx/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "HAVE_MKSTEMP"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-1co8od'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7e100.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:36:30 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-1co8od\\cmTC_7e100.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7e100.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-1co8od\\Debug\\".
+          Creating directory "cmTC_7e100.dir\\Debug\\cmTC_7e100.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7e100.dir\\Debug\\cmTC_7e100.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7e100.dir\\Debug\\cmTC_7e100.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e100.dir\\Debug\\\\" /Fd"cmTC_7e100.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-1co8od\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e100.dir\\Debug\\\\" /Fd"cmTC_7e100.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-1co8od\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-1co8od\\CheckSymbolExists.c(8,26): error C2065: 'mkstemp': undeclared identifier [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-1co8od\\cmTC_7e100.vcxproj]
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-1co8od\\cmTC_7e100.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-1co8od\\cmTC_7e100.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-1co8od\\CheckSymbolExists.c(8,26): error C2065: 'mkstemp': undeclared identifier [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-1co8od\\cmTC_7e100.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.22
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:488 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-9n5q6a"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-9n5q6a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Sound/sienaiwun/sherpa-onnx/cmake/Modules;D:/Sound/sienaiwun/sherpa-onnx/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-9n5q6a'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d64b1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:36:38 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-9n5q6a\\cmTC_d64b1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d64b1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-9n5q6a\\Debug\\".
+          Creating directory "cmTC_d64b1.dir\\Debug\\cmTC_d64b1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d64b1.dir\\Debug\\cmTC_d64b1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d64b1.dir\\Debug\\cmTC_d64b1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d64b1.dir\\Debug\\\\" /Fd"cmTC_d64b1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-9n5q6a\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d64b1.dir\\Debug\\\\" /Fd"cmTC_d64b1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-9n5q6a\\src.c"
+          src.c
+        D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-9n5q6a\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-9n5q6a\\cmTC_d64b1.vcxproj]
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-9n5q6a\\cmTC_d64b1.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-9n5q6a\\cmTC_d64b1.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-9n5q6a\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-9n5q6a\\cmTC_d64b1.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:488 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-qfecww"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-qfecww"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Sound/sienaiwun/sherpa-onnx/cmake/Modules;D:/Sound/sienaiwun/sherpa-onnx/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-qfecww'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1ba64.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:36:39 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-qfecww\\cmTC_1ba64.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1ba64.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-qfecww\\Debug\\".
+          Creating directory "cmTC_1ba64.dir\\Debug\\cmTC_1ba64.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1ba64.dir\\Debug\\cmTC_1ba64.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1ba64.dir\\Debug\\cmTC_1ba64.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ba64.dir\\Debug\\\\" /Fd"cmTC_1ba64.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-qfecww\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ba64.dir\\Debug\\\\" /Fd"cmTC_1ba64.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-qfecww\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-qfecww\\Debug\\cmTC_1ba64.exe" /INCREMENTAL /ILK:"cmTC_1ba64.dir\\Debug\\cmTC_1ba64.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-qfecww/Debug/cmTC_1ba64.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-qfecww/Debug/cmTC_1ba64.lib" /MACHINE:X64  /machine:x64 cmTC_1ba64.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-qfecww\\cmTC_1ba64.vcxproj]
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-qfecww\\cmTC_1ba64.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-qfecww\\cmTC_1ba64.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-qfecww\\cmTC_1ba64.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.26
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:488 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-pge949"
+      binary: "D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-pge949"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Sound/sienaiwun/sherpa-onnx/cmake/Modules;D:/Sound/sienaiwun/sherpa-onnx/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "10.14"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-pge949'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0acc6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 9/25/2025 9:36:39 PM.
+        
+        Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-pge949\\cmTC_0acc6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0acc6.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-pge949\\Debug\\".
+          Creating directory "cmTC_0acc6.dir\\Debug\\cmTC_0acc6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0acc6.dir\\Debug\\cmTC_0acc6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0acc6.dir\\Debug\\cmTC_0acc6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0acc6.dir\\Debug\\\\" /Fd"cmTC_0acc6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-pge949\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33141 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0acc6.dir\\Debug\\\\" /Fd"cmTC_0acc6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-pge949\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-pge949\\Debug\\cmTC_0acc6.exe" /INCREMENTAL /ILK:"cmTC_0acc6.dir\\Debug\\cmTC_0acc6.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-pge949/Debug/cmTC_0acc6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Sound/sienaiwun/sherpa-onnx/build_win64/CMakeFiles/CMakeScratch/TryCompile-pge949/Debug/cmTC_0acc6.lib" /MACHINE:X64  /machine:x64 cmTC_0acc6.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-pge949\\cmTC_0acc6.vcxproj]
+        Done Building Project "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-pge949\\cmTC_0acc6.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-pge949\\cmTC_0acc6.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Sound\\sienaiwun\\sherpa-onnx\\build_win64\\CMakeFiles\\CMakeScratch\\TryCompile-pge949\\cmTC_0acc6.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.26
+        
+      exitCode: 1
+...

@@ -1,0 +1,14 @@
+# Target labels
+ portaudio-populate
+# Source files and their labels
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/CMakeFiles/portaudio-populate
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/CMakeFiles/04c00ade208a46d8e232ca3ca8437b53/portaudio-populate.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/CMakeFiles/8475ceade60093a0a4e8941d39839a60/portaudio-populate-complete.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/CMakeFiles/55e995b856299bd3913ebd98c16d4243/portaudio-populate-build.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/CMakeFiles/55e995b856299bd3913ebd98c16d4243/portaudio-populate-configure.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/CMakeFiles/55e995b856299bd3913ebd98c16d4243/portaudio-populate-download.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/CMakeFiles/55e995b856299bd3913ebd98c16d4243/portaudio-populate-install.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/CMakeFiles/55e995b856299bd3913ebd98c16d4243/portaudio-populate-mkdir.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/CMakeFiles/55e995b856299bd3913ebd98c16d4243/portaudio-populate-patch.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/CMakeFiles/55e995b856299bd3913ebd98c16d4243/portaudio-populate-test.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/portaudio-subbuild/CMakeFiles/55e995b856299bd3913ebd98c16d4243/portaudio-populate-update.rule

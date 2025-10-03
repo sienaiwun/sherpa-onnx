@@ -1,0 +1,3 @@
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppinyin-subbuild/CMakeFiles/cppinyin-populate.dir
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppinyin-subbuild/CMakeFiles/ALL_BUILD.dir
+D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/cppinyin-subbuild/CMakeFiles/ZERO_CHECK.dir

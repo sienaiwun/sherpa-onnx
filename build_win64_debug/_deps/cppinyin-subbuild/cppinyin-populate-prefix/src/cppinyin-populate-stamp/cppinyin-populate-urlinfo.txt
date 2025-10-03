@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/cppinyin-populate-prefix/src/cppinyin-populate-stamp/download-cppinyin-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/cppinyin-populate-prefix/src/cppinyin-populate-stamp/verify-cppinyin-populate.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-subbuild/cppinyin-populate-prefix/src/cppinyin-populate-stamp/extract-cppinyin-populate.cmake
+source_dir=D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/cppinyin-src
+work_dir=D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps
+url(s)=https://github.com/pkufool/cppinyin/archive/refs/tags/v0.10.tar.gz;https://gh-proxy.com/https://github.com/pkufool/cppinyin/archive/refs/tags/v0.10.tar.gz
+hash=SHA256=abe6584d7ee56829e8f4b5fbda3b50ecdf49a13be8e413a78d1b0d5d5c019982
+      no_extract=
+

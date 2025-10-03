@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-subbuild\CMakeFiles\59a39631a66f4cad8180849f71b1b033\piper_phonemize-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-subbuild\CMakeFiles\59a39631a66f4cad8180849f71b1b033\piper_phonemize-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-subbuild\CMakeFiles\59a39631a66f4cad8180849f71b1b033\piper_phonemize-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-subbuild\CMakeFiles\59a39631a66f4cad8180849f71b1b033\piper_phonemize-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-subbuild\CMakeFiles\59a39631a66f4cad8180849f71b1b033\piper_phonemize-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-subbuild\CMakeFiles\59a39631a66f4cad8180849f71b1b033\piper_phonemize-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-subbuild\CMakeFiles\59a39631a66f4cad8180849f71b1b033\piper_phonemize-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-subbuild\CMakeFiles\59a39631a66f4cad8180849f71b1b033\piper_phonemize-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-subbuild\CMakeFiles\cc15a8254e3072be2952dc4572de8efa\piper_phonemize-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-subbuild\CMakeFiles\672999c00b6efefa7d1dd432bc245f7b\piper_phonemize-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\piper_phonemize-subbuild\CMakeFiles\piper_phonemize-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7A932E55-3650-312E-BA66-D5F7612BECEF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

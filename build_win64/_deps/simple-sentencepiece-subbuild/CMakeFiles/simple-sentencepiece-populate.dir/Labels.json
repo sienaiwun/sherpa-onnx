@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/simple-sentencepiece-subbuild/CMakeFiles/simple-sentencepiece-populate"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/simple-sentencepiece-subbuild/CMakeFiles/2a0bd236c7c0a885b737916fb0aaa59b/simple-sentencepiece-populate.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/simple-sentencepiece-subbuild/CMakeFiles/0db1fc3c24cb35386a46173ba6640ee7/simple-sentencepiece-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/simple-sentencepiece-subbuild/CMakeFiles/cf7866e914c8f6317944f58fdeab72b4/simple-sentencepiece-populate-build.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/simple-sentencepiece-subbuild/CMakeFiles/cf7866e914c8f6317944f58fdeab72b4/simple-sentencepiece-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/simple-sentencepiece-subbuild/CMakeFiles/cf7866e914c8f6317944f58fdeab72b4/simple-sentencepiece-populate-download.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/simple-sentencepiece-subbuild/CMakeFiles/cf7866e914c8f6317944f58fdeab72b4/simple-sentencepiece-populate-install.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/simple-sentencepiece-subbuild/CMakeFiles/cf7866e914c8f6317944f58fdeab72b4/simple-sentencepiece-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/simple-sentencepiece-subbuild/CMakeFiles/cf7866e914c8f6317944f58fdeab72b4/simple-sentencepiece-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/simple-sentencepiece-subbuild/CMakeFiles/cf7866e914c8f6317944f58fdeab72b4/simple-sentencepiece-populate-test.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64/_deps/simple-sentencepiece-subbuild/CMakeFiles/cf7866e914c8f6317944f58fdeab72b4/simple-sentencepiece-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"simple-sentencepiece-populate"
+		],
+		"name" : "simple-sentencepiece-populate"
+	}
+}

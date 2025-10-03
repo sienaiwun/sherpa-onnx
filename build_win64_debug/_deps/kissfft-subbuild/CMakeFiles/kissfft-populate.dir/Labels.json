@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kissfft-subbuild/CMakeFiles/kissfft-populate"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kissfft-subbuild/CMakeFiles/0fbe021bde82c56a9004a8da08d3bb01/kissfft-populate.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kissfft-subbuild/CMakeFiles/4b4b9afad0a639d25de3b517dbd3b0e8/kissfft-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kissfft-subbuild/CMakeFiles/473bebe899fb11c8b6bb2b9819a7b8ef/kissfft-populate-build.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kissfft-subbuild/CMakeFiles/473bebe899fb11c8b6bb2b9819a7b8ef/kissfft-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kissfft-subbuild/CMakeFiles/473bebe899fb11c8b6bb2b9819a7b8ef/kissfft-populate-download.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kissfft-subbuild/CMakeFiles/473bebe899fb11c8b6bb2b9819a7b8ef/kissfft-populate-install.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kissfft-subbuild/CMakeFiles/473bebe899fb11c8b6bb2b9819a7b8ef/kissfft-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kissfft-subbuild/CMakeFiles/473bebe899fb11c8b6bb2b9819a7b8ef/kissfft-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kissfft-subbuild/CMakeFiles/473bebe899fb11c8b6bb2b9819a7b8ef/kissfft-populate-test.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/kissfft-subbuild/CMakeFiles/473bebe899fb11c8b6bb2b9819a7b8ef/kissfft-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"kissfft-populate"
+		],
+		"name" : "kissfft-populate"
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/portaudio-subbuild/CMakeFiles/portaudio-populate"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/portaudio-subbuild/CMakeFiles/a06f880bda203af734c02d815e9c9d5b/portaudio-populate.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/portaudio-subbuild/CMakeFiles/ed4e18ceef0b1c3b7a4f8eec5e4d0809/portaudio-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/portaudio-subbuild/CMakeFiles/90e375d12bc8e5f050eb9d700ca4a092/portaudio-populate-build.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/portaudio-subbuild/CMakeFiles/90e375d12bc8e5f050eb9d700ca4a092/portaudio-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/portaudio-subbuild/CMakeFiles/90e375d12bc8e5f050eb9d700ca4a092/portaudio-populate-download.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/portaudio-subbuild/CMakeFiles/90e375d12bc8e5f050eb9d700ca4a092/portaudio-populate-install.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/portaudio-subbuild/CMakeFiles/90e375d12bc8e5f050eb9d700ca4a092/portaudio-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/portaudio-subbuild/CMakeFiles/90e375d12bc8e5f050eb9d700ca4a092/portaudio-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/portaudio-subbuild/CMakeFiles/90e375d12bc8e5f050eb9d700ca4a092/portaudio-populate-test.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/portaudio-subbuild/CMakeFiles/90e375d12bc8e5f050eb9d700ca4a092/portaudio-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"portaudio-populate"
+		],
+		"name" : "portaudio-populate"
+	}
+}

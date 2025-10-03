@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\cppjieba-subbuild\CMakeFiles\fb52c8a3dd5bb8f9db2e3943ceb3673d\cppjieba-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\cppjieba-subbuild\CMakeFiles\fb52c8a3dd5bb8f9db2e3943ceb3673d\cppjieba-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\cppjieba-subbuild\CMakeFiles\fb52c8a3dd5bb8f9db2e3943ceb3673d\cppjieba-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\cppjieba-subbuild\CMakeFiles\fb52c8a3dd5bb8f9db2e3943ceb3673d\cppjieba-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\cppjieba-subbuild\CMakeFiles\fb52c8a3dd5bb8f9db2e3943ceb3673d\cppjieba-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\cppjieba-subbuild\CMakeFiles\fb52c8a3dd5bb8f9db2e3943ceb3673d\cppjieba-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\cppjieba-subbuild\CMakeFiles\fb52c8a3dd5bb8f9db2e3943ceb3673d\cppjieba-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\cppjieba-subbuild\CMakeFiles\fb52c8a3dd5bb8f9db2e3943ceb3673d\cppjieba-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\cppjieba-subbuild\CMakeFiles\ef9a937694ec6fd248bc2c8cdbe4b778\cppjieba-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\cppjieba-subbuild\CMakeFiles\97bdb316f03c166f8b2e414b3bd13960\cppjieba-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\cppjieba-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64_debug\_deps\cppjieba-subbuild\CMakeFiles\cppjieba-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{844A2940-54B1-35BB-BBCF-ADC305B61D21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

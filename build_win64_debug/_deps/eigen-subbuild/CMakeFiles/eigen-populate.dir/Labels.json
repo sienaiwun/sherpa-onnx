@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/eigen-subbuild/CMakeFiles/eigen-populate"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/eigen-subbuild/CMakeFiles/9c7b714595d2b4af16464da5459c0440/eigen-populate.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/eigen-subbuild/CMakeFiles/51b64172f0fe39daf58434831461d4f0/eigen-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/eigen-subbuild/CMakeFiles/b1c36e769aa58cf6c571e40a99f7dda3/eigen-populate-build.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/eigen-subbuild/CMakeFiles/b1c36e769aa58cf6c571e40a99f7dda3/eigen-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/eigen-subbuild/CMakeFiles/b1c36e769aa58cf6c571e40a99f7dda3/eigen-populate-download.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/eigen-subbuild/CMakeFiles/b1c36e769aa58cf6c571e40a99f7dda3/eigen-populate-install.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/eigen-subbuild/CMakeFiles/b1c36e769aa58cf6c571e40a99f7dda3/eigen-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/eigen-subbuild/CMakeFiles/b1c36e769aa58cf6c571e40a99f7dda3/eigen-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/eigen-subbuild/CMakeFiles/b1c36e769aa58cf6c571e40a99f7dda3/eigen-populate-test.rule"
+		},
+		{
+			"file" : "D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/eigen-subbuild/CMakeFiles/b1c36e769aa58cf6c571e40a99f7dda3/eigen-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"eigen-populate"
+		],
+		"name" : "eigen-populate"
+	}
+}

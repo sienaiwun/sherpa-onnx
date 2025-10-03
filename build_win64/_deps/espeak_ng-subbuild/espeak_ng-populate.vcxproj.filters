@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-subbuild\CMakeFiles\3effd15225b3f6581e02cf0943a2bff8\espeak_ng-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-subbuild\CMakeFiles\3effd15225b3f6581e02cf0943a2bff8\espeak_ng-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-subbuild\CMakeFiles\3effd15225b3f6581e02cf0943a2bff8\espeak_ng-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-subbuild\CMakeFiles\3effd15225b3f6581e02cf0943a2bff8\espeak_ng-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-subbuild\CMakeFiles\3effd15225b3f6581e02cf0943a2bff8\espeak_ng-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-subbuild\CMakeFiles\3effd15225b3f6581e02cf0943a2bff8\espeak_ng-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-subbuild\CMakeFiles\3effd15225b3f6581e02cf0943a2bff8\espeak_ng-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-subbuild\CMakeFiles\3effd15225b3f6581e02cf0943a2bff8\espeak_ng-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-subbuild\CMakeFiles\5d95cf7ac9d2fbc679cd3272eea9d4f4\espeak_ng-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-subbuild\CMakeFiles\5515a718fa02b90cb2c931cc11190fe3\espeak_ng-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Sound\sienaiwun\sherpa-onnx\build_win64\_deps\espeak_ng-subbuild\CMakeFiles\espeak_ng-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C297B0D5-6237-36C3-ACCA-713087CD88FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

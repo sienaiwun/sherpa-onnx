@@ -1,0 +1,14 @@
+# Target labels
+ asio-populate
+# Source files and their labels
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/asio-populate
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/46a51565462d34aab67c9584e547fb30/asio-populate.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/8d241d636457798277a1eed9516662c7/asio-populate-complete.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-build.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-configure.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-download.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-install.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-mkdir.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-patch.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-test.rule
+D:/Sound/sienaiwun/sherpa-onnx/build_win64_debug/_deps/asio-subbuild/CMakeFiles/504e00eadfff6b9ce2df900a56f33d54/asio-populate-update.rule
