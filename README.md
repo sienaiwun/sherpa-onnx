@@ -27,7 +27,7 @@
 |   arm32    |  ✔️      |         |            |       |  ✔️    |   ✔️       |
 |   riscv64  |         |         |            |       |  ✔️    |           |
 
-### Supported programming languages
+### Supported programming language
 
 | 1. C++ | 2. C  | 3. Python | 4. JavaScript |
 |--------|-------|-----------|---------------|
